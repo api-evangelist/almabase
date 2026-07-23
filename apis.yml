@@ -1,7 +1,17 @@
 aid: almabase
 name: Almabase
-description: Almabase is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Almabase is an AI-powered alumni engagement and fundraising platform for higher
+  education, K-12 schools, and nonprofit advancement teams. It sits on top of an
+  institution's CRM to unify digital engagement programs (alumni directories,
+  mentorship, affinity groups, job boards), event management, online giving and
+  giving-day campaigns, and multichannel communications. Through its TrueSync
+  bidirectional integrations with Blackbaud Raiser's Edge NXT, Blackbaud CRM,
+  Salesforce, and Ellucian, Almabase keeps engagement, event, giving, and
+  constituent data connected to the system of record so advancement teams can run
+  campaigns and report on impact with less manual work. Almabase does not publish a
+  public developer REST API or OpenAPI; integration is delivered via managed CRM
+  sync and a customer-facing developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://media.almabaseapp.com/1164/meta/65e89cf7ab1551a9df60196b_5b928bf31d82182393102e60_ab_favicon_1.png
 tags:
 - Company
+- Alumni Engagement
+- Fundraising
+- Education
+- Nonprofit
+- CRM Integration
+- Events
+- Online Giving
+- Advancement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,36 @@ maintainers:
 common:
 - type: Website
   url: https://almabase.com
+- type: DeveloperPortal
+  url: https://developers.almabase.com
+- type: Documentation
+  url: https://docs.almabase.com/en/
+- type: Support
+  url: https://docs.almabase.com/en/
+- type: Blog
+  url: https://almabase.com/blog
+- type: GitHubOrganization
+  url: https://github.com/almabase
+- type: TermsOfService
+  url: https://almabase.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://almabase.com/ecloud-privacy-policy
+- type: StatusPage
+  url: https://status.almabase.com/
+- type: TrustCenter
+  url: https://security.almabase.com/
+- type: Compliance
+  url: https://security.almabase.com/compliances
+- type: LLMsTxt
+  url: llms/almabase-llms.txt
+- type: Lifecycle
+  url: lifecycle/almabase-lifecycle.yml
+- type: DomainSecurity
+  url: security/almabase-domain-security.yml
+- type: WellKnown
+  url: well-known/almabase-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

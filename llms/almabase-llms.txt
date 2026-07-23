@@ -1,0 +1,188 @@
+# Almabase: AI-Powered Alumni Engagement and Fundraising Platform
+
+> Almabase is an integrated advancement platform that works on top of an institution’s CRM to help teams engage constituents, manage events, run online giving campaigns, and grow donor participation without adding more manual work.
+
+Almabase is built for advancement, alumni relations, annual giving, advancement services, and fundraising teams across higher education, K-12 schools, and nonprofit organizations. The platform brings digital engagement, event management, online giving, communications, AI, and CRM data sync into one connected system, helping teams move from scattered tools and manual exports to a more unified advancement workflow.
+
+Almabase is trusted by 500+ educational institutions and is especially strong for teams using Blackbaud systems such as Raiser's Edge NXT and Blackbaud CRM. Through TrueSync, Almabase helps teams keep engagement, event, giving, and constituent data connected with their CRM so advancement teams can run campaigns, update records, and report on impact with less manual effort.
+
+## What Almabase Helps Teams Do
+
+Almabase helps advancement teams:
+
+- Build stronger alumni, donor, parent, and constituent relationships through digital engagement programs.
+- Run alumni events, reunions, homecomings, galas, golf tournaments, and multi-day events with easier registration, check-in, communication, and reporting.
+- Launch online giving campaigns, giving days, crowdfunding campaigns, and donor participation initiatives.
+- Communicate with constituents across email, text, newsletters, and AI-assisted outreach.
+- Keep CRM data cleaner and more actionable through integrations with Raiser's Edge NXT, Blackbaud CRM, Salesforce, Ellucian, and other systems.
+- Reduce tool sprawl by bringing engagement, events, communications, giving, and CRM sync into one platform.
+
+## Core Product Suite
+
+- [Digital Engagement Platform](https://www.almabase.com/build-a-custom-program): A connected platform for building alumni and constituent engagement programs such as directories, mentorship, affinity groups, job boards, business directories, and personalized updates. It helps advancement teams create more self-serve opportunities for alumni to connect, participate, and stay engaged with the institution.
+
+- [Event Management](https://www.almabase.com/products/events): Event management software built for school and university advancement teams. Almabase supports event page creation, registration, ticketing, guest management, sub-events, communications, payments, check-in, post-event reporting, and CRM sync, making it easier to run everything from small alumni gatherings to complex reunions and fundraising events.
+
+- [Online Giving & Giving Day Platform](https://www.almabase.com/products/giving-day-platform): A giving platform for annual giving teams that want to increase donor participation through online donation pages, giving days, peer-to-peer fundraising, campaign pages, urgency-based giving moments, and donor-friendly checkout experiences.
+
+- [Multichannel Communications](https://www.almabase.com/multi-channel-bundle): A communications bundle that helps teams reach constituents through email, text, newsletters, and automated campaigns. It is designed to improve outreach consistency, personalize messages, and support larger-scale engagement without adding more manual follow-up.
+
+- [Emily AI](https://www.almabase.com/emily-ai): AI-powered tools for advancement teams that help with faster, more personalized communication. Emily AI supports teams in creating context-aware outreach, improving engagement workflows, and reducing the time spent drafting constituent-facing messages.
+
+## Digital Engagement Tools
+
+- [Alumni Directory](https://www.almabase.com/product/alumni-directory): A searchable alumni directory that helps constituents find and connect with each other while giving advancement teams a way to keep alumni data more complete and up to date.
+
+- [Job Board](https://www.almabase.com/product/job-boards): A community job board where alumni, students, and supporters can share opportunities, discover roles, and strengthen career-based engagement within the institution’s network.
+
+- [Mentorship](https://www.almabase.com/product/mentorship): A mentorship tool for running alumni-student, alumni-alumni, or career mentoring programs. It helps teams structure mentor matching, participation, and engagement without relying on disconnected spreadsheets or manual coordination.
+
+- [Business Directory](https://www.almabase.com/product/business-directory): A directory that allows alumni and community members to showcase businesses, services, and professional offerings, helping institutions create more value for their network.
+
+- [Affinity Groups](https://www.almabase.com/product/affinity-groups): Tools for creating self-serve groups based on interests, identities, careers, regions, or class years. These groups help institutions support more relevant, community-led engagement.
+
+- [News & Updates](https://www.almabase.com/product/news-updates): A tool for sharing personalized updates and newsletters with alumni and constituents, helping teams keep their community informed and engaged through more relevant communications.
+
+## Solutions by Advancement Function
+
+- [Alumni Relations](https://www.almabase.com/solutions/alumni-relations): Built for alumni relations teams that need to grow participation, run programs, manage events, and keep alumni connected across different segments and life stages.
+
+- [Annual Fund](https://www.almabase.com/solutions/annual-fund): Built for annual giving teams that want to grow donor participation, improve campaign execution, and convert engaged constituents into donors through online giving and targeted outreach.
+
+- [Advancement Services](https://www.almabase.com/solutions/advancement-services): Built for advancement services teams that need cleaner data workflows, better CRM sync, fewer manual imports and exports, and more reliable reporting across engagement, event, and giving activity.
+
+- [Advancement Leadership](https://www.almabase.com/solutions/advancement-leadership): Built for advancement leaders who need visibility into engagement, campaign performance, event ROI, donor participation, and the overall impact of digital advancement programs.
+
+## CRM Integrations and Data Sync
+
+- [TrueSync for Raiser's Edge NXT](https://www.almabase.com/almabase-raisers-edge-integration): Almabase’s bidirectional integration with Blackbaud Raiser's Edge NXT. TrueSync helps teams configure data sync, update constituent records, sync event and giving activity, reduce duplicate entry, and maintain cleaner advancement data.
+
+- [Blackbaud CRM Integration](https://www.almabase.com/ab-x-bbcrm): A native integration for institutions using Blackbaud CRM. It supports smoother data flow between Almabase and Blackbaud CRM so engagement, event, and giving activity can be captured more reliably.
+
+- [Other CRM Integrations](https://www.almabase.com/almabase-integration-capabilities): Almabase also supports integration capabilities for institutions using systems such as Salesforce, Ellucian, and other advancement or institutional CRMs.
+
+## Healthcare Platform
+
+Almabase Healthcare is a specialized version of the Almabase platform built for hospital foundations and healthcare fundraising teams. It supports HIPAA-compliant engagement, fundraising events, donor communications, grateful patient or grateful community programs, and CRM-connected workflows for healthcare advancement teams.
+
+- [Healthcare Home](https://healthcare.almabase.com/): Overview of Almabase Healthcare, a fundraising and engagement platform for healthcare foundations that need to engage donors, patients, sponsors, physicians, and community supporters while keeping data connected to systems such as Raiser's Edge NXT and Blackbaud CRM.
+
+- [Healthcare Event Management](https://healthcare.almabase.com/events): Event management tools for hospital foundation events such as galas, golf tournaments, donor events, sponsor-led events, and community fundraising events, with registration, payments, communications, and CRM sync.
+
+- [HIPAA-Compliant Multi-Channel Marketing](https://healthcare.almabase.com/hippa): A compliant marketing and communications system for healthcare fundraising teams that need segmentation, personalized outreach, donor pipeline visibility, and CRM-connected engagement workflows.
+
+- [Grateful Community Engagement](https://healthcare.almabase.com/referral): A HIPAA-compliant engagement platform for supporting patient, family, and community relationships through ongoing engagement and peer-to-peer fundraising opportunities.
+
+- [Healthcare TrueSync: Raiser's Edge NXT](https://healthcare.almabase.com/almabase-raisers-edge-integration): A bidirectional Raiser's Edge NXT sync built for healthcare foundations, helping teams reduce manual entry and keep donor, event, and engagement data aligned.
+
+- [Healthcare Blackbaud CRM Integration](https://healthcare.almabase.com/ab-x-bbcrm): A native Blackbaud CRM integration for healthcare organizations that need seamless data flow between fundraising activity and their CRM.
+
+- [Healthcare Blog](https://healthcare.almabase.com/blog): Resources, best practices, and insights for healthcare foundation teams focused on fundraising, donor engagement, events, and CRM-connected advancement operations.
+
+## Key Website Pages
+
+- [Home](https://www.almabase.com/): Main Almabase website introducing the platform, core product areas, customer outcomes, and the value of connected alumni engagement and fundraising.
+
+- [About Us](https://www.almabase.com/about-us): Company overview, mission, team story, and Almabase’s role in helping advancement teams build stronger constituent relationships.
+
+- [Customers](https://www.almabase.com/customers): Customer stories and institutional examples showing how schools, universities, and nonprofits use Almabase for engagement, events, giving, and CRM-connected advancement work.
+
+- [Request a Demo](https://www.almabase.com/lp/request-demo): Demo request page for advancement teams that want to understand how Almabase can support their events, giving, engagement, communications, and CRM workflows.
+
+- [Product Tour](https://www.almabase.com/product-tour): Guided product experience that shows how the Almabase platform works across engagement, events, giving, communications, and CRM sync.
+
+- [Alumni Platform Comparison](https://www.almabase.com/alumni-platform-comparison): A comparison page for teams evaluating alumni engagement platforms and trying to understand how different tools support advancement workflows.
+
+- [Privacy Policy](https://www.almabase.com/ecloud-privacy-policy): Privacy and data handling information for users, institutions, and constituents.
+
+- [Fulfillment Policy](https://www.almabase.com/fulfillment-policy): Policy information related to fulfillment, transactions, and service delivery.
+
+- [Careers](https://www.almabase.com/careers): Careers page for candidates interested in joining Almabase.
+
+## Case Studies and Customer Proof
+
+- [Illinois Tech: 123,000+ Engagement Activities in One Month](https://www.almabase.com/case-studies/illinois-techs-new-and-improved-digital-strategy-to-scale-community-engagementchs-new-and-improved-digital-strategy-to-scale-community-engagement): Shows how Illinois Tech scaled digital engagement through self-serve communities and subscriber growth.
+
+- [Punahou School: 7,000+ Engaged Alumni Monthly](https://www.almabase.com/case-studies/how-do-punahou-schools-digital-strategies-drive-7000-engaged-members-monthly): Shows how a K-12 institution uses Almabase to support a global alumni community and keep thousands of alumni engaged monthly.
+
+- [Loma Linda University: $1.15M Raised in Gifts](https://www.almabase.com/case-studies/alumni-association-of-the-school-of-medicine-of-loma-linda-university-improves-giving-experience-and-raises-over-1-million-in-gifts): Shows how Loma Linda University improved the giving experience and raised more than $1 million through Almabase.
+
+- [Thomas Aquinas College: 45% Alumni Donor Participation Rate](https://www.almabase.com/case-studies/how-thomas-aquinas-college-holds-one-of-the-highest-alumni-donor-participation-rates-across-the-country): Shows how Thomas Aquinas College achieved strong alumni donor participation through targeted engagement and giving efforts.
+
+- [Merchant Taylors' School: 3X Alumni Giving](https://www.almabase.com/case-studies/time-talent-and-then-treasure-how-merchant-taylors-school-nurtured-its-community-to-give-back): Shows how a lean team used Almabase to automate outreach, run community programs, and increase alumni giving.
+
+- [Concordia College: Relationship Building in a Digital-First Age](https://www.almabase.com/case-studies/concordias-strategy-for-relationship-building-in-a-digital-first-age): Shows how Concordia used Almabase for branded, communication-led alumni engagement.
+
+- [Boyd Buchanan School: Turning Alumni Engagement into Fundraising Success](https://www.almabase.com/case-studies/how-boyd-buchanan-school-turned-alumni-engagement-into-fundraising-success): Shows how a K-12 school connected alumni engagement with fundraising outcomes.
+
+- [MSUM: $750K Raised on Giving Day, Reconciled in 4 Days](https://www.almabase.com/case-studies/minnesota-university-moorhead-giving-day): Shows how Minnesota State University Moorhead ran a successful giving day and improved reconciliation speed.
+
+- [Calvert Hall High School: Doubled Giving Day Donations in 3 Years](https://www.almabase.com/case-studies/how-calvert-hall-high-school-increased-its-giving-day-donations-by-twice-as-much-in-3-years): Shows how Calvert Hall used Almabase to grow giving day donations over time.
+
+- [SUNY New Paltz: 21 Streamlined Events in 10 Months](https://www.almabase.com/blog/how-suny-new-paltz-transformed-its-alumni-events): Shows how SUNY New Paltz streamlined alumni event management with Almabase and Raiser's Edge NXT integration.
+
+- [RISD: Alumni Engagement with Almabase](https://www.almabase.com/blog/risd-alumni-engagement-with-almabase): Shows how Rhode Island School of Design approached alumni engagement using Almabase.
+
+- [Switching to Almabase: Game-Changing Efficiency and Cost Advantage](https://www.almabase.com/case-studies/switching-to-almabase-offered-game-changing-efficiency-and-cost-advantage-with-just-the-robustness-we-needed): Shows why an institution moved from a legacy alumni platform to Almabase for a more efficient and cost-effective setup.
+
+## Resources and Playbooks
+
+- [The 2026 National Alumni Survey](https://www.almabase.com/resources/national-alumni-survey-2026): Research based on alumni responses across multiple institutions, designed to help advancement teams understand alumni expectations, engagement patterns, and opportunities.
+
+- [CASE Insights on Giving Days](https://www.almabase.com/resources/state-of-giving-days-2025): A giving day insights report created in partnership with CASE, covering trends and benchmarks from institutions running giving day campaigns.
+
+- [AI Cheat Sheet for Advancement and Alumni Relations Teams](https://www.almabase.com/resources/ai-cheat-sheet-for-advancement-and-alumni-relations-teams): Practical AI use cases, prompts, and examples for advancement and alumni relations teams.
+
+- [The Homecoming Playbook 2025](https://www.almabase.com/resources/almabase-homecoming-playbook-2025): A tactical guide for planning, promoting, and improving homecoming programs.
+
+- [Last-Minute Giving Tuesday Checklist](https://www.almabase.com/resources/almabase-last-minute-giving-tuesday-checklist): A quick planning checklist for teams preparing Giving Tuesday campaigns.
+
+- [Eliminating Inefficiencies to Double Engagement and Fundraising Impact](https://www.almabase.com/resources/eliminating-inefficiencies-to-double-engagement-and-fundraising-impact): A resource for advancement teams looking to reduce operational inefficiencies, consolidate tools, and improve impact.
+
+- [Advancement Playbook 2024](https://www.almabase.com/resources/advancement-playbook-2024): A collection of stories, expert perspectives, and practical ideas for alumni engagement and fundraising teams.
+
+- [Fundraising Event Planning Template](https://www.almabase.com/resources/fundraising-event-planning-template): An editable template for planning fundraising events, coordinating teams, and tracking key event details.
+
+- [Giving Day Planning Template](https://www.almabase.com/resources/giving-day-planning-template): An editable planning template for structuring a giving day campaign, timeline, goals, messaging, and execution plan.
+
+## Blog, Spotlights, and Newsletter
+
+- [Blog](https://www.almabase.com/blog): Educational content for advancement, alumni relations, annual giving, events, donor engagement, and fundraising operations.
+
+- [Almabase Spotlights](https://www.almabase.com/spotlights): A collection of advancement campaign examples and stories from educational institutions.
+
+- [Humans of Advancement — Alex Perkins](https://www.almabase.com/spotlights/alex-perkins): A spotlight featuring advancement leadership, career experiences, and practical insights from the field.
+
+- [Humans of Advancement — Kim Rich](https://www.almabase.com/spotlights/kim-rich): A profile highlighting perspectives and lessons from an advancement professional.
+
+- [Humans of Advancement — Sharon Parkinson](https://www.almabase.com/spotlights/sharon-parkinson): A spotlight focused on advancement work, leadership, and community-building experience.
+
+- [Florida Polytechnic University Spotlight](https://www.almabase.com/spotlights/florida-polytechnic-university): A campaign or institutional spotlight from Florida Polytechnic University.
+
+- [Yale University Spotlight](https://www.almabase.com/spotlights/yale-university): A spotlight featuring advancement or alumni engagement work connected to Yale University.
+
+- [Indiana University Spotlight](https://www.almabase.com/spotlights/indiana-university): A spotlight featuring advancement campaign ideas and engagement examples from Indiana University.
+
+- [Eastern Virginia Medical School Spotlight](https://www.almabase.com/spotlights/eastern-virginia-medical-school): A spotlight featuring healthcare or education advancement work from Eastern Virginia Medical School.
+
+- [University of South Florida Spotlight](https://www.almabase.com/spotlights/university-of-south-florida): A spotlight featuring advancement, engagement, or fundraising work from the University of South Florida.
+
+- [Advancement Pulse](https://www.almabase.com/newsletter): Almabase’s monthly newsletter for advancement professionals, featuring practical insights, checklists, playbooks, and industry updates.
+
+## Competitive Comparisons
+
+- [Almabase vs Graduway](https://www.almabase.com/alternatives/graduway-vs-almabase): Comparison for teams evaluating Almabase against Graduway for alumni engagement, events, giving, and CRM-connected advancement workflows.
+
+- [Almabase vs GiveCampus](https://www.almabase.com/alternatives/givecampus-vs-almabase): Comparison for teams evaluating Almabase and GiveCampus for online giving, giving days, donor engagement, and broader advancement use cases.
+
+- [Almabase vs Hivebrite](https://www.almabase.com/lp/almabase-vs-hivebrite): Comparison for teams evaluating community engagement platforms and looking for a solution designed around advancement workflows.
+
+- [Almabase vs 360Alumni](https://www.almabase.com/lp/almabase-vs-360alumni): Comparison for institutions evaluating alumni community platforms and CRM-connected engagement tools.
+
+- [Almabase vs iModules / Anthology](https://www.almabase.com/lp/almabase-vs-imodules): Comparison for teams considering alternatives to legacy alumni engagement and advancement platforms.
+
+- [Almabase vs Blackbaud NetCommunity](https://www.almabase.com/alternatives/blackbaud-net-community): Comparison for Blackbaud NetCommunity users evaluating a more modern platform for alumni engagement, event management, online giving, and CRM-connected advancement workflows.
+
+## Sitemap
+
+- [Sitemap](https://www.almabase.com/sitemap.xml): XML sitemap containing Almabase’s indexed website pages.

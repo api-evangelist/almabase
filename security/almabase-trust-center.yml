@@ -1,0 +1,27 @@
+generated: '2026-07-17'
+method: searched
+probe: false
+source: https://security.almabase.com/
+url: https://security.almabase.com/
+compliances_url: https://security.almabase.com/compliances
+certifications:
+- SOC 2 Type 2
+- GDPR
+programs:
+- name: Information Security Audit
+  detail: Periodic annual audits of the Almabase platform and internal IT processes.
+security_contact: security@almabase.com
+data_protection:
+- Data in transit secured using TLS 1.2 or higher.
+- Data at rest encrypted using industry-standard encryption on managed cloud database servers.
+- Physical data-center security handled by Microsoft Azure.
+- Access to customer data restricted on an as-needed basis; developer access purpose and activity logged.
+evidence:
+- source: https://security.almabase.com/compliances
+  keywords: [soc 2 type 2, gdpr, information security audit]
+- source: https://security.almabase.com/
+  keywords: [trust, security, compliance, security@almabase.com]
+notes: >-
+  Almabase Trust / Security & Compliance center. SOC 2 Type 2 and GDPR are the
+  named frameworks; some compliance detail is stated to be under NDA and available
+  via security@almabase.com.

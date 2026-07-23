@@ -1,0 +1,13 @@
+generated: '2026-07-17'
+method: searched
+source: https://status.almabase.com/
+status_page: https://status.almabase.com/
+status_page_provider: Atlassian Statuspage
+versioning: null
+deprecation: null
+sla: null
+notes: >-
+  Almabase runs a public Atlassian Statuspage for platform uptime and incident
+  history. No public API is published, so there is no API versioning scheme,
+  deprecation policy, or Sunset/Deprecation header contract to capture. No
+  standalone SLA page is publicly published (enterprise SLAs are contract-bound).
