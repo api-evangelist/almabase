@@ -3,12 +3,12 @@
   "feeds": [
     {
       "source": "https://docs.almabase.com/en/",
-      "feed_url": "https://docs.almabase.com/en/",
+      "feed_url": "https://docs.almabase.com/en/feed.xml",
       "title": "",
-      "saved": 0,
-      "method": "none"
+      "saved": 15,
+      "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-07-20T13:31:34Z"
+  "post_count": 15,
+  "fetched": "2026-08-01T15:49:00Z"
 }
