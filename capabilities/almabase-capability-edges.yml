@@ -1,0 +1,59 @@
+slug: almabase
+provider: Almabase
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Education
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 5
+edges:
+- tag: Gift
+  spec_file: almabase-gift-api-openapi.yml
+  capability_id: BC-4800.40
+  capability_id_l1: BC-4800
+  capability_name: Gift & Pledge Administration
+  confidence: 0.85
+  evidence: GET /api/v1/eventsx/gifts/ 'List Gift' on a platform providing 'online giving and giving-day
+    campaigns'
+  reason: Gift records on an advancement/fundraising platform are donation records — gift and pledge administration.
+- tag: Event
+  spec_file: almabase-event-api-openapi.yml
+  capability_id: BC-4800.10
+  capability_id_l1: BC-4800
+  capability_name: Alumni Engagement
+  confidence: 0.75
+  evidence: GET /api/v1/eventsx/{pk} getEvent 'Get Event'; vendor is an 'alumni engagement and fundraising
+    platform' that unifies 'event management'
+  reason: The core Event resource on an alumni advancement platform corresponds to engagement of alumni
+    communities 'through programmes, events, and communications'.
+- tag: Event Agenda
+  spec_file: almabase-event-agenda-api-openapi.yml
+  capability_id: BC-4800.10
+  capability_id_l1: BC-4800
+  capability_name: Alumni Engagement
+  confidence: 0.7
+  evidence: GET /api/v1/eventsx/{parent_id}/agendas/ listEventAgenda 'List Event Agenda'
+  reason: Agenda is a child resource of the advancement event, part of operating alumni engagement events.
+- tag: Event Invitee
+  spec_file: almabase-event-invitee-api-openapi.yml
+  capability_id: BC-4800.10
+  capability_id_l1: BC-4800
+  capability_name: Alumni Engagement
+  confidence: 0.7
+  evidence: GET /api/v1/eventsx/{parent_id}/invitees/ listEventInvitee 'List Event Invitee'
+  reason: Invitee lists for alumni events are core to engaging alumni communities through events and communications.
+- tag: Guest Re Gift
+  spec_file: almabase-guest-re-gift-api-openapi.yml
+  capability_id: BC-4800.40
+  capability_id_l1: BC-4800
+  capability_name: Gift & Pledge Administration
+  confidence: 0.7
+  evidence: GET /api/v1/eventsx/guests/{parent_id}/re_gifts/ 'List Guest RE Gift'
+  reason: Gifts associated with event guests, likely synced to Raiser's Edge; still gift records within
+    donation administration, though the 're_gift' semantics are only partially documented.
