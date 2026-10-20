@@ -1,0 +1,134 @@
+openapi: 3.2.0
+info:
+  title: Almabase Developer Portal Event Guest API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the data behind https://developers.almabase.com/developer-portal/). Request and response field tables are copied from it; types other than boolean are not stated by the source. The API is authenticated (an anonymous call returns 403 "Authentication credentials were not provided."); the authentication scheme is not documented publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with a DRF 403 JSON (probed 2026-10-20)
+tags:
+- name: Event Guest
+paths:
+  /api/v1/eventsx/{parent_id}/guests/{pk}:
+    get:
+      operationId: getEventGuest
+      summary: Get Event Guest
+      description: Retrieve individual guest records within specific events including primary registrants and accompanying guests. Provides comprehensive attendee tracking and relationship management with detailed personal information, ticket associations, check-in status, and user profile connections.
+      tags:
+      - Event Guest
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  email:
+                    nullable: true
+                  is_sponsored:
+                    type: boolean
+                    description: True if this is a sponsored guest (from event sponsorship)
+                  is_profile_mapping_ignored:
+                    type: boolean
+                  payment_sync_status:
+                    nullable: true
+                  checked_in:
+                    nullable: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases system.
+                    nullable: true
+                  last_name:
+                    nullable: true
+                  is_primary:
+                    type: boolean
+                  first_name: {}
+                  should_show_on_attendee_list:
+                    type: boolean
+                  is_email_new:
+                    type: boolean
+                  checked_in_at:
+                    nullable: true
+                  is_hidden_from_profile_matching:
+                    type: boolean
+                    description: When true, hide this guest from profile matching UI lists without blocking manual mapping.
+                  paddle_number:
+                    nullable: true
+                  updated_at:
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/guests/:
+    get:
+      operationId: listEventGuest
+      summary: List Event Guest
+      description: Retrieve individual guest records within specific events including primary registrants and accompanying guests. Provides comprehensive attendee tracking and relationship management with detailed personal information, ticket associations, check-in status, and user profile connections.
+      tags:
+      - Event Guest
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    email:
+                      nullable: true
+                    is_sponsored:
+                      type: boolean
+                      description: True if this is a sponsored guest (from event sponsorship)
+                    is_profile_mapping_ignored:
+                      type: boolean
+                    payment_sync_status:
+                      nullable: true
+                    checked_in:
+                      nullable: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases system.
+                      nullable: true
+                    last_name:
+                      nullable: true
+                    is_primary:
+                      type: boolean
+                    first_name: {}
+                    should_show_on_attendee_list:
+                      type: boolean
+                    is_email_new:
+                      type: boolean
+                    checked_in_at:
+                      nullable: true
+                    is_hidden_from_profile_matching:
+                      type: boolean
+                      description: When true, hide this guest from profile matching UI lists without blocking manual mapping.
+                    paddle_number:
+                      nullable: true
+                    updated_at:
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'

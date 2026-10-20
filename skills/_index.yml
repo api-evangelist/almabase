@@ -1,0 +1,6 @@
+name: Almabase agent skills
+generated: '2026-10-20'
+method: generated
+skills:
+  - name: almabase-event-attendance-report
+    path: skills/almabase-event-attendance-report.md

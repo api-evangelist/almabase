@@ -1,0 +1,95 @@
+openapi: 3.2.0
+info:
+  title: Almabase Developer Portal Gift API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the data behind https://developers.almabase.com/developer-portal/). Request and response field tables are copied from it; types other than boolean are not stated by the source. The API is authenticated (an anonymous call returns 403 "Authentication credentials were not provided."); the authentication scheme is not documented publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with a DRF 403 JSON (probed 2026-10-20)
+tags:
+- name: Gift
+paths:
+  /api/v1/eventsx/gifts/{pk}:
+    get:
+      operationId: getGift
+      summary: Get Gift
+      description: Retrieve donation and gift records associated with events and payment batches. Provides comprehensive tracking for charitable contributions including donor information, gift amounts, fund designations, campaign assignments, and stewardship requirements with external advancement system synchronization.
+      tags:
+      - Gift
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  created_at:
+                    nullable: true
+                  external_database_status:
+                    nullable: true
+                  refund_amount: {}
+                  completed_at:
+                    nullable: true
+                  amount: {}
+                  external_database_id:
+                    description: A unique identified assigned by the external databases system.
+                    nullable: true
+                  payload: {}
+                  external_database_batch_number:
+                    description: External database batch number associated with the gift
+                    nullable: true
+                  is_donation:
+                    type: boolean
+                  source: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/gifts/:
+    get:
+      operationId: listGift
+      summary: List Gift
+      description: Retrieve donation and gift records associated with events and payment batches. Provides comprehensive tracking for charitable contributions including donor information, gift amounts, fund designations, campaign assignments, and stewardship requirements with external advancement system synchronization.
+      tags:
+      - Gift
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    created_at:
+                      nullable: true
+                    external_database_status:
+                      nullable: true
+                    refund_amount: {}
+                    completed_at:
+                      nullable: true
+                    amount: {}
+                    external_database_id:
+                      description: A unique identified assigned by the external databases system.
+                      nullable: true
+                    payload: {}
+                    external_database_batch_number:
+                      description: External database batch number associated with the gift
+                      nullable: true
+                    is_donation:
+                      type: boolean
+                    source: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'

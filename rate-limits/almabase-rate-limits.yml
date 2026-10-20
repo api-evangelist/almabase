@@ -1,0 +1,7 @@
+name: Almabase rate limits
+generated: '2026-10-20'
+method: none
+source: https://developers.almabase.com/developer-portal/
+limit_count: 0
+limits: []
+note: The developer portal and the docs index (docs.almabase.com/llms.txt) publish no rate limits.

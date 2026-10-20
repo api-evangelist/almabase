@@ -1,0 +1,190 @@
+openapi: 3.2.0
+info:
+  title: Almabase Developer Portal Event Ticket API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the data behind https://developers.almabase.com/developer-portal/). Request and response field tables are copied from it; types other than boolean are not stated by the source. The API is authenticated (an anonymous call returns 403 "Authentication credentials were not provided."); the authentication scheme is not documented publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with a DRF 403 JSON (probed 2026-10-20)
+tags:
+- name: Event Ticket
+paths:
+  /api/v1/eventsx/{parent_id}/tickets/{pk}:
+    get:
+      operationId: getEventTicket
+      summary: Get Event Ticket
+      description: Retrieve comprehensive ticketing information supporting sophisticated event access control, pricing strategies, and capacity management. Provides access to ticket types, pricing configurations, availability windows, and capacity management data for diverse programming.
+      tags:
+      - Event Ticket
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  receipt_fund:
+                    description: Fund that will be used for receipt generation for this ticket.
+                    nullable: true
+                  sync_error:
+                    description: Error message from the last synchronization attempt with external systems.
+                    nullable: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases system.
+                    nullable: true
+                  should_sync_to_external_database:
+                    type: boolean
+                  receipt_amount: {}
+                  sync_metadata:
+                    description: Additional metadata for synchronization with external systems.
+                  fields:
+                    description: Custom fields and questions associated with this ticket type.
+                    nullable: true
+                  total_tickets_available:
+                    nullable: true
+                  number_of_guest_allowed:
+                    description: Number of guests this ticket can accommodate
+                    nullable: true
+                  image:
+                    description: Image file associated with the ticket (logo, banner, etc.).
+                    nullable: true
+                  price: {}
+                  id:
+                    description: Unique identifier for the ticket.
+                  fund:
+                    description: Fundraising fund associated with this ticket type.
+                    nullable: true
+                  end_datetime:
+                    description: Date and time when ticket sales end.
+                    nullable: true
+                  name:
+                    description: Display name for the ticket type.
+                  is_group_flat_fee:
+                    type: boolean
+                  ticket_type:
+                    description: Type of ticket (e.g., 'General Admission', 'VIP', 'Student').
+                  is_ticket_sold:
+                    type: boolean
+                    description: Indicates if any tickets of this type have been sold.
+                    readOnly: true
+                  limit_per_user:
+                    description: Number of tickets a single user can purchase
+                    nullable: true
+                  description: {}
+                  display_order:
+                    description: Decides ordering of tickets
+                    nullable: true
+                  is_active:
+                    type: boolean
+                  is_ticket_field_entries_exist:
+                    type: boolean
+                    description: Indicates if there are custom field entries for this ticket.
+                    readOnly: true
+                  start_datetime:
+                    description: Date and time when ticket sales begin.
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/tickets/:
+    get:
+      operationId: listEventTicket
+      summary: List Event Ticket
+      description: Retrieve comprehensive ticketing information supporting sophisticated event access control, pricing strategies, and capacity management. Provides access to ticket types, pricing configurations, availability windows, and capacity management data for diverse programming.
+      tags:
+      - Event Ticket
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    receipt_fund:
+                      description: Fund that will be used for receipt generation for this ticket.
+                      nullable: true
+                    sync_error:
+                      description: Error message from the last synchronization attempt with external systems.
+                      nullable: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases system.
+                      nullable: true
+                    should_sync_to_external_database:
+                      type: boolean
+                    receipt_amount: {}
+                    sync_metadata:
+                      description: Additional metadata for synchronization with external systems.
+                    fields:
+                      description: Custom fields and questions associated with this ticket type.
+                      nullable: true
+                    total_tickets_available:
+                      nullable: true
+                    number_of_guest_allowed:
+                      description: Number of guests this ticket can accommodate
+                      nullable: true
+                    image:
+                      description: Image file associated with the ticket (logo, banner, etc.).
+                      nullable: true
+                    price: {}
+                    id:
+                      description: Unique identifier for the ticket.
+                    fund:
+                      description: Fundraising fund associated with this ticket type.
+                      nullable: true
+                    end_datetime:
+                      description: Date and time when ticket sales end.
+                      nullable: true
+                    name:
+                      description: Display name for the ticket type.
+                    is_group_flat_fee:
+                      type: boolean
+                    ticket_type:
+                      description: Type of ticket (e.g., 'General Admission', 'VIP', 'Student').
+                    is_ticket_sold:
+                      type: boolean
+                      description: Indicates if any tickets of this type have been sold.
+                      readOnly: true
+                    limit_per_user:
+                      description: Number of tickets a single user can purchase
+                      nullable: true
+                    description: {}
+                    display_order:
+                      description: Decides ordering of tickets
+                      nullable: true
+                    is_active:
+                      type: boolean
+                    is_ticket_field_entries_exist:
+                      type: boolean
+                      description: Indicates if there are custom field entries for this ticket.
+                      readOnly: true
+                    start_datetime:
+                      description: Date and time when ticket sales begin.
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'

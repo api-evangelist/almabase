@@ -1,0 +1,106 @@
+generated: '2026-10-20'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/almabase-openapi.yml
+vocabulary:
+  name: Almabase Domain Vocabulary
+  description: 'Terms declared by Almabase''s own API contract: its resource groups, objects and enumerations, with the contract''s definitions.
+    Derived, not authored.'
+  version: '2026-10-20'
+  terms:
+  - term: Event
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{pk}: Retrieve core event information representing the primary
+      event entity serving as the foundation for all event-related activities.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Guest
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/guests/{pk}: Retrieve individual guest records
+      within specific events including primary registrants and accompanying guests.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Registration
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/registrations/{pk}: Retrieve registration-focused
+      data emphasizing registration process analytics and form submission monitoring.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Ticket
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/tickets/{pk}: Retrieve comprehensive ticketing
+      information supporting sophisticated event access control, pricing strategies, and capacity management.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Bought Ticket
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/bought_tickets/{pk}: Retrieve purchased tickets
+      throughout their complete lifecycle including validation, transfer capabilities, usage analytics, and guest assignments.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Guest Re Gift
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/guests/{parent_id}/re_gifts/{pk}: Retrieve gift records synchronized
+      with Raiser''s Edge fundraising database.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Auction Statistic
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/manage/{parent_id}/auction_statistics/{pk}: Retrieve auction
+      statistics including total items sold, total revenue, top donors, and bidding patterns.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Auction Bidder
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/manage/{parent_id}/auction_bidders/{pk}: Retrieve auction bidder
+      listings and details including bidder names, amounts, and bidding history.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Gift
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/gifts/{pk}: Retrieve donation and gift records associated with
+      events and payment batches.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Agenda
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/agendas/{pk}: Retrieve structured event agendas
+      consisting of sub-events, sessions, and activities for complex multi-session programming.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Itinerary
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/itineraries/{pk}: Retrieve detailed day-by-day
+      itineraries for multi-day events, conferences, and travel-based programs.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Discount
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/discounts/{pk}: Retrieve discount codes and promotional
+      pricing strategies for events supporting flexible pricing and targeted attendee incentives.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Image
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/images/{pk}: Retrieve visual content and media
+      galleries for events including promotional images, event photography, speaker headshots, venue photos, and marketing materials.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Contact Person
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/contact_persons/{pk}: Retrieve contact information
+      for event staff, organizers, coordinators, and key personnel who serve as primary communication points throughout the complete event lifecycle.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Announcement
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/announcements/{pk}: Retrieve announcements and
+      communications for event attendees providing comprehensive messaging capabilities for effective information distribution.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml
+  - term: Event Invitee
+    definition: 'Resource group in the contract; its operation GET /api/v1/eventsx/{parent_id}/invitees/{pk}: Retrieve event invitation lists
+      and invitee information including contact details, invitation status, RSVP tracking, and targeted outreach campaigns.'
+    tags:
+    - Resource Group
+    source: openapi/almabase-openapi.yml

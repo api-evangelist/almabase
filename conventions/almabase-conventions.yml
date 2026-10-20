@@ -1,0 +1,23 @@
+name: Almabase conventions
+generated: '2026-10-20'
+method: derived
+source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+auth:
+  style: unknown
+  evidence: GET https://developers.almabase.com/api/v1/eventsx/ returned 403 {"detail":"Authentication credentials were not provided."} (Django REST Framework envelope, cookie-varying); the scheme is not documented publicly.
+error_envelope:
+  shape: '{"detail": "<message>"}'
+  evidence: https://developers.almabase.com/api/v1/eventsx/ (403, probed 2026-10-20)
+request_id:
+  header: x-request-id
+  evidence: observed on the 403 response, 2026-10-20
+idempotency:
+  coverage: na
+  note: Every published operation is a GET; there is no write surface.
+reversibility:
+  coverage: na
+  note: Read-only API (32 GET operations).
+dry_run_mode:
+  coverage: na
+pagination:
+  note: List operations exist for every resource; pagination parameters are not stated in the published API list.

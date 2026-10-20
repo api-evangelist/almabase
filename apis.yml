@@ -1,24 +1,22 @@
 aid: almabase
 name: Almabase
-description: >-
-  Almabase is an AI-powered alumni engagement and fundraising platform for higher
-  education, K-12 schools, and nonprofit advancement teams. It sits on top of an
-  institution's CRM to unify digital engagement programs (alumni directories,
-  mentorship, affinity groups, job boards), event management, online giving and
-  giving-day campaigns, and multichannel communications. Through its TrueSync
-  bidirectional integrations with Blackbaud Raiser's Edge NXT, Blackbaud CRM,
-  Salesforce, and Ellucian, Almabase keeps engagement, event, giving, and
-  constituent data connected to the system of record so advancement teams can run
-  campaigns and report on impact with less manual work. Almabase does not publish a
-  public developer REST API or OpenAPI; integration is delivered via managed CRM
-  sync and a customer-facing developer portal.
+description: Almabase is an AI-powered alumni engagement and fundraising platform
+  for higher education, K-12 schools, and nonprofit advancement teams. It sits on
+  top of an institution's CRM to unify digital engagement programs (alumni directories,
+  mentorship, affinity groups, job boards), event management, online giving and giving-day
+  campaigns, and multichannel communications. Through its TrueSync bidirectional integrations
+  with Blackbaud Raiser's Edge NXT, Blackbaud CRM, Salesforce, and Ellucian, Almabase
+  keeps engagement, event, giving, and constituent data connected to the system of
+  record so advancement teams can run campaigns and report on impact with less manual
+  work. Its Developer Portal documents an authenticated, read-only Events REST API
+  (32 GET operations).
 url: https://raw.githubusercontent.com/api-evangelist/almabase/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (local-v5; was portfolio-lead)
 deliveryModel:
   model: saas
   open_source: false
@@ -43,7 +41,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-20'
 image: https://media.almabaseapp.com/1164/meta/65e89cf7ab1551a9df60196b_5b928bf31d82182393102e60_ab_favicon_1.png
 tags:
 - Company
@@ -65,13 +63,36 @@ tags_raw:
 - Events
 - Online Giving
 - Advancement
-apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: AgentSkill
+  url: skills/_index.yml
+- type: AgenticAccess
+  url: agentic-access/almabase-agentic-access.yml
+- type: Spectral
+  url: rules/almabase-rules.yml
+- type: Vocabulary
+  url: vocabulary/almabase-vocabulary.yml
+- type: Conventions
+  url: conventions/almabase-conventions.yml
+- type: TrustCenter
+  url: security/almabase-trust-center.yml
+- type: ErrorCatalog
+  url: errors/almabase-problem-types.yml
+- type: Conformance
+  url: conformance/almabase-conformance.yml
+- type: Hosts
+  url: hosts/almabase-hosts.yml
+- type: IntegrationEdges
+  url: integrations/almabase-integration-edges.yml
+- type: Vendors
+  url: vendors/almabase-vendors.yml
+- type: GettingStarted
+  url: https://docs.almabase.com/en/articles/6501434-configure-branding-and-notification-setup
 - type: Website
   url: https://almabase.com
 - type: DeveloperPortal
@@ -102,8 +123,221 @@ common:
   url: security/almabase-domain-security.yml
 - type: WellKnown
   url: well-known/almabase-well-known.yml
+- type: Blog
+  url: https://www.almabase.com/blog
+- type: PrivacyPolicy
+  url: https://www.almabase.com/ecloud-privacy-policy
+- type: TermsOfService
+  url: https://www.almabase.com/terms-of-use
+- type: Login
+  url: https://developers.almabase.com/login
+apis:
+- aid: almabase:almabase-bought-ticket-api
+  name: Almabase Bought Ticket API
+  description: The Bought Ticket API from Almabase — 2 operation(s) for bought ticket.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Bought Ticket
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-bought-ticket-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-agenda-api
+  name: Almabase Event Agenda API
+  description: The Event Agenda API from Almabase — 2 operation(s) for event agenda.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Agenda
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-agenda-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-announcement-api
+  name: Almabase Event Announcement API
+  description: The Event Announcement API from Almabase — 2 operation(s) for event announcement.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Announcement
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-announcement-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-api
+  name: Almabase Event API
+  description: The Event API from Almabase — 2 operation(s) for event.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-auction-bidder-api
+  name: Almabase Event Auction Bidder API
+  description: The Event Auction Bidder API from Almabase — 2 operation(s) for event auction bidder.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Auction Bidder
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-auction-bidder-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-auction-statistic-api
+  name: Almabase Event Auction Statistic API
+  description: >-
+    The Event Auction Statistic API from Almabase — 2 operation(s) for event auction statistic.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Auction Statistic
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-auction-statistic-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-contact-person-api
+  name: Almabase Event Contact Person API
+  description: The Event Contact Person API from Almabase — 2 operation(s) for event contact person.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Contact Person
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-contact-person-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-discount-api
+  name: Almabase Event Discount API
+  description: The Event Discount API from Almabase — 2 operation(s) for event discount.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Discount
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-discount-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-guest-api
+  name: Almabase Event Guest API
+  description: The Event Guest API from Almabase — 2 operation(s) for event guest.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Guest
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-guest-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-image-api
+  name: Almabase Event Image API
+  description: The Event Image API from Almabase — 2 operation(s) for event image.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Image
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-image-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-invitee-api
+  name: Almabase Event Invitee API
+  description: The Event Invitee API from Almabase — 2 operation(s) for event invitee.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Invitee
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-invitee-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-itinerary-api
+  name: Almabase Event Itinerary API
+  description: The Event Itinerary API from Almabase — 2 operation(s) for event itinerary.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Itinerary
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-itinerary-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-registration-api
+  name: Almabase Event Registration API
+  description: The Event Registration API from Almabase — 2 operation(s) for event registration.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Registration
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-registration-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-event-ticket-api
+  name: Almabase Event Ticket API
+  description: The Event Ticket API from Almabase — 2 operation(s) for event ticket.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Event Ticket
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-event-ticket-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-gift-api
+  name: Almabase Gift API
+  description: The Gift API from Almabase — 2 operation(s) for gift.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Gift
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-gift-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
+- aid: almabase:almabase-guest-re-gift-api
+  name: Almabase Guest Re Gift API
+  description: The Guest Re Gift API from Almabase — 2 operation(s) for guest re gift.
+  humanURL: https://developers.almabase.com/developer-portal/
+  baseURL: https://developers.almabase.com/api/v1
+  tags:
+  - Guest Re Gift
+  properties:
+  - type: OpenAPI
+    url: openapi/almabase-guest-re-gift-api-openapi.yml
+  - type: Documentation
+    url: https://developers.almabase.com/developer-portal/
 x-enrichment:
-  date: '2026-07-19'
-  status: backfilled
-  pass: local-v1
-  note: backfilled from .gitignore signal + verified work evidence
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v5
+x-coverage:
+  state: covered
+  reason: covered
+  detail: Developer Portal API list is published unauthenticated at developers.almabase.com
+    and converted to a 32-operation OpenAPI; calls themselves require credentials.
+  evidence:
+  - url: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+    status: 200
+  - url: https://developers.almabase.com/api/v1/eventsx/
+    status: 403
+  checked: '2026-10-20'

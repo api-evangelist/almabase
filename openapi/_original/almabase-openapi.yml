@@ -1,0 +1,2448 @@
+# x-archived-from: almabase-openapi.yml
+# x-archived-on: 2026-10-20
+openapi: 3.1.0
+info:
+  title: Almabase Developer Portal API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated
+    at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the
+    data behind https://developers.almabase.com/developer-portal/). Request and response
+    field tables are copied from it; types other than boolean are not stated by the
+    source. The API is authenticated (an anonymous call returns 403 "Authentication
+    credentials were not provided."); the authentication scheme is not documented
+    publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with
+    a DRF 403 JSON (probed 2026-10-20)
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'
+paths:
+  /api/v1/eventsx/{pk}:
+    get:
+      operationId: getEvent
+      summary: Get Event
+      description: Retrieve core event information representing the primary event
+        entity serving as the foundation for all event-related activities. Provides
+        comprehensive event data including descriptive details, scheduling, venue
+        coordination, registration configuration, and integration capabilities.
+      tags:
+      - Event
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  updated_at:
+                    nullable: true
+                  author:
+                    description: User who created the event.
+                    readOnly: true
+                  is_archived:
+                    type: boolean
+                    description: Indicates if the event has been archived.
+                  receiver_emails:
+                    description: Comma separated emails
+                    nullable: true
+                  checked_in_campaign_url:
+                    description: URL for the checked-in guests campaign in the communication
+                      platform.
+                    readOnly: true
+                  text_auction_payable_bidders_campaign_url:
+                    description: URL for the auction payable bidders text campaign
+                      in the communication platform.
+                    readOnly: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases
+                      system.
+                    nullable: true
+                  webinar_details:
+                    description: Detailed Zoom webinar information including API response
+                      data.
+                    readOnly: true
+                  waitlist_created_campaign_url:
+                    description: URL for the waitlist-created guests campaign in the
+                      communication platform.
+                    readOnly: true
+                  count_guests:
+                    description: Total number of registered guests for the event.
+                    readOnly: true
+                  images:
+                    description: Event images including captions, types, and orientation
+                      settings.
+                    nullable: true
+                    readOnly: true
+                  waitlist_expired_campaign_url:
+                    description: URL for the waitlist offer expired campaign in the
+                      communication platform.
+                    readOnly: true
+                  type: {}
+                  payment_account:
+                    description: Payment processing account configuration for the
+                      event.
+                    nullable: true
+                  count_total_allowed_guests:
+                    nullable: true
+                  is_pro:
+                    type: boolean
+                    description: Indicates if this is a premium/professional event.
+                    readOnly: true
+                  labels:
+                    description: Custom labels and branding settings for the event.
+                  secondary_payment_account:
+                    description: Secondary payment processing account configuration
+                      for the event.
+                    nullable: true
+                  currency: {}
+                  revenue_goal:
+                    nullable: true
+                  reply_to_name:
+                    nullable: true
+                  timezone:
+                    description: Timezone for the event. Used for proper date/time
+                      display and calculations.
+                    nullable: true
+                  notification_expiry_hours:
+                    description: Number of hours after which the notification link
+                      will expire
+                  connected_datapush_user_id:
+                    nullable: true
+                  is_guest_count_shown_to_users:
+                    type: boolean
+                  is_edit_registration_open:
+                    type: boolean
+                  url:
+                    description: Public URL for the event page.
+                    readOnly: true
+                  ticket_to_exclude:
+                    description: JSON configuration for tickets to exclude from certain
+                      operations.
+                  reply_to_emails:
+                    description: Comma separated emails
+                    nullable: true
+                  text_registered_campaign_url:
+                    description: URL for the registered guests text campaign in the
+                      communication platform.
+                    readOnly: true
+                  email_sender:
+                    description: User profile that will be used as the sender for
+                      event emails.
+                    nullable: true
+                  description:
+                    description: Rich text description of the event with HTML support.
+                    nullable: true
+                  sender_name:
+                    nullable: true
+                  created_at:
+                    nullable: true
+                  slug: {}
+                  is_guest_limit_exceeded:
+                    description: Indicates if the event has reached its maximum guest
+                      capacity.
+                    readOnly: true
+                  livestream_url:
+                    description: Live stream url
+                    nullable: true
+                  sender_email:
+                    description: From address used when no sender profile is set
+                    nullable: true
+                  is_rsvp_confirmation_email_enabled:
+                    type: boolean
+                  discounts:
+                    description: Discount codes and promotional offers available for
+                      the event.
+                    readOnly: true
+                  tickets:
+                    description: Available tickets for the event with pricing and
+                      availability information.
+                    readOnly: true
+                  text_pending_payment_campaign_url:
+                    description: URL for the pending payment guests text campaign
+                      in the communication platform.
+                    readOnly: true
+                  sync_metadata:
+                    description: Additional metadata for synchronization with external
+                      systems.
+                  is_refund_enabled:
+                    type: boolean
+                  is_detach_from_engagement_platform:
+                    type: boolean
+                  agendas:
+                    description: List of sub-events or agenda items associated with
+                      this event.
+                    readOnly: true
+                  user_feedback_average:
+                    description: Average rating from user feedback for the event.
+                    readOnly: true
+                  workflow_id:
+                    description: ID of the workflow associated with this event.
+                    readOnly: true
+                  last_sent_invite_volunteer_datetime:
+                    description: Timestamp when the last volunteer invitation email
+                      was sent.
+                    nullable: true
+                  is_payment_split_enabled:
+                    type: boolean
+                    description: Enable payment split for this event
+                  waitlist_mode:
+                    description: 'Manual: Organizers must manually approve waitlisted
+                      registrations. Automatic: Registrations are automatically approved
+                      as space becomes available.'
+                  guest_display_option:
+                    description: Configuration for how guest information is displayed
+                      to other guests.
+                  last_sent_receipt_datetime:
+                    description: Timestamp when the last receipt email was sent to
+                      guests.
+                    readOnly: true
+                  payment_initiated_campaign_url:
+                    description: URL for the payment initiated guests campaign in
+                      the communication platform.
+                    readOnly: true
+                  is_discussions_enabled:
+                    type: boolean
+                  external_registration_url:
+                    description: If this is set register button should redirect the
+                      given url
+                    nullable: true
+                  registration_form:
+                    description: Custom registration form used for event registration.
+                    nullable: true
+                  text_approved_registrations_campaign_url:
+                    description: URL for the approved registrations text campaign
+                      in the communication platform.
+                    readOnly: true
+                  is_past:
+                    type: boolean
+                    description: Indicates if the event has already occurred.
+                    readOnly: true
+                  start_datetime:
+                    description: Event start date and time in the event's timezone.
+                    nullable: true
+                  auction_payment_window_start_datetime:
+                    description: Auction payment window start date and time in the
+                      event's timezone.
+                    nullable: true
+                  waitlist_notified_campaign_url:
+                    description: URL for the waitlist spot offered campaign in the
+                      communication platform.
+                    readOnly: true
+                  is_checkin_kiosk_enabled:
+                    type: boolean
+                    description: Enables check-in kiosk functionality for the event.
+                  text_checked_in_campaign_url:
+                    description: URL for the checked-in guests text campaign in the
+                      communication platform.
+                    readOnly: true
+                  is_registration_open:
+                    type: boolean
+                  venue_privacy: {}
+                  pending_payment_campaign_url:
+                    description: URL for the pending payment guests campaign in the
+                      communication platform.
+                    readOnly: true
+                  registered_campaign_url:
+                    description: URL for the registered guests campaign in the communication
+                      platform.
+                    readOnly: true
+                  payment_failed_campaign_url:
+                    description: URL for the payment failed guests campaign in the
+                      communication platform.
+                    readOnly: true
+                  sync_error:
+                    description: Error message from the last synchronization attempt
+                      with external systems.
+                    nullable: true
+                  connected_user_id:
+                    description: ID of the user connected to external systems for
+                      this event.
+                    readOnly: true
+                  is_eventsx:
+                    type: boolean
+                    description: Indicates if this is an EventsX event (vs legacy
+                      events).
+                    readOnly: true
+                  waitlist_registered_campaign_url:
+                    description: URL for the waitlist responded campaign in the communication
+                      platform.
+                    readOnly: true
+                  is_pos_enabled:
+                    type: boolean
+                  auction_start_datetime:
+                    description: Auction start date and time in the event's timezone.
+                    nullable: true
+                  pos_devices:
+                    description: Point of sale devices configured for the event.
+                    nullable: true
+                  payment_configuration_type: {}
+                  guest_form:
+                    description: Custom form used for guest information collection.
+                    nullable: true
+                  pre_registration_form:
+                    description: Custom form used for pre-registration before the
+                      main event registration opens.
+                    nullable: true
+                    readOnly: true
+                  text_payment_initiated_campaign_url:
+                    description: URL for the payment initiated guests text campaign
+                      in the communication platform.
+                    readOnly: true
+                  fund:
+                    description: Primary fundraising fund associated with the event.
+                    nullable: true
+                  count_unmapped_guests:
+                    description: Number of guests not yet mapped to external database
+                      profiles.
+                    readOnly: true
+                  auction_auto_charge_enabled:
+                    type: boolean
+                    description: If true, auto-charge is enabled for auction payments
+                      (runs at auction_auto_charge_datetime).
+                  webinar_id:
+                    description: Zoom webinar ID if the event is connected to a Zoom
+                      webinar.
+                    readOnly: true
+                  conditional_sub_event_visibility_criteria: {}
+                  contact_persons:
+                    description: List of contact persons for the event with name,
+                      email, and phone information.
+                    readOnly: true
+                  end_datetime:
+                    description: Event end date and time in the event's timezone.
+                    nullable: true
+                  should_sync_non_constituent_accompanying_guests:
+                    type: boolean
+                  highlighted_fields:
+                    description: Custom form fields that should be highlighted or
+                      emphasized on the event page.
+                    nullable: true
+                  external_database_lookup_id:
+                    description: A unique identifier assigned by the institution based
+                      on a custom convention.
+                    nullable: true
+                  should_collect_affiliation:
+                    type: boolean
+                  auction_default_tax_percentage:
+                    description: Default sales tax percentage for auction items.
+                    nullable: true
+                  receipt_email_template_id:
+                    description: ID of the email template used for sending receipts.
+                    readOnly: true
+                  auction_end_datetime:
+                    description: Auction end date and time in the event's timezone.
+                    nullable: true
+                  text_payment_failed_campaign_url:
+                    description: URL for the payment failed guests text campaign in
+                      the communication platform.
+                    readOnly: true
+                  auction_auto_charge_datetime:
+                    description: Auction auto-charge date and time in the event's
+                      timezone.
+                    nullable: true
+                  is_active:
+                    type: boolean
+                  venue:
+                    description: Venue information including name, address, coordinates,
+                      and display settings.
+                    nullable: true
+                  approved_registrations_campaign_url:
+                    description: URL for the approved registrations campaign in the
+                      communication platform.
+                    readOnly: true
+                  tags:
+                    description: Tags for categorizing and filtering events.
+                    nullable: true
+                  is_accompanying_guest_allowed:
+                    type: boolean
+                  funds:
+                    description: Fundraising options and donation funds associated
+                      with the event.
+                    readOnly: true
+                  last_sync_time:
+                    description: Timestamp of the last successful synchronization
+                      with external systems.
+                    nullable: true
+                  auction_payment_window_end_datetime:
+                    description: Auction payment window end date and time in the event's
+                      timezone.
+                    nullable: true
+                  connected_zoom_user_id:
+                    nullable: true
+                  max_guests_allowed:
+                    nullable: true
+                  is_guest_login_allowed:
+                    description: Indicates if guests can log in to access event features.
+                    readOnly: true
+                  volunteer_invite_email_template_id:
+                    description: ID of the email template used for inviting volunteers.
+                    readOnly: true
+                  is_pre_sync_setup_validated:
+                    type: boolean
+                    description: Indicates if the pre-synchronization setup has been
+                      validated.
+                  status:
+                    description: Current status of the event (draft, published, archived,
+                      etc.).
+                    readOnly: true
+                  enable_waitlist:
+                    type: boolean
+                    description: Enable waitlist for this event
+                  is_sponsorship_enabled:
+                    type: boolean
+                    description: Enable sponsorship registration for this event
+                  should_sync_invitees:
+                    type: boolean
+                  auction_require_saved_card:
+                    type: boolean
+                    description: If true, guests must save a card before accessing
+                      auctions.
+                  receipt_notification_rule:
+                    nullable: true
+                  name:
+                    description: The name of the event. This will be displayed to
+                      users and used for event identification.
+                  should_auto_approve_mapped_guests:
+                    type: boolean
+                    description: Automatically approve guests who are mapped to external
+                      database profiles.
+                  is_share_enabled:
+                    type: boolean
+                    description: Enables social sharing features for the event.
+                  is_registration_enabled_without_login:
+                    type: boolean
+                  venue_link:
+                    description: This field is used when an event is hosted online
+                      and there is no physical venue
+                    nullable: true
+                  rsvp_collection:
+                    description: Configuration for RSVP collection and processing.
+                  auction_save_card_enabled:
+                    type: boolean
+                    description: If true, guests can save a card for auction payments
+                      and pay with saved card.
+                  guest_goal:
+                    nullable: true
+                  should_collect_text_consent:
+                    type: boolean
+                    description: Enables collection of text message consent from guests.
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/:
+    get:
+      operationId: listEvent
+      summary: List Event
+      description: Retrieve core event information representing the primary event
+        entity serving as the foundation for all event-related activities. Provides
+        comprehensive event data including descriptive details, scheduling, venue
+        coordination, registration configuration, and integration capabilities.
+      tags:
+      - Event
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    updated_at:
+                      nullable: true
+                    author:
+                      description: User who created the event.
+                      readOnly: true
+                    is_archived:
+                      type: boolean
+                      description: Indicates if the event has been archived.
+                    receiver_emails:
+                      description: Comma separated emails
+                      nullable: true
+                    checked_in_campaign_url:
+                      description: URL for the checked-in guests campaign in the communication
+                        platform.
+                      readOnly: true
+                    text_auction_payable_bidders_campaign_url:
+                      description: URL for the auction payable bidders text campaign
+                        in the communication platform.
+                      readOnly: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases
+                        system.
+                      nullable: true
+                    webinar_details:
+                      description: Detailed Zoom webinar information including API
+                        response data.
+                      readOnly: true
+                    waitlist_created_campaign_url:
+                      description: URL for the waitlist-created guests campaign in
+                        the communication platform.
+                      readOnly: true
+                    count_guests:
+                      description: Total number of registered guests for the event.
+                      readOnly: true
+                    images:
+                      description: Event images including captions, types, and orientation
+                        settings.
+                      nullable: true
+                      readOnly: true
+                    waitlist_expired_campaign_url:
+                      description: URL for the waitlist offer expired campaign in
+                        the communication platform.
+                      readOnly: true
+                    type: {}
+                    payment_account:
+                      description: Payment processing account configuration for the
+                        event.
+                      nullable: true
+                    count_total_allowed_guests:
+                      nullable: true
+                    is_pro:
+                      type: boolean
+                      description: Indicates if this is a premium/professional event.
+                      readOnly: true
+                    labels:
+                      description: Custom labels and branding settings for the event.
+                    secondary_payment_account:
+                      description: Secondary payment processing account configuration
+                        for the event.
+                      nullable: true
+                    currency: {}
+                    revenue_goal:
+                      nullable: true
+                    reply_to_name:
+                      nullable: true
+                    timezone:
+                      description: Timezone for the event. Used for proper date/time
+                        display and calculations.
+                      nullable: true
+                    notification_expiry_hours:
+                      description: Number of hours after which the notification link
+                        will expire
+                    connected_datapush_user_id:
+                      nullable: true
+                    is_guest_count_shown_to_users:
+                      type: boolean
+                    is_edit_registration_open:
+                      type: boolean
+                    url:
+                      description: Public URL for the event page.
+                      readOnly: true
+                    ticket_to_exclude:
+                      description: JSON configuration for tickets to exclude from
+                        certain operations.
+                    reply_to_emails:
+                      description: Comma separated emails
+                      nullable: true
+                    text_registered_campaign_url:
+                      description: URL for the registered guests text campaign in
+                        the communication platform.
+                      readOnly: true
+                    email_sender:
+                      description: User profile that will be used as the sender for
+                        event emails.
+                      nullable: true
+                    description:
+                      description: Rich text description of the event with HTML support.
+                      nullable: true
+                    sender_name:
+                      nullable: true
+                    created_at:
+                      nullable: true
+                    slug: {}
+                    is_guest_limit_exceeded:
+                      description: Indicates if the event has reached its maximum
+                        guest capacity.
+                      readOnly: true
+                    livestream_url:
+                      description: Live stream url
+                      nullable: true
+                    sender_email:
+                      description: From address used when no sender profile is set
+                      nullable: true
+                    is_rsvp_confirmation_email_enabled:
+                      type: boolean
+                    discounts:
+                      description: Discount codes and promotional offers available
+                        for the event.
+                      readOnly: true
+                    tickets:
+                      description: Available tickets for the event with pricing and
+                        availability information.
+                      readOnly: true
+                    text_pending_payment_campaign_url:
+                      description: URL for the pending payment guests text campaign
+                        in the communication platform.
+                      readOnly: true
+                    sync_metadata:
+                      description: Additional metadata for synchronization with external
+                        systems.
+                    is_refund_enabled:
+                      type: boolean
+                    is_detach_from_engagement_platform:
+                      type: boolean
+                    agendas:
+                      description: List of sub-events or agenda items associated with
+                        this event.
+                      readOnly: true
+                    user_feedback_average:
+                      description: Average rating from user feedback for the event.
+                      readOnly: true
+                    workflow_id:
+                      description: ID of the workflow associated with this event.
+                      readOnly: true
+                    last_sent_invite_volunteer_datetime:
+                      description: Timestamp when the last volunteer invitation email
+                        was sent.
+                      nullable: true
+                    is_payment_split_enabled:
+                      type: boolean
+                      description: Enable payment split for this event
+                    waitlist_mode:
+                      description: 'Manual: Organizers must manually approve waitlisted
+                        registrations. Automatic: Registrations are automatically
+                        approved as space becomes available.'
+                    guest_display_option:
+                      description: Configuration for how guest information is displayed
+                        to other guests.
+                    last_sent_receipt_datetime:
+                      description: Timestamp when the last receipt email was sent
+                        to guests.
+                      readOnly: true
+                    payment_initiated_campaign_url:
+                      description: URL for the payment initiated guests campaign in
+                        the communication platform.
+                      readOnly: true
+                    is_discussions_enabled:
+                      type: boolean
+                    external_registration_url:
+                      description: If this is set register button should redirect
+                        the given url
+                      nullable: true
+                    registration_form:
+                      description: Custom registration form used for event registration.
+                      nullable: true
+                    text_approved_registrations_campaign_url:
+                      description: URL for the approved registrations text campaign
+                        in the communication platform.
+                      readOnly: true
+                    is_past:
+                      type: boolean
+                      description: Indicates if the event has already occurred.
+                      readOnly: true
+                    start_datetime:
+                      description: Event start date and time in the event's timezone.
+                      nullable: true
+                    auction_payment_window_start_datetime:
+                      description: Auction payment window start date and time in the
+                        event's timezone.
+                      nullable: true
+                    waitlist_notified_campaign_url:
+                      description: URL for the waitlist spot offered campaign in the
+                        communication platform.
+                      readOnly: true
+                    is_checkin_kiosk_enabled:
+                      type: boolean
+                      description: Enables check-in kiosk functionality for the event.
+                    text_checked_in_campaign_url:
+                      description: URL for the checked-in guests text campaign in
+                        the communication platform.
+                      readOnly: true
+                    is_registration_open:
+                      type: boolean
+                    venue_privacy: {}
+                    pending_payment_campaign_url:
+                      description: URL for the pending payment guests campaign in
+                        the communication platform.
+                      readOnly: true
+                    registered_campaign_url:
+                      description: URL for the registered guests campaign in the communication
+                        platform.
+                      readOnly: true
+                    payment_failed_campaign_url:
+                      description: URL for the payment failed guests campaign in the
+                        communication platform.
+                      readOnly: true
+                    sync_error:
+                      description: Error message from the last synchronization attempt
+                        with external systems.
+                      nullable: true
+                    connected_user_id:
+                      description: ID of the user connected to external systems for
+                        this event.
+                      readOnly: true
+                    is_eventsx:
+                      type: boolean
+                      description: Indicates if this is an EventsX event (vs legacy
+                        events).
+                      readOnly: true
+                    waitlist_registered_campaign_url:
+                      description: URL for the waitlist responded campaign in the
+                        communication platform.
+                      readOnly: true
+                    is_pos_enabled:
+                      type: boolean
+                    auction_start_datetime:
+                      description: Auction start date and time in the event's timezone.
+                      nullable: true
+                    pos_devices:
+                      description: Point of sale devices configured for the event.
+                      nullable: true
+                    payment_configuration_type: {}
+                    guest_form:
+                      description: Custom form used for guest information collection.
+                      nullable: true
+                    pre_registration_form:
+                      description: Custom form used for pre-registration before the
+                        main event registration opens.
+                      nullable: true
+                      readOnly: true
+                    text_payment_initiated_campaign_url:
+                      description: URL for the payment initiated guests text campaign
+                        in the communication platform.
+                      readOnly: true
+                    fund:
+                      description: Primary fundraising fund associated with the event.
+                      nullable: true
+                    count_unmapped_guests:
+                      description: Number of guests not yet mapped to external database
+                        profiles.
+                      readOnly: true
+                    auction_auto_charge_enabled:
+                      type: boolean
+                      description: If true, auto-charge is enabled for auction payments
+                        (runs at auction_auto_charge_datetime).
+                    webinar_id:
+                      description: Zoom webinar ID if the event is connected to a
+                        Zoom webinar.
+                      readOnly: true
+                    conditional_sub_event_visibility_criteria: {}
+                    contact_persons:
+                      description: List of contact persons for the event with name,
+                        email, and phone information.
+                      readOnly: true
+                    end_datetime:
+                      description: Event end date and time in the event's timezone.
+                      nullable: true
+                    should_sync_non_constituent_accompanying_guests:
+                      type: boolean
+                    highlighted_fields:
+                      description: Custom form fields that should be highlighted or
+                        emphasized on the event page.
+                      nullable: true
+                    external_database_lookup_id:
+                      description: A unique identifier assigned by the institution
+                        based on a custom convention.
+                      nullable: true
+                    should_collect_affiliation:
+                      type: boolean
+                    auction_default_tax_percentage:
+                      description: Default sales tax percentage for auction items.
+                      nullable: true
+                    receipt_email_template_id:
+                      description: ID of the email template used for sending receipts.
+                      readOnly: true
+                    auction_end_datetime:
+                      description: Auction end date and time in the event's timezone.
+                      nullable: true
+                    text_payment_failed_campaign_url:
+                      description: URL for the payment failed guests text campaign
+                        in the communication platform.
+                      readOnly: true
+                    auction_auto_charge_datetime:
+                      description: Auction auto-charge date and time in the event's
+                        timezone.
+                      nullable: true
+                    is_active:
+                      type: boolean
+                    venue:
+                      description: Venue information including name, address, coordinates,
+                        and display settings.
+                      nullable: true
+                    approved_registrations_campaign_url:
+                      description: URL for the approved registrations campaign in
+                        the communication platform.
+                      readOnly: true
+                    tags:
+                      description: Tags for categorizing and filtering events.
+                      nullable: true
+                    is_accompanying_guest_allowed:
+                      type: boolean
+                    funds:
+                      description: Fundraising options and donation funds associated
+                        with the event.
+                      readOnly: true
+                    last_sync_time:
+                      description: Timestamp of the last successful synchronization
+                        with external systems.
+                      nullable: true
+                    auction_payment_window_end_datetime:
+                      description: Auction payment window end date and time in the
+                        event's timezone.
+                      nullable: true
+                    connected_zoom_user_id:
+                      nullable: true
+                    max_guests_allowed:
+                      nullable: true
+                    is_guest_login_allowed:
+                      description: Indicates if guests can log in to access event
+                        features.
+                      readOnly: true
+                    volunteer_invite_email_template_id:
+                      description: ID of the email template used for inviting volunteers.
+                      readOnly: true
+                    is_pre_sync_setup_validated:
+                      type: boolean
+                      description: Indicates if the pre-synchronization setup has
+                        been validated.
+                    status:
+                      description: Current status of the event (draft, published,
+                        archived, etc.).
+                      readOnly: true
+                    enable_waitlist:
+                      type: boolean
+                      description: Enable waitlist for this event
+                    is_sponsorship_enabled:
+                      type: boolean
+                      description: Enable sponsorship registration for this event
+                    should_sync_invitees:
+                      type: boolean
+                    auction_require_saved_card:
+                      type: boolean
+                      description: If true, guests must save a card before accessing
+                        auctions.
+                    receipt_notification_rule:
+                      nullable: true
+                    name:
+                      description: The name of the event. This will be displayed to
+                        users and used for event identification.
+                    should_auto_approve_mapped_guests:
+                      type: boolean
+                      description: Automatically approve guests who are mapped to
+                        external database profiles.
+                    is_share_enabled:
+                      type: boolean
+                      description: Enables social sharing features for the event.
+                    is_registration_enabled_without_login:
+                      type: boolean
+                    venue_link:
+                      description: This field is used when an event is hosted online
+                        and there is no physical venue
+                      nullable: true
+                    rsvp_collection:
+                      description: Configuration for RSVP collection and processing.
+                    auction_save_card_enabled:
+                      type: boolean
+                      description: If true, guests can save a card for auction payments
+                        and pay with saved card.
+                    guest_goal:
+                      nullable: true
+                    should_collect_text_consent:
+                      type: boolean
+                      description: Enables collection of text message consent from
+                        guests.
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+  /api/v1/eventsx/{parent_id}/guests/{pk}:
+    get:
+      operationId: getEventGuest
+      summary: Get Event Guest
+      description: Retrieve individual guest records within specific events including
+        primary registrants and accompanying guests. Provides comprehensive attendee
+        tracking and relationship management with detailed personal information, ticket
+        associations, check-in status, and user profile connections.
+      tags:
+      - Event Guest
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  email:
+                    nullable: true
+                  is_sponsored:
+                    type: boolean
+                    description: True if this is a sponsored guest (from event sponsorship)
+                  is_profile_mapping_ignored:
+                    type: boolean
+                  payment_sync_status:
+                    nullable: true
+                  checked_in:
+                    nullable: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases
+                      system.
+                    nullable: true
+                  last_name:
+                    nullable: true
+                  is_primary:
+                    type: boolean
+                  first_name: {}
+                  should_show_on_attendee_list:
+                    type: boolean
+                  is_email_new:
+                    type: boolean
+                  checked_in_at:
+                    nullable: true
+                  is_hidden_from_profile_matching:
+                    type: boolean
+                    description: When true, hide this guest from profile matching
+                      UI lists without blocking manual mapping.
+                  paddle_number:
+                    nullable: true
+                  updated_at:
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/guests/:
+    get:
+      operationId: listEventGuest
+      summary: List Event Guest
+      description: Retrieve individual guest records within specific events including
+        primary registrants and accompanying guests. Provides comprehensive attendee
+        tracking and relationship management with detailed personal information, ticket
+        associations, check-in status, and user profile connections.
+      tags:
+      - Event Guest
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    email:
+                      nullable: true
+                    is_sponsored:
+                      type: boolean
+                      description: True if this is a sponsored guest (from event sponsorship)
+                    is_profile_mapping_ignored:
+                      type: boolean
+                    payment_sync_status:
+                      nullable: true
+                    checked_in:
+                      nullable: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases
+                        system.
+                      nullable: true
+                    last_name:
+                      nullable: true
+                    is_primary:
+                      type: boolean
+                    first_name: {}
+                    should_show_on_attendee_list:
+                      type: boolean
+                    is_email_new:
+                      type: boolean
+                    checked_in_at:
+                      nullable: true
+                    is_hidden_from_profile_matching:
+                      type: boolean
+                      description: When true, hide this guest from profile matching
+                        UI lists without blocking manual mapping.
+                    paddle_number:
+                      nullable: true
+                    updated_at:
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/registrations/{pk}:
+    get:
+      operationId: getEventRegistration
+      summary: Get Event Registration
+      description: Retrieve registration-focused data emphasizing registration process
+        analytics and form submission monitoring. Provides comprehensive oversight
+        capabilities for administrative staff monitoring event registration performance,
+        operational effectiveness, and process optimization.
+      tags:
+      - Event Registration
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  is_receipt_sent:
+                    type: boolean
+                  created_at:
+                    nullable: true
+                  address_line1:
+                    nullable: true
+                  referrer_link:
+                    nullable: true
+                  sync_error:
+                    nullable: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases
+                      system.
+                    nullable: true
+                  zip_code:
+                    nullable: true
+                  profile_text_consent:
+                    nullable: true
+                  utm_medium:
+                    description: This is to track utm medium
+                    nullable: true
+                  rsvp_status: {}
+                  email: {}
+                  is_registration_sponsored:
+                    type: boolean
+                    description: True if this is a sponsored registration
+                    readOnly: true
+                  is_registration_approved:
+                    type: boolean
+                  phone_number:
+                    nullable: true
+                  address_line2:
+                    nullable: true
+                  last_sent_receipt_datetime:
+                    nullable: true
+                  amount_after_discount: {}
+                  text_consent:
+                    nullable: true
+                  last_name:
+                    nullable: true
+                  first_name: {}
+                  registration_status: {}
+                  utm_source:
+                    description: This is to track utm source
+                    nullable: true
+                  utm_campaign:
+                    description: This is to track utm campaign
+                    nullable: true
+                  total_amount: {}
+                  updated_at:
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/registrations/:
+    get:
+      operationId: listEventRegistration
+      summary: List Event Registration
+      description: Retrieve registration-focused data emphasizing registration process
+        analytics and form submission monitoring. Provides comprehensive oversight
+        capabilities for administrative staff monitoring event registration performance,
+        operational effectiveness, and process optimization.
+      tags:
+      - Event Registration
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    is_receipt_sent:
+                      type: boolean
+                    created_at:
+                      nullable: true
+                    address_line1:
+                      nullable: true
+                    referrer_link:
+                      nullable: true
+                    sync_error:
+                      nullable: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases
+                        system.
+                      nullable: true
+                    zip_code:
+                      nullable: true
+                    profile_text_consent:
+                      nullable: true
+                    utm_medium:
+                      description: This is to track utm medium
+                      nullable: true
+                    rsvp_status: {}
+                    email: {}
+                    is_registration_sponsored:
+                      type: boolean
+                      description: True if this is a sponsored registration
+                      readOnly: true
+                    is_registration_approved:
+                      type: boolean
+                    phone_number:
+                      nullable: true
+                    address_line2:
+                      nullable: true
+                    last_sent_receipt_datetime:
+                      nullable: true
+                    amount_after_discount: {}
+                    text_consent:
+                      nullable: true
+                    last_name:
+                      nullable: true
+                    first_name: {}
+                    registration_status: {}
+                    utm_source:
+                      description: This is to track utm source
+                      nullable: true
+                    utm_campaign:
+                      description: This is to track utm campaign
+                      nullable: true
+                    total_amount: {}
+                    updated_at:
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/tickets/{pk}:
+    get:
+      operationId: getEventTicket
+      summary: Get Event Ticket
+      description: Retrieve comprehensive ticketing information supporting sophisticated
+        event access control, pricing strategies, and capacity management. Provides
+        access to ticket types, pricing configurations, availability windows, and
+        capacity management data for diverse programming.
+      tags:
+      - Event Ticket
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  receipt_fund:
+                    description: Fund that will be used for receipt generation for
+                      this ticket.
+                    nullable: true
+                  sync_error:
+                    description: Error message from the last synchronization attempt
+                      with external systems.
+                    nullable: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases
+                      system.
+                    nullable: true
+                  should_sync_to_external_database:
+                    type: boolean
+                  receipt_amount: {}
+                  sync_metadata:
+                    description: Additional metadata for synchronization with external
+                      systems.
+                  fields:
+                    description: Custom fields and questions associated with this
+                      ticket type.
+                    nullable: true
+                  total_tickets_available:
+                    nullable: true
+                  number_of_guest_allowed:
+                    description: Number of guests this ticket can accommodate
+                    nullable: true
+                  image:
+                    description: Image file associated with the ticket (logo, banner,
+                      etc.).
+                    nullable: true
+                  price: {}
+                  id:
+                    description: Unique identifier for the ticket.
+                  fund:
+                    description: Fundraising fund associated with this ticket type.
+                    nullable: true
+                  end_datetime:
+                    description: Date and time when ticket sales end.
+                    nullable: true
+                  name:
+                    description: Display name for the ticket type.
+                  is_group_flat_fee:
+                    type: boolean
+                  ticket_type:
+                    description: Type of ticket (e.g., 'General Admission', 'VIP',
+                      'Student').
+                  is_ticket_sold:
+                    type: boolean
+                    description: Indicates if any tickets of this type have been sold.
+                    readOnly: true
+                  limit_per_user:
+                    description: Number of tickets a single user can purchase
+                    nullable: true
+                  description: {}
+                  display_order:
+                    description: Decides ordering of tickets
+                    nullable: true
+                  is_active:
+                    type: boolean
+                  is_ticket_field_entries_exist:
+                    type: boolean
+                    description: Indicates if there are custom field entries for this
+                      ticket.
+                    readOnly: true
+                  start_datetime:
+                    description: Date and time when ticket sales begin.
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/tickets/:
+    get:
+      operationId: listEventTicket
+      summary: List Event Ticket
+      description: Retrieve comprehensive ticketing information supporting sophisticated
+        event access control, pricing strategies, and capacity management. Provides
+        access to ticket types, pricing configurations, availability windows, and
+        capacity management data for diverse programming.
+      tags:
+      - Event Ticket
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    receipt_fund:
+                      description: Fund that will be used for receipt generation for
+                        this ticket.
+                      nullable: true
+                    sync_error:
+                      description: Error message from the last synchronization attempt
+                        with external systems.
+                      nullable: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases
+                        system.
+                      nullable: true
+                    should_sync_to_external_database:
+                      type: boolean
+                    receipt_amount: {}
+                    sync_metadata:
+                      description: Additional metadata for synchronization with external
+                        systems.
+                    fields:
+                      description: Custom fields and questions associated with this
+                        ticket type.
+                      nullable: true
+                    total_tickets_available:
+                      nullable: true
+                    number_of_guest_allowed:
+                      description: Number of guests this ticket can accommodate
+                      nullable: true
+                    image:
+                      description: Image file associated with the ticket (logo, banner,
+                        etc.).
+                      nullable: true
+                    price: {}
+                    id:
+                      description: Unique identifier for the ticket.
+                    fund:
+                      description: Fundraising fund associated with this ticket type.
+                      nullable: true
+                    end_datetime:
+                      description: Date and time when ticket sales end.
+                      nullable: true
+                    name:
+                      description: Display name for the ticket type.
+                    is_group_flat_fee:
+                      type: boolean
+                    ticket_type:
+                      description: Type of ticket (e.g., 'General Admission', 'VIP',
+                        'Student').
+                    is_ticket_sold:
+                      type: boolean
+                      description: Indicates if any tickets of this type have been
+                        sold.
+                      readOnly: true
+                    limit_per_user:
+                      description: Number of tickets a single user can purchase
+                      nullable: true
+                    description: {}
+                    display_order:
+                      description: Decides ordering of tickets
+                      nullable: true
+                    is_active:
+                      type: boolean
+                    is_ticket_field_entries_exist:
+                      type: boolean
+                      description: Indicates if there are custom field entries for
+                        this ticket.
+                      readOnly: true
+                    start_datetime:
+                      description: Date and time when ticket sales begin.
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/bought_tickets/{pk}:
+    get:
+      operationId: getBoughtTicket
+      summary: Get Bought Ticket
+      description: Retrieve purchased tickets throughout their complete lifecycle
+        including validation, transfer capabilities, usage analytics, and guest assignments.
+        Provides comprehensive transaction details and operational management capabilities
+        for effective event delivery and customer service.
+      tags:
+      - Bought Ticket
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  external_database_id:
+                    description: A unique identified assigned by the external databases
+                      system.
+                    nullable: true
+                  quantity:
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/bought_tickets/:
+    get:
+      operationId: listBoughtTicket
+      summary: List Bought Ticket
+      description: Retrieve purchased tickets throughout their complete lifecycle
+        including validation, transfer capabilities, usage analytics, and guest assignments.
+        Provides comprehensive transaction details and operational management capabilities
+        for effective event delivery and customer service.
+      tags:
+      - Bought Ticket
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    external_database_id:
+                      description: A unique identified assigned by the external databases
+                        system.
+                      nullable: true
+                    quantity:
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/guests/{parent_id}/re_gifts/{pk}:
+    get:
+      operationId: getGuestReGift
+      summary: Get Guest RE Gift
+      description: Retrieve gift records synchronized with Raiser's Edge fundraising
+        database. Provides complete gift lifecycle data including amounts, donor attribution,
+        fund designations, solicitor credits, and synchronization status. Supports
+        complex gift scenarios including matching gifts, tribute donations, and memorial
+        contributions.
+      tags:
+      - Guest Re Gift
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/guests/{parent_id}/re_gifts/:
+    get:
+      operationId: listGuestReGift
+      summary: List Guest RE Gift
+      description: Retrieve gift records synchronized with Raiser's Edge fundraising
+        database. Provides complete gift lifecycle data including amounts, donor attribution,
+        fund designations, solicitor credits, and synchronization status. Supports
+        complex gift scenarios including matching gifts, tribute donations, and memorial
+        contributions.
+      tags:
+      - Guest Re Gift
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/manage/{parent_id}/auction_statistics/{pk}:
+    get:
+      operationId: getEventAuctionStatistic
+      summary: Get Event Auction Statistic
+      description: Retrieve auction statistics including total items sold, total revenue,
+        top donors, and bidding patterns. Provides comprehensive auction management
+        capabilities for effective event fundraising and donor engagement.
+      tags:
+      - Event Auction Statistic
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/manage/{parent_id}/auction_statistics/:
+    get:
+      operationId: listEventAuctionStatistic
+      summary: List Event Auction Statistic
+      description: Retrieve auction statistics including total items sold, total revenue,
+        top donors, and bidding patterns. Provides comprehensive auction management
+        capabilities for effective event fundraising and donor engagement.
+      tags:
+      - Event Auction Statistic
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/manage/{parent_id}/auction_bidders/{pk}:
+    get:
+      operationId: getEventAuctionBidder
+      summary: Get Event Auction Bidder
+      description: Retrieve auction bidder listings and details including bidder names,
+        amounts, and bidding history. Provides comprehensive auction management capabilities
+        for effective event fundraising and donor engagement.
+      tags:
+      - Event Auction Bidder
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  first_name: {}
+                  email:
+                    nullable: true
+                  is_profile_mapping_ignored:
+                    type: boolean
+                  last_name:
+                    nullable: true
+                  paddle_number:
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/manage/{parent_id}/auction_bidders/:
+    get:
+      operationId: listEventAuctionBidder
+      summary: List Event Auction Bidder
+      description: Retrieve auction bidder listings and details including bidder names,
+        amounts, and bidding history. Provides comprehensive auction management capabilities
+        for effective event fundraising and donor engagement.
+      tags:
+      - Event Auction Bidder
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    first_name: {}
+                    email:
+                      nullable: true
+                    is_profile_mapping_ignored:
+                      type: boolean
+                    last_name:
+                      nullable: true
+                    paddle_number:
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/gifts/{pk}:
+    get:
+      operationId: getGift
+      summary: Get Gift
+      description: Retrieve donation and gift records associated with events and payment
+        batches. Provides comprehensive tracking for charitable contributions including
+        donor information, gift amounts, fund designations, campaign assignments,
+        and stewardship requirements with external advancement system synchronization.
+      tags:
+      - Gift
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  created_at:
+                    nullable: true
+                  external_database_status:
+                    nullable: true
+                  refund_amount: {}
+                  completed_at:
+                    nullable: true
+                  amount: {}
+                  external_database_id:
+                    description: A unique identified assigned by the external databases
+                      system.
+                    nullable: true
+                  payload: {}
+                  external_database_batch_number:
+                    description: External database batch number associated with the
+                      gift
+                    nullable: true
+                  is_donation:
+                    type: boolean
+                  source: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/gifts/:
+    get:
+      operationId: listGift
+      summary: List Gift
+      description: Retrieve donation and gift records associated with events and payment
+        batches. Provides comprehensive tracking for charitable contributions including
+        donor information, gift amounts, fund designations, campaign assignments,
+        and stewardship requirements with external advancement system synchronization.
+      tags:
+      - Gift
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    created_at:
+                      nullable: true
+                    external_database_status:
+                      nullable: true
+                    refund_amount: {}
+                    completed_at:
+                      nullable: true
+                    amount: {}
+                    external_database_id:
+                      description: A unique identified assigned by the external databases
+                        system.
+                      nullable: true
+                    payload: {}
+                    external_database_batch_number:
+                      description: External database batch number associated with
+                        the gift
+                      nullable: true
+                    is_donation:
+                      type: boolean
+                    source: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+  /api/v1/eventsx/{parent_id}/agendas/{pk}:
+    get:
+      operationId: getEventAgenda
+      summary: Get Event Agenda
+      description: Retrieve structured event agendas consisting of sub-events, sessions,
+        and activities for complex multi-session programming. Provides comprehensive
+        scheduling and coordination data including session details, timing information,
+        venue assignments, and technical requirements.
+      tags:
+      - Event Agenda
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  registered_campaign_url:
+                    description: URL for the registered guests campaign for this sub-event.
+                    readOnly: true
+                  validations:
+                    description: Validation rules and requirements for this sub-event.
+                    readOnly: true
+                  checked_in_campaign_url:
+                    description: URL for the checked-in guests campaign for this sub-event.
+                    readOnly: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases
+                      system.
+                    nullable: true
+                  start_datetime:
+                    description: Start date and time for this sub-event in the event's
+                      timezone.
+                    nullable: true
+                  tickets:
+                    description: Tickets available for this sub-event with pricing
+                      and availability information.
+                    nullable: true
+                  waitlist_registered_campaign_url:
+                    description: URL for the waitlist responded campaign for this
+                      sub-event.
+                    readOnly: true
+                  enable_waitlist:
+                    type: boolean
+                    description: Enable waitlist for this sub-event
+                  waitlist_created_campaign_url:
+                    description: URL for the waitlist-created campaign for this sub-event.
+                    readOnly: true
+                  is_ticket_mandatory:
+                    type: boolean
+                  sync_metadata:
+                    description: Additional metadata for synchronization with external
+                      systems.
+                  waitlist_expired_campaign_url:
+                    description: URL for the waitlist offer expired campaign for this
+                      sub-event.
+                    readOnly: true
+                  is_hide_on_itinerary:
+                    type: boolean
+                  guest_count:
+                    description: Number of guests registered for this sub-event.
+                    readOnly: true
+                  end_datetime:
+                    description: End date and time for this sub-event in the event's
+                      timezone.
+                    nullable: true
+                  notification_expiry_hours:
+                    description: Number of hours after which the waitlist notification
+                      link will expire
+                  name: {}
+                  waitlist_mode:
+                    description: 'Manual: Organizers must manually approve waitlisted
+                      registrations. Automatic: Registrations are automatically approved
+                      as space becomes available.'
+                  description:
+                    description: Description of the sub-event with HTML support.
+                    nullable: true
+                  open_slots_count:
+                    description: Available slots remaining for this sub-event.
+                    readOnly: true
+                  waitlist_notified_campaign_url:
+                    description: URL for the waitlist spot offered campaign for this
+                      sub-event.
+                    readOnly: true
+                  guests_limit:
+                    nullable: true
+                  is_active:
+                    type: boolean
+                  venue:
+                    nullable: true
+                  text_registered_campaign_url:
+                    description: URL for the registered guests text campaign for this
+                      sub-event.
+                    readOnly: true
+                  depends_on:
+                    description: JSON configuration defining dependencies and conditions
+                      for this sub-event.
+                    nullable: true
+                  text_checked_in_campaign_url:
+                    description: URL for the checked-in guests text campaign for this
+                      sub-event.
+                    readOnly: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/agendas/:
+    get:
+      operationId: listEventAgenda
+      summary: List Event Agenda
+      description: Retrieve structured event agendas consisting of sub-events, sessions,
+        and activities for complex multi-session programming. Provides comprehensive
+        scheduling and coordination data including session details, timing information,
+        venue assignments, and technical requirements.
+      tags:
+      - Event Agenda
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    registered_campaign_url:
+                      description: URL for the registered guests campaign for this
+                        sub-event.
+                      readOnly: true
+                    validations:
+                      description: Validation rules and requirements for this sub-event.
+                      readOnly: true
+                    checked_in_campaign_url:
+                      description: URL for the checked-in guests campaign for this
+                        sub-event.
+                      readOnly: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases
+                        system.
+                      nullable: true
+                    start_datetime:
+                      description: Start date and time for this sub-event in the event's
+                        timezone.
+                      nullable: true
+                    tickets:
+                      description: Tickets available for this sub-event with pricing
+                        and availability information.
+                      nullable: true
+                    waitlist_registered_campaign_url:
+                      description: URL for the waitlist responded campaign for this
+                        sub-event.
+                      readOnly: true
+                    enable_waitlist:
+                      type: boolean
+                      description: Enable waitlist for this sub-event
+                    waitlist_created_campaign_url:
+                      description: URL for the waitlist-created campaign for this
+                        sub-event.
+                      readOnly: true
+                    is_ticket_mandatory:
+                      type: boolean
+                    sync_metadata:
+                      description: Additional metadata for synchronization with external
+                        systems.
+                    waitlist_expired_campaign_url:
+                      description: URL for the waitlist offer expired campaign for
+                        this sub-event.
+                      readOnly: true
+                    is_hide_on_itinerary:
+                      type: boolean
+                    guest_count:
+                      description: Number of guests registered for this sub-event.
+                      readOnly: true
+                    end_datetime:
+                      description: End date and time for this sub-event in the event's
+                        timezone.
+                      nullable: true
+                    notification_expiry_hours:
+                      description: Number of hours after which the waitlist notification
+                        link will expire
+                    name: {}
+                    waitlist_mode:
+                      description: 'Manual: Organizers must manually approve waitlisted
+                        registrations. Automatic: Registrations are automatically
+                        approved as space becomes available.'
+                    description:
+                      description: Description of the sub-event with HTML support.
+                      nullable: true
+                    open_slots_count:
+                      description: Available slots remaining for this sub-event.
+                      readOnly: true
+                    waitlist_notified_campaign_url:
+                      description: URL for the waitlist spot offered campaign for
+                        this sub-event.
+                      readOnly: true
+                    guests_limit:
+                      nullable: true
+                    is_active:
+                      type: boolean
+                    venue:
+                      nullable: true
+                    text_registered_campaign_url:
+                      description: URL for the registered guests text campaign for
+                        this sub-event.
+                      readOnly: true
+                    depends_on:
+                      description: JSON configuration defining dependencies and conditions
+                        for this sub-event.
+                      nullable: true
+                    text_checked_in_campaign_url:
+                      description: URL for the checked-in guests text campaign for
+                        this sub-event.
+                      readOnly: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/itineraries/{pk}:
+    get:
+      operationId: getEventItinerary
+      summary: Get Event Itinerary
+      description: Retrieve detailed day-by-day itineraries for multi-day events,
+        conferences, and travel-based programs. Provides comprehensive scheduling
+        and logistics coordination including accommodation details, meal arrangements,
+        transportation logistics, and activity schedules.
+      tags:
+      - Event Itinerary
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  depends_on:
+                    description: JSON configuration defining dependencies and conditions
+                      for this itinerary item.
+                    nullable: true
+                  venue:
+                    nullable: true
+                  end_datetime:
+                    description: End date and time for this itinerary item in the
+                      event's timezone.
+                  is_active:
+                    type: boolean
+                  name: {}
+                  start_datetime:
+                    description: Start date and time for this itinerary item in the
+                      event's timezone.
+                  description:
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/itineraries/:
+    get:
+      operationId: listEventItinerary
+      summary: List Event Itinerary
+      description: Retrieve detailed day-by-day itineraries for multi-day events,
+        conferences, and travel-based programs. Provides comprehensive scheduling
+        and logistics coordination including accommodation details, meal arrangements,
+        transportation logistics, and activity schedules.
+      tags:
+      - Event Itinerary
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    depends_on:
+                      description: JSON configuration defining dependencies and conditions
+                        for this itinerary item.
+                      nullable: true
+                    venue:
+                      nullable: true
+                    end_datetime:
+                      description: End date and time for this itinerary item in the
+                        event's timezone.
+                    is_active:
+                      type: boolean
+                    name: {}
+                    start_datetime:
+                      description: Start date and time for this itinerary item in
+                        the event's timezone.
+                    description:
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/discounts/{pk}:
+    get:
+      operationId: getEventDiscount
+      summary: Get Event Discount
+      description: Retrieve discount codes and promotional pricing strategies for
+        events supporting flexible pricing and targeted attendee incentives. Provides
+        access to discount configurations, eligibility requirements, usage tracking,
+        and promotional campaign effectiveness data.
+      tags:
+      - Event Discount
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  max_discount:
+                    description: Max amount that can be discounted
+                    nullable: true
+                  end_datetime:
+                    nullable: true
+                  tickets:
+                    description: Tickets that this discount code applies to.
+                    nullable: true
+                  mapped_affiliations:
+                    description: Affiliations that this discount code is restricted
+                      to.
+                    nullable: true
+                  mapped_memberships:
+                    description: Membership types that this discount code is restricted
+                      to.
+                    nullable: true
+                  discount_type: {}
+                  code: {}
+                  value:
+                    description: Discount value (percentage or fixed amount depending
+                      on discount_type).
+                  is_active:
+                    type: boolean
+                  min_cart_value:
+                    nullable: true
+                  start_datetime:
+                    nullable: true
+                  is_public:
+                    type: boolean
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/discounts/:
+    get:
+      operationId: listEventDiscount
+      summary: List Event Discount
+      description: Retrieve discount codes and promotional pricing strategies for
+        events supporting flexible pricing and targeted attendee incentives. Provides
+        access to discount configurations, eligibility requirements, usage tracking,
+        and promotional campaign effectiveness data.
+      tags:
+      - Event Discount
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    max_discount:
+                      description: Max amount that can be discounted
+                      nullable: true
+                    end_datetime:
+                      nullable: true
+                    tickets:
+                      description: Tickets that this discount code applies to.
+                      nullable: true
+                    mapped_affiliations:
+                      description: Affiliations that this discount code is restricted
+                        to.
+                      nullable: true
+                    mapped_memberships:
+                      description: Membership types that this discount code is restricted
+                        to.
+                      nullable: true
+                    discount_type: {}
+                    code: {}
+                    value:
+                      description: Discount value (percentage or fixed amount depending
+                        on discount_type).
+                    is_active:
+                      type: boolean
+                    min_cart_value:
+                      nullable: true
+                    start_datetime:
+                      nullable: true
+                    is_public:
+                      type: boolean
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/images/{pk}:
+    get:
+      operationId: getEventImage
+      summary: Get Event Image
+      description: Retrieve visual content and media galleries for events including
+        promotional images, event photography, speaker headshots, venue photos, and
+        marketing materials. Provides comprehensive visual content supporting event
+        promotion, documentation, and institutional branding initiatives.
+      tags:
+      - Event Image
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  image_type:
+                    description: Type of image (e.g., 'banner', 'logo', 'gallery',
+                      'hero').
+                  image:
+                    description: Image file for the event (banner, logo, gallery image,
+                      etc.).
+                  image_orientation: {}
+                  caption:
+                    description: Caption or description for the image.
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/images/:
+    get:
+      operationId: listEventImage
+      summary: List Event Image
+      description: Retrieve visual content and media galleries for events including
+        promotional images, event photography, speaker headshots, venue photos, and
+        marketing materials. Provides comprehensive visual content supporting event
+        promotion, documentation, and institutional branding initiatives.
+      tags:
+      - Event Image
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    image_type:
+                      description: Type of image (e.g., 'banner', 'logo', 'gallery',
+                        'hero').
+                    image:
+                      description: Image file for the event (banner, logo, gallery
+                        image, etc.).
+                    image_orientation: {}
+                    caption:
+                      description: Caption or description for the image.
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/contact_persons/{pk}:
+    get:
+      operationId: getEventContactPerson
+      summary: Get Event Contact Person
+      description: Retrieve contact information for event staff, organizers, coordinators,
+        and key personnel who serve as primary communication points throughout the
+        complete event lifecycle. Provides comprehensive staff coordination data including
+        contact details, role descriptions, and communication protocols.
+      tags:
+      - Event Contact Person
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  email:
+                    nullable: true
+                  phone_number:
+                    nullable: true
+                  name: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/contact_persons/:
+    get:
+      operationId: listEventContactPerson
+      summary: List Event Contact Person
+      description: Retrieve contact information for event staff, organizers, coordinators,
+        and key personnel who serve as primary communication points throughout the
+        complete event lifecycle. Provides comprehensive staff coordination data including
+        contact details, role descriptions, and communication protocols.
+      tags:
+      - Event Contact Person
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    email:
+                      nullable: true
+                    phone_number:
+                      nullable: true
+                    name: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/announcements/{pk}:
+    get:
+      operationId: getEventAnnouncement
+      summary: Get Event Announcement
+      description: Retrieve announcements and communications for event attendees providing
+        comprehensive messaging capabilities for effective information distribution.
+        Offers access to announcement content, privacy settings, publication status,
+        and audience targeting information.
+      tags:
+      - Event Announcement
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/announcements/:
+    get:
+      operationId: listEventAnnouncement
+      summary: List Event Announcement
+      description: Retrieve announcements and communications for event attendees providing
+        comprehensive messaging capabilities for effective information distribution.
+        Offers access to announcement content, privacy settings, publication status,
+        and audience targeting information.
+      tags:
+      - Event Announcement
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/invitees/{pk}:
+    get:
+      operationId: getEventInvitee
+      summary: Get Event Invitee
+      description: Retrieve event invitation lists and invitee information including
+        contact details, invitation status, RSVP tracking, and targeted outreach campaigns.
+        Provides comprehensive outreach coordination data from invitation development
+        through registration conversion.
+      tags:
+      - Event Invitee
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  first_name: {}
+                  email:
+                    nullable: true
+                  invite_status: {}
+                  last_name:
+                    nullable: true
+                  allow_workflow_emails:
+                    type: boolean
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/invitees/:
+    get:
+      operationId: listEventInvitee
+      summary: List Event Invitee
+      description: Retrieve event invitation lists and invitee information including
+        contact details, invitation status, RSVP tracking, and targeted outreach campaigns.
+        Provides comprehensive outreach coordination data from invitation development
+        through registration conversion.
+      tags:
+      - Event Invitee
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    first_name: {}
+                    email:
+                      nullable: true
+                    invite_status: {}
+                    last_name:
+                      nullable: true
+                    allow_workflow_emails:
+                      type: boolean
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string

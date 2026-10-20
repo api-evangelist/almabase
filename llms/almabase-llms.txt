@@ -1,188 +1,501 @@
-# Almabase: AI-Powered Alumni Engagement and Fundraising Platform
-
-> Almabase is an integrated advancement platform that works on top of an institution’s CRM to help teams engage constituents, manage events, run online giving campaigns, and grow donor participation without adding more manual work.
-
-Almabase is built for advancement, alumni relations, annual giving, advancement services, and fundraising teams across higher education, K-12 schools, and nonprofit organizations. The platform brings digital engagement, event management, online giving, communications, AI, and CRM data sync into one connected system, helping teams move from scattered tools and manual exports to a more unified advancement workflow.
-
-Almabase is trusted by 500+ educational institutions and is especially strong for teams using Blackbaud systems such as Raiser's Edge NXT and Blackbaud CRM. Through TrueSync, Almabase helps teams keep engagement, event, giving, and constituent data connected with their CRM so advancement teams can run campaigns, update records, and report on impact with less manual effort.
-
-## What Almabase Helps Teams Do
-
-Almabase helps advancement teams:
-
-- Build stronger alumni, donor, parent, and constituent relationships through digital engagement programs.
-- Run alumni events, reunions, homecomings, galas, golf tournaments, and multi-day events with easier registration, check-in, communication, and reporting.
-- Launch online giving campaigns, giving days, crowdfunding campaigns, and donor participation initiatives.
-- Communicate with constituents across email, text, newsletters, and AI-assisted outreach.
-- Keep CRM data cleaner and more actionable through integrations with Raiser's Edge NXT, Blackbaud CRM, Salesforce, Ellucian, and other systems.
-- Reduce tool sprawl by bringing engagement, events, communications, giving, and CRM sync into one platform.
-
-## Core Product Suite
-
-- [Digital Engagement Platform](https://www.almabase.com/build-a-custom-program): A connected platform for building alumni and constituent engagement programs such as directories, mentorship, affinity groups, job boards, business directories, and personalized updates. It helps advancement teams create more self-serve opportunities for alumni to connect, participate, and stay engaged with the institution.
-
-- [Event Management](https://www.almabase.com/products/events): Event management software built for school and university advancement teams. Almabase supports event page creation, registration, ticketing, guest management, sub-events, communications, payments, check-in, post-event reporting, and CRM sync, making it easier to run everything from small alumni gatherings to complex reunions and fundraising events.
-
-- [Online Giving & Giving Day Platform](https://www.almabase.com/products/giving-day-platform): A giving platform for annual giving teams that want to increase donor participation through online donation pages, giving days, peer-to-peer fundraising, campaign pages, urgency-based giving moments, and donor-friendly checkout experiences.
-
-- [Multichannel Communications](https://www.almabase.com/multi-channel-bundle): A communications bundle that helps teams reach constituents through email, text, newsletters, and automated campaigns. It is designed to improve outreach consistency, personalize messages, and support larger-scale engagement without adding more manual follow-up.
-
-- [Emily AI](https://www.almabase.com/emily-ai): AI-powered tools for advancement teams that help with faster, more personalized communication. Emily AI supports teams in creating context-aware outreach, improving engagement workflows, and reducing the time spent drafting constituent-facing messages.
-
-## Digital Engagement Tools
-
-- [Alumni Directory](https://www.almabase.com/product/alumni-directory): A searchable alumni directory that helps constituents find and connect with each other while giving advancement teams a way to keep alumni data more complete and up to date.
-
-- [Job Board](https://www.almabase.com/product/job-boards): A community job board where alumni, students, and supporters can share opportunities, discover roles, and strengthen career-based engagement within the institution’s network.
-
-- [Mentorship](https://www.almabase.com/product/mentorship): A mentorship tool for running alumni-student, alumni-alumni, or career mentoring programs. It helps teams structure mentor matching, participation, and engagement without relying on disconnected spreadsheets or manual coordination.
-
-- [Business Directory](https://www.almabase.com/product/business-directory): A directory that allows alumni and community members to showcase businesses, services, and professional offerings, helping institutions create more value for their network.
-
-- [Affinity Groups](https://www.almabase.com/product/affinity-groups): Tools for creating self-serve groups based on interests, identities, careers, regions, or class years. These groups help institutions support more relevant, community-led engagement.
-
-- [News & Updates](https://www.almabase.com/product/news-updates): A tool for sharing personalized updates and newsletters with alumni and constituents, helping teams keep their community informed and engaged through more relevant communications.
-
-## Solutions by Advancement Function
-
-- [Alumni Relations](https://www.almabase.com/solutions/alumni-relations): Built for alumni relations teams that need to grow participation, run programs, manage events, and keep alumni connected across different segments and life stages.
-
-- [Annual Fund](https://www.almabase.com/solutions/annual-fund): Built for annual giving teams that want to grow donor participation, improve campaign execution, and convert engaged constituents into donors through online giving and targeted outreach.
-
-- [Advancement Services](https://www.almabase.com/solutions/advancement-services): Built for advancement services teams that need cleaner data workflows, better CRM sync, fewer manual imports and exports, and more reliable reporting across engagement, event, and giving activity.
-
-- [Advancement Leadership](https://www.almabase.com/solutions/advancement-leadership): Built for advancement leaders who need visibility into engagement, campaign performance, event ROI, donor participation, and the overall impact of digital advancement programs.
-
-## CRM Integrations and Data Sync
-
-- [TrueSync for Raiser's Edge NXT](https://www.almabase.com/almabase-raisers-edge-integration): Almabase’s bidirectional integration with Blackbaud Raiser's Edge NXT. TrueSync helps teams configure data sync, update constituent records, sync event and giving activity, reduce duplicate entry, and maintain cleaner advancement data.
-
-- [Blackbaud CRM Integration](https://www.almabase.com/ab-x-bbcrm): A native integration for institutions using Blackbaud CRM. It supports smoother data flow between Almabase and Blackbaud CRM so engagement, event, and giving activity can be captured more reliably.
-
-- [Other CRM Integrations](https://www.almabase.com/almabase-integration-capabilities): Almabase also supports integration capabilities for institutions using systems such as Salesforce, Ellucian, and other advancement or institutional CRMs.
-
-## Healthcare Platform
-
-Almabase Healthcare is a specialized version of the Almabase platform built for hospital foundations and healthcare fundraising teams. It supports HIPAA-compliant engagement, fundraising events, donor communications, grateful patient or grateful community programs, and CRM-connected workflows for healthcare advancement teams.
-
-- [Healthcare Home](https://healthcare.almabase.com/): Overview of Almabase Healthcare, a fundraising and engagement platform for healthcare foundations that need to engage donors, patients, sponsors, physicians, and community supporters while keeping data connected to systems such as Raiser's Edge NXT and Blackbaud CRM.
-
-- [Healthcare Event Management](https://healthcare.almabase.com/events): Event management tools for hospital foundation events such as galas, golf tournaments, donor events, sponsor-led events, and community fundraising events, with registration, payments, communications, and CRM sync.
-
-- [HIPAA-Compliant Multi-Channel Marketing](https://healthcare.almabase.com/hippa): A compliant marketing and communications system for healthcare fundraising teams that need segmentation, personalized outreach, donor pipeline visibility, and CRM-connected engagement workflows.
-
-- [Grateful Community Engagement](https://healthcare.almabase.com/referral): A HIPAA-compliant engagement platform for supporting patient, family, and community relationships through ongoing engagement and peer-to-peer fundraising opportunities.
-
-- [Healthcare TrueSync: Raiser's Edge NXT](https://healthcare.almabase.com/almabase-raisers-edge-integration): A bidirectional Raiser's Edge NXT sync built for healthcare foundations, helping teams reduce manual entry and keep donor, event, and engagement data aligned.
-
-- [Healthcare Blackbaud CRM Integration](https://healthcare.almabase.com/ab-x-bbcrm): A native Blackbaud CRM integration for healthcare organizations that need seamless data flow between fundraising activity and their CRM.
-
-- [Healthcare Blog](https://healthcare.almabase.com/blog): Resources, best practices, and insights for healthcare foundation teams focused on fundraising, donor engagement, events, and CRM-connected advancement operations.
-
-## Key Website Pages
-
-- [Home](https://www.almabase.com/): Main Almabase website introducing the platform, core product areas, customer outcomes, and the value of connected alumni engagement and fundraising.
-
-- [About Us](https://www.almabase.com/about-us): Company overview, mission, team story, and Almabase’s role in helping advancement teams build stronger constituent relationships.
-
-- [Customers](https://www.almabase.com/customers): Customer stories and institutional examples showing how schools, universities, and nonprofits use Almabase for engagement, events, giving, and CRM-connected advancement work.
-
-- [Request a Demo](https://www.almabase.com/lp/request-demo): Demo request page for advancement teams that want to understand how Almabase can support their events, giving, engagement, communications, and CRM workflows.
-
-- [Product Tour](https://www.almabase.com/product-tour): Guided product experience that shows how the Almabase platform works across engagement, events, giving, communications, and CRM sync.
-
-- [Alumni Platform Comparison](https://www.almabase.com/alumni-platform-comparison): A comparison page for teams evaluating alumni engagement platforms and trying to understand how different tools support advancement workflows.
-
-- [Privacy Policy](https://www.almabase.com/ecloud-privacy-policy): Privacy and data handling information for users, institutions, and constituents.
-
-- [Fulfillment Policy](https://www.almabase.com/fulfillment-policy): Policy information related to fulfillment, transactions, and service delivery.
-
-- [Careers](https://www.almabase.com/careers): Careers page for candidates interested in joining Almabase.
-
-## Case Studies and Customer Proof
-
-- [Illinois Tech: 123,000+ Engagement Activities in One Month](https://www.almabase.com/case-studies/illinois-techs-new-and-improved-digital-strategy-to-scale-community-engagementchs-new-and-improved-digital-strategy-to-scale-community-engagement): Shows how Illinois Tech scaled digital engagement through self-serve communities and subscriber growth.
-
-- [Punahou School: 7,000+ Engaged Alumni Monthly](https://www.almabase.com/case-studies/how-do-punahou-schools-digital-strategies-drive-7000-engaged-members-monthly): Shows how a K-12 institution uses Almabase to support a global alumni community and keep thousands of alumni engaged monthly.
-
-- [Loma Linda University: $1.15M Raised in Gifts](https://www.almabase.com/case-studies/alumni-association-of-the-school-of-medicine-of-loma-linda-university-improves-giving-experience-and-raises-over-1-million-in-gifts): Shows how Loma Linda University improved the giving experience and raised more than $1 million through Almabase.
-
-- [Thomas Aquinas College: 45% Alumni Donor Participation Rate](https://www.almabase.com/case-studies/how-thomas-aquinas-college-holds-one-of-the-highest-alumni-donor-participation-rates-across-the-country): Shows how Thomas Aquinas College achieved strong alumni donor participation through targeted engagement and giving efforts.
-
-- [Merchant Taylors' School: 3X Alumni Giving](https://www.almabase.com/case-studies/time-talent-and-then-treasure-how-merchant-taylors-school-nurtured-its-community-to-give-back): Shows how a lean team used Almabase to automate outreach, run community programs, and increase alumni giving.
-
-- [Concordia College: Relationship Building in a Digital-First Age](https://www.almabase.com/case-studies/concordias-strategy-for-relationship-building-in-a-digital-first-age): Shows how Concordia used Almabase for branded, communication-led alumni engagement.
-
-- [Boyd Buchanan School: Turning Alumni Engagement into Fundraising Success](https://www.almabase.com/case-studies/how-boyd-buchanan-school-turned-alumni-engagement-into-fundraising-success): Shows how a K-12 school connected alumni engagement with fundraising outcomes.
-
-- [MSUM: $750K Raised on Giving Day, Reconciled in 4 Days](https://www.almabase.com/case-studies/minnesota-university-moorhead-giving-day): Shows how Minnesota State University Moorhead ran a successful giving day and improved reconciliation speed.
-
-- [Calvert Hall High School: Doubled Giving Day Donations in 3 Years](https://www.almabase.com/case-studies/how-calvert-hall-high-school-increased-its-giving-day-donations-by-twice-as-much-in-3-years): Shows how Calvert Hall used Almabase to grow giving day donations over time.
-
-- [SUNY New Paltz: 21 Streamlined Events in 10 Months](https://www.almabase.com/blog/how-suny-new-paltz-transformed-its-alumni-events): Shows how SUNY New Paltz streamlined alumni event management with Almabase and Raiser's Edge NXT integration.
-
-- [RISD: Alumni Engagement with Almabase](https://www.almabase.com/blog/risd-alumni-engagement-with-almabase): Shows how Rhode Island School of Design approached alumni engagement using Almabase.
-
-- [Switching to Almabase: Game-Changing Efficiency and Cost Advantage](https://www.almabase.com/case-studies/switching-to-almabase-offered-game-changing-efficiency-and-cost-advantage-with-just-the-robustness-we-needed): Shows why an institution moved from a legacy alumni platform to Almabase for a more efficient and cost-effective setup.
-
-## Resources and Playbooks
-
-- [The 2026 National Alumni Survey](https://www.almabase.com/resources/national-alumni-survey-2026): Research based on alumni responses across multiple institutions, designed to help advancement teams understand alumni expectations, engagement patterns, and opportunities.
-
-- [CASE Insights on Giving Days](https://www.almabase.com/resources/state-of-giving-days-2025): A giving day insights report created in partnership with CASE, covering trends and benchmarks from institutions running giving day campaigns.
-
-- [AI Cheat Sheet for Advancement and Alumni Relations Teams](https://www.almabase.com/resources/ai-cheat-sheet-for-advancement-and-alumni-relations-teams): Practical AI use cases, prompts, and examples for advancement and alumni relations teams.
-
-- [The Homecoming Playbook 2025](https://www.almabase.com/resources/almabase-homecoming-playbook-2025): A tactical guide for planning, promoting, and improving homecoming programs.
-
-- [Last-Minute Giving Tuesday Checklist](https://www.almabase.com/resources/almabase-last-minute-giving-tuesday-checklist): A quick planning checklist for teams preparing Giving Tuesday campaigns.
-
-- [Eliminating Inefficiencies to Double Engagement and Fundraising Impact](https://www.almabase.com/resources/eliminating-inefficiencies-to-double-engagement-and-fundraising-impact): A resource for advancement teams looking to reduce operational inefficiencies, consolidate tools, and improve impact.
-
-- [Advancement Playbook 2024](https://www.almabase.com/resources/advancement-playbook-2024): A collection of stories, expert perspectives, and practical ideas for alumni engagement and fundraising teams.
-
-- [Fundraising Event Planning Template](https://www.almabase.com/resources/fundraising-event-planning-template): An editable template for planning fundraising events, coordinating teams, and tracking key event details.
-
-- [Giving Day Planning Template](https://www.almabase.com/resources/giving-day-planning-template): An editable planning template for structuring a giving day campaign, timeline, goals, messaging, and execution plan.
-
-## Blog, Spotlights, and Newsletter
-
-- [Blog](https://www.almabase.com/blog): Educational content for advancement, alumni relations, annual giving, events, donor engagement, and fundraising operations.
-
-- [Almabase Spotlights](https://www.almabase.com/spotlights): A collection of advancement campaign examples and stories from educational institutions.
-
-- [Humans of Advancement — Alex Perkins](https://www.almabase.com/spotlights/alex-perkins): A spotlight featuring advancement leadership, career experiences, and practical insights from the field.
-
-- [Humans of Advancement — Kim Rich](https://www.almabase.com/spotlights/kim-rich): A profile highlighting perspectives and lessons from an advancement professional.
-
-- [Humans of Advancement — Sharon Parkinson](https://www.almabase.com/spotlights/sharon-parkinson): A spotlight focused on advancement work, leadership, and community-building experience.
-
-- [Florida Polytechnic University Spotlight](https://www.almabase.com/spotlights/florida-polytechnic-university): A campaign or institutional spotlight from Florida Polytechnic University.
-
-- [Yale University Spotlight](https://www.almabase.com/spotlights/yale-university): A spotlight featuring advancement or alumni engagement work connected to Yale University.
-
-- [Indiana University Spotlight](https://www.almabase.com/spotlights/indiana-university): A spotlight featuring advancement campaign ideas and engagement examples from Indiana University.
-
-- [Eastern Virginia Medical School Spotlight](https://www.almabase.com/spotlights/eastern-virginia-medical-school): A spotlight featuring healthcare or education advancement work from Eastern Virginia Medical School.
-
-- [University of South Florida Spotlight](https://www.almabase.com/spotlights/university-of-south-florida): A spotlight featuring advancement, engagement, or fundraising work from the University of South Florida.
-
-- [Advancement Pulse](https://www.almabase.com/newsletter): Almabase’s monthly newsletter for advancement professionals, featuring practical insights, checklists, playbooks, and industry updates.
-
-## Competitive Comparisons
-
-- [Almabase vs Graduway](https://www.almabase.com/alternatives/graduway-vs-almabase): Comparison for teams evaluating Almabase against Graduway for alumni engagement, events, giving, and CRM-connected advancement workflows.
-
-- [Almabase vs GiveCampus](https://www.almabase.com/alternatives/givecampus-vs-almabase): Comparison for teams evaluating Almabase and GiveCampus for online giving, giving days, donor engagement, and broader advancement use cases.
-
-- [Almabase vs Hivebrite](https://www.almabase.com/lp/almabase-vs-hivebrite): Comparison for teams evaluating community engagement platforms and looking for a solution designed around advancement workflows.
-
-- [Almabase vs 360Alumni](https://www.almabase.com/lp/almabase-vs-360alumni): Comparison for institutions evaluating alumni community platforms and CRM-connected engagement tools.
-
-- [Almabase vs iModules / Anthology](https://www.almabase.com/lp/almabase-vs-imodules): Comparison for teams considering alternatives to legacy alumni engagement and advancement platforms.
-
-- [Almabase vs Blackbaud NetCommunity](https://www.almabase.com/alternatives/blackbaud-net-community): Comparison for Blackbaud NetCommunity users evaluating a more modern platform for alumni engagement, event management, online giving, and CRM-connected advancement workflows.
-
-## Sitemap
-
-- [Sitemap](https://www.almabase.com/sitemap.xml): XML sitemap containing Almabase’s indexed website pages.
+# Almabase Help Center
+
+> Almabase Help Center: Your Guide to Using Almabase
+
+## Getting Started
+
+- [Adding an Admin User](https://docs.almabase.com/en/articles/1235210-adding-an-admin-user.md): Learn how to add site admins or other admin users and grant access to specific platform features.
+- [Understanding Admin Permissions](https://docs.almabase.com/en/articles/9310869-understanding-admin-permissions.md): Understand the level of access each admin permission offers
+- [Admin Home Page Explained](https://docs.almabase.com/en/articles/9318208-admin-home-page-explained.md)
+- [Passwordless Login on Almabase](https://docs.almabase.com/en/articles/5230780-passwordless-login-on-almabase.md): Understand how passwordless login provides a convenient way for users to access the website and also maintain a high level of security
+- [Log-in System on Almabase](https://docs.almabase.com/en/articles/5209937-log-in-system-on-almabase.md): A quick overview of the Passwordless login system on Almabase
+- [FAQs on the New Passwordless Sign-Up Process](https://docs.almabase.com/en/articles/5188224-faqs-on-the-new-passwordless-sign-up-process.md): This article covers: Single use Code, Updating login email address, Passwordless login system, and Setting up other SSO options
+- [Signing Up on the Platform](https://docs.almabase.com/en/articles/4964981-signing-up-on-the-platform.md): Learn how to register for an account on the platform.
+- [Understanding the Approval System for New Sign-Ups on your Platform](https://docs.almabase.com/en/articles/8019741-understanding-the-approval-system-for-new-sign-ups-on-your-platform.md): Learn how the approval system works — three verification paths \(email match, manual review, invite link\), what happens to pending users, and how directory visibility is affected.
+- [FAQs on Home Page](https://docs.almabase.com/en/articles/1942378-faqs-on-home-page.md): Find answers to common questions about features related to the home page, custom cards, events card and social feed.
+- [FAQs on Profile Page](https://docs.almabase.com/en/articles/1942594-faqs-on-profile-page.md): Find answers to common questions about the profile page, how to access it, customize fields and more.
+- [FAQs on Custom Fields](https://docs.almabase.com/en/articles/1957286-faqs-on-custom-fields.md): Find answers to common questions about the different types of custom fields and more.
+- [Other FAQs](https://docs.almabase.com/en/articles/1957303-other-faqs.md): Find out about commonly asked questions around the various features we have.
+
+## Settings
+
+- [Configure Branding and Notification Setup](https://docs.almabase.com/en/articles/6501434-configure-branding-and-notification-setup.md): Learn how to update essential site settings like name, logo, colors, and social media links for your institution.
+- [Adding Google Analytics to Your Almabase Website](https://docs.almabase.com/en/articles/6747933-adding-google-analytics-to-your-almabase-website.md): Learn how to set up the latest version of Google Analytics \(GA4\) to track user behavior on your Almabase website.
+- [Setting Up the Sign-up Form](https://docs.almabase.com/en/articles/15703403-setting-up-the-sign-up-form.md): Configure what alumni see and fill in when they create an account — from the fields they complete to the experience that guides them through.
+- [Default Email Preference for Admin-created Profiles](https://docs.almabase.com/en/articles/15432539-default-email-preference-for-admin-created-profiles.md): Set a site-wide default email preference that’s automatically applied when admins create new profiles in Data Studio or mapping—so new records always start with a consistent email permission.
+- [Sending Automated Birthday Emails to Alumni](https://docs.almabase.com/en/articles/8016339-sending-automated-birthday-emails-to-alumni.md): Learn how to set up and customize automated birthday and anniversary emails for your alumni using the platform.
+- [Adding or Changing Banner Images \(Almabase Landing Page only\)](https://docs.almabase.com/en/articles/1235245-adding-or-changing-banner-images-almabase-landing-page-only.md): Learn more about banner pictures, the sliding images that appear on your home page. Learn how to add new pictures or edit existing ones.
+- [Updating the Privacy Policy & Terms of Use Page](https://docs.almabase.com/en/articles/5399110-updating-the-privacy-policy-terms-of-use-page.md): Learn more about where to find and update the Terms & Conditions pages.
+- [How to Add a New Menu Item to the Navigation or Header and Footer Menu? \(Almabase Landing Page only\)](https://docs.almabase.com/en/articles/1235199-how-to-add-a-new-menu-item-to-the-navigation-or-header-and-footer-menu-almabase-landing-page-only.md): Learn more on how to add new links, like a magazine or newsletter link, to the navigation menus.
+- [Adding a Custom Domain for Your Site](https://docs.almabase.com/en/articles/6544442-adding-a-custom-domain-for-your-site.md): Learn how to change the domain for your Almabase platform with step-by-step instructions.
+- [Add DNS records to your provider](https://docs.almabase.com/en/articles/4956172-add-dns-records-to-your-provider.md): See how to add the domain settings received from Almabase to your domain provider
+- [Verify the Domain Settings](https://docs.almabase.com/en/articles/4956603-verify-the-domain-settings.md): Use Mxtoolbox to verify the domain settings
+- [Domain Setup FAQ](https://docs.almabase.com/en/articles/5404615-domain-setup-faq.md): Get answers to common questions about domain setup, purchasing decisions, and troubleshooting access issues after your custom domain goes live.
+- [I'm Unable to Access the Platform Even After DNS Change. Are There Any Additional Changes to Be Made?](https://docs.almabase.com/en/articles/1265594-i-m-unable-to-access-the-platform-even-after-dns-change-are-there-any-additional-changes-to-be-made.md)
+- [Supported Payment Account Providers on Almabase](https://docs.almabase.com/en/articles/1235283-supported-payment-account-providers-on-almabase.md): All the Payment Accounts we support, including PayPal, Stripe, Authorize.net, BBMS, CyberSource, TouchNet, etc.
+- [Setting Up a Payment Account](https://docs.almabase.com/en/articles/1235281-setting-up-a-payment-account.md): Learn how to configure and set up payment accounts on Almabase for accepting payments.
+- [Setting Up a Stripe Account](https://docs.almabase.com/en/articles/2794295-setting-up-a-stripe-account.md): Learn how to obtain Stripe's "publishable" and "secret" keys and connect your Stripe account with Almabase.
+- [Setting Up an Authorize.Net Payment Account](https://docs.almabase.com/en/articles/1307212-setting-up-an-authorize-net-payment-account.md): Learn how to integrate your Authorize.Net Checkout account with Almabase for processing payments.
+- [Obtaining API Login ID, Client ID & Transaction Key for Authorize.net Checkout Setup](https://docs.almabase.com/en/articles/2751489-obtaining-api-login-id-client-id-transaction-key-for-authorize-net-checkout-setup.md): Learn how to get the necessary credentials for integrating Authorize.net with Almabase.
+- [Setting Up a PayPal Checkout Account](https://docs.almabase.com/en/articles/5815775-setting-up-a-paypal-checkout-account.md): Learn how to enable a PayPal Checkout account on your platform for a smooth payment experience.
+- [Setting Up a CyberSource Payment Account](https://docs.almabase.com/en/articles/6046634-setting-up-a-cybersource-payment-account.md): Learn how to link your CyberSource Payment account with Almabase for processing payments.
+- [Understanding System emails and how they are different from bulk email campaigns](https://docs.almabase.com/en/articles/1235240-understanding-system-emails-and-how-they-are-different-from-bulk-email-campaigns.md): Learn more about how system emails/automated emails and bulk emails are different
+- [Configuring the Sender Email Address for Automated Emails](https://docs.almabase.com/en/articles/1776387-configuring-the-sender-email-address-for-automated-emails.md): Learn more about adjusting sender and reply-to addresses for automated communications.
+- [Automated Emails Sent for Events](https://docs.almabase.com/en/articles/11784608-automated-emails-sent-for-events.md): A comprehensive guide to all automated emails sent for events on Almabase, categorized for guests and admins
+- [Automated Emails Sent for Giving](https://docs.almabase.com/en/articles/11790636-automated-emails-sent-for-giving.md): A comprehensive guide to all automated emails sent for giving on Almabase, categorized for guests and admins
+- [Automated Emails for User Registration and Engagement](https://docs.almabase.com/en/articles/16544078-automated-emails-for-user-registration-and-engagement.md): All the automated emails Almabase sends for user registration, verification, and engagement — what triggers each, and how to customise them.
+
+## Data Management and Integration with CRMs
+
+- [Pushing Form Submissions from Events and Giving to Almabase Profiles](https://docs.almabase.com/en/articles/17464588-pushing-form-submissions-from-events-and-giving-to-almabase-profiles.md): Push event Registration and Guest form and giving page Pre-payment and Post-payment form data to Almabase profiles with the Events and Giving connectors, and custom form questions with form connect...
+- [Importing Constituent Data from an Excel file into Almabase](https://docs.almabase.com/en/articles/8027802-importing-constituent-data-from-an-excel-file-into-almabase.md): Learn how to import constituent data from an Excel file into Almabase, handle common errors, and verify your directory.
+- [Adding a Record from Data Studio](https://docs.almabase.com/en/articles/1235298-adding-a-record-from-data-studio.md): Learn how to manually create new records on your Almabase site from Data Studio
+- [Deleting, or Archiving a Record and User from the Platform](https://docs.almabase.com/en/articles/3425071-deleting-or-archiving-a-record-and-user-from-the-platform.md): Learn the process to archive a record and delete a user etc.
+- [User Approvals](https://docs.almabase.com/en/articles/5275987-user-approvals.md): How to find pending sign-ups and take action — Approve Access, Block Access, or Request More Info. Includes checking registration form completion and handling duplicates.
+- [Requesting for More Information](https://docs.almabase.com/en/articles/5440563-requesting-for-more-information.md): Learn how both users and admins can request and provide additional information during the verification process.
+- [How to View the List of All Registered Users?](https://docs.almabase.com/en/articles/1515824-how-to-view-the-list-of-all-registered-users.md): Learn more about how to find the list of all registered users on both the old and new admin navigation.
+- [Managing Data on Almabase](https://docs.almabase.com/en/articles/16757457-managing-data-on-almabase.md): Learn how to use Data Studio to search, filter, update, and manage your constituent records — all from one place.
+- [How to reference a Raiser's Edge list on Data Studio?](https://docs.almabase.com/en/articles/9700544-how-to-reference-a-raiser-s-edge-list-on-data-studio.md): see how to use the internal name to reference the Raiser's Edge list imported into Almabase
+- [FAQs on Data Studio](https://docs.almabase.com/en/articles/8066738-faqs-on-data-studio.md): Find answers to common questions about Data Studio.
+- [How to Merge Duplicate Profiles?](https://docs.almabase.com/en/articles/1235208-how-to-merge-duplicate-profiles.md): Learn how to merge two profiles that are identified as duplicates.
+- [FAQs on Merging Duplicate Profiles](https://docs.almabase.com/en/articles/3153677-faqs-on-merging-duplicate-profiles.md): Find answers to common questions about features related to profile merging, and registered users.
+- [FAQs on User Profiles](https://docs.almabase.com/en/articles/8694045-faqs-on-user-profiles.md)
+- [How to Add or Append a New Email Address for Existing Profiles through Excel Import?](https://docs.almabase.com/en/articles/8797518-how-to-add-or-append-a-new-email-address-for-existing-profiles-through-excel-import.md)
+- [Understanding the Importance of Mapping](https://docs.almabase.com/en/articles/5275712-understanding-the-importance-of-mapping.md): Learn more about how mapping enhances community engagement and optimizes your time.
+- [Auto-mapping Rules: Matching Guests and Gifts to your Constituents](https://docs.almabase.com/en/articles/15190987-auto-mapping-rules-matching-guests-and-gifts-to-your-constituents.md): Configure how Almabase automatically matches incoming guests and gifts to your existing constituents. Choose the rule based on how your constituent data is structured.
+- [Setting up Integration with Raiser's Edge NXT](https://docs.almabase.com/en/articles/14457037-setting-up-integration-with-raiser-s-edge-nxt.md): See how to connect your RE database to Almabase and sync constituents between Almabase and Raiser's Edge NXT
+- [Connecting Raiser's Edge NXT and BBMS to Almabase](https://docs.almabase.com/en/articles/17212496-connecting-raiser-s-edge-nxt-and-bbms-to-almabase.md): Step-by-step guide to connecting your RE NXT account to Almabase, including Marketplace apps, user permissions, and BBMS setup.
+- [Connect Blackbaud CRM with Almabase](https://docs.almabase.com/en/articles/11403252-connect-blackbaud-crm-with-almabase.md): Step by step instructions on how to connect your Blackbaud CRM to Almabase to start syncing contact information on records.
+- [Pulling Constituent Data from RE NXT or BBCRM into Almabase](https://docs.almabase.com/en/articles/7301399-pulling-constituent-data-from-re-nxt-or-bbcrm-into-almabase.md): A step-by-step guide to running a one-time data pull from Raiser's Edge NXT or Blackbaud CRM into Almabase, including timing estimates, entity selection, the Almabase filter option, error handling,...
+- [Sync Rules](https://docs.almabase.com/en/articles/16543814-sync-rules.md): see how to set up rules for syncing dtaa between Almabase and Raiser's Edge/BBCRM using Sync Rules
+- [Data Inbox: Reviewing Data Changes](https://docs.almabase.com/en/articles/16108078-data-inbox-reviewing-data-changes.md): Keep the data between Almabase and your connected CRM\(RE NXT/ BBCRM\) in sync by acting on flagged changes
+- [Pushing Email Engagement Data from Almabase to Raiser's Edge](https://docs.almabase.com/en/articles/10191419-pushing-email-engagement-data-from-almabase-to-raiser-s-edge.md): How Emails Sent via Almabase's Email Communication Center Appear as Actions in Raiser's Edge
+- [How Constituents Sync Between Almabase and Raiser's Edge](https://docs.almabase.com/en/articles/14478794-how-constituents-sync-between-almabase-and-raiser-s-edge.md): Control how constituent data syncs between Almabase and Raiser’s Edge using sync rules. Learn how updates flow, when review is required, and how to manage changes using the Data Inbox for accurate,...
+- [Adding a New Custom Field from Raiser's Edge to Almabase](https://docs.almabase.com/en/articles/16734158-adding-a-new-custom-field-from-raiser-s-edge-to-almabase.md): How to bring a new custom field from Raiser's Edge NXT into Almabase — adding it to profiles, pulling data, and setting up sync rules.
+- [Adding a New Table Entry from Raiser's Edge to Almabase](https://docs.almabase.com/en/articles/16734529-adding-a-new-table-entry-from-raiser-s-edge-to-almabase.md): How to add new dropdown options from Raiser's Edge to Almabase — new affiliations, solicit codes, degrees, and similar fields.
+- [Getting New Constituents from Raiser's Edge or BBCRM into Almabase](https://docs.almabase.com/en/articles/16772010-getting-new-constituents-from-raiser-s-edge-or-bbcrm-into-almabase.md): How to bring new constituents from Raiser's Edge NXT into Almabase — one-time pulls, recurring pulls, what data comes over, and how to keep your directory up to date as your database grows.
+- [Pushing New Constituents from Almabase to Raiser's Edge or BBCRM](https://docs.almabase.com/en/articles/16772449-pushing-new-constituents-from-almabase-to-raiser-s-edge-or-bbcrm.md): How new constituents created in Almabase get pushed to Raiser's Edge NXT or BBCRM — what creates a new record, how sync rules control the push, and how to review and approve changes in the Data Inbox.
+- [Troubleshooting Errors After a Data Pull](https://docs.almabase.com/en/articles/16772662-troubleshooting-errors-after-a-data-pull.md): How to find, understand, and fix errors that come up after pulling constituent data from Raiser's Edge NXT into Almabase — common error types and how to retry failed records.
+- [When Both Systems Change the Same Data — Sync Conflicts](https://docs.almabase.com/en/articles/16772885-when-both-systems-change-the-same-data-sync-conflicts.md): What happens when the same constituent's data is changed in both Almabase and Raiser's Edge NXT at the same time — how Almabase detects conflicts, how they appear in the Data Inbox, and how to reso...
+- [When Someone Opts Out of Emails via Almabase](https://docs.almabase.com/en/articles/16772956-when-someone-opts-out-of-emails-via-almabase.md): How email opt-outs and communication preferences sync between Almabase and Raiser's Edge NXT — configuring total email subscription with solicit codes or the "Requests No Email" flag, and category-...
+- [Turning Off Sync for a Specific Field or Entity Type](https://docs.almabase.com/en/articles/16773303-turning-off-sync-for-a-specific-field-or-entity-type.md): How to stop specific fields or entity types from syncing between Almabase and Raiser's Edge NXT — turning off sync for one direction, one action type, or an entire entity.
+- [Controlling How Addresses, Phones, and Emails Are Written to Raiser's Edge NXT](https://docs.almabase.com/en/articles/17662715-controlling-how-addresses-phones-and-emails-are-written-to-raiser-s-edge-nxt.md): Choose what happens when an address, phone, or email from Almabase already exists in Raiser's Edge NXT under a different type, and decide which address or phone is marked primary.
+- [Almabase and Raiser's Edge Fields](https://docs.almabase.com/en/articles/9504379-almabase-and-raiser-s-edge-fields.md)
+- [Pushing Contact Details to RE NXT / BBCRM from Events and Giving](https://docs.almabase.com/en/articles/14667788-pushing-contact-details-to-re-nxt-bbcrm-from-events-and-giving.md): How to push the contact details collected from events and giving campaigns from Almabase profiles to Raiser's Edge NXT or BBCRM.
+- [Sync "Request No Email" to Almabase from Raiser's Edge](https://docs.almabase.com/en/articles/10797232-sync-request-no-email-to-almabase-from-raiser-s-edge.md): see how you can capture the email communication preference set for a constituent through "Request no Email" field on Raiser's Edge
+- [Understanding System Record ID on Raiser's Edge NXT](https://docs.almabase.com/en/articles/3212530-understanding-system-record-id-on-raiser-s-edge-nxt.md): Learn more about the System Record ID, how to export it, and its relationship with the Constituent ID.
+- [Deleting Records or Data in Almabase — What Happens in RE](https://docs.almabase.com/en/articles/16664656-deleting-records-or-data-in-almabase-what-happens-in-re.md): How archiving, deleting, or removing information in Almabase affects Raiser's Edge — record-level vs information-level behavior and recommended sync rule settings.
+- [How to Sync Your Events with Blackbaud CRM \(BBCRM\)](https://docs.almabase.com/en/articles/14435662-how-to-sync-your-events-with-blackbaud-crm-bbcrm.md): Understand and learn how to sync Almabase events and guests to BBCRM
+- [Understanding the Properties of an Email Address on Almabase](https://docs.almabase.com/en/articles/5157670-understanding-the-properties-of-an-email-address-on-almabase.md): Learn more about the important characteristics of each email address you encounter on the platform.
+- [How to Add Multiple Emails for Your Constituents?](https://docs.almabase.com/en/articles/5157930-how-to-add-multiple-emails-for-your-constituents.md): Learn how to add and handle multiple email addresses for your constituents more effectively.
+- [How to Update the Email Addresses on a Record?](https://docs.almabase.com/en/articles/5144163-how-to-update-the-email-addresses-on-a-record.md): Learn how to add and delete email addresses for a record.
+- [How to Reset the Email Status of a Record?](https://docs.almabase.com/en/articles/5143801-how-to-reset-the-email-status-of-a-record.md): Learn how to reset the email status for email addresses that are bounced or invalid.
+- [How do you unsubscribe a user from email communication?](https://docs.almabase.com/en/articles/5182775-how-do-you-unsubscribe-a-user-from-email-communication.md): See how an admin can unsubscribe a user from email communication and also how a user can unsubscribe themselves
+- [What Happens When You Mark an Email Address as Primary?](https://docs.almabase.com/en/articles/5147974-what-happens-when-you-mark-an-email-address-as-primary.md): Learn how a primary email address functions on a profile.
+- [FAQs on Email Addresses](https://docs.almabase.com/en/articles/5144281-faqs-on-email-addresses.md): Find answers to common questions about features related to email addresses.
+- [Understanding 'Users' vs 'Profiles'](https://docs.almabase.com/en/articles/1235299-understanding-users-vs-profiles.md): Learn more about the difference between 'Users' and 'Profiles' in our platform.
+- [Understanding Listed & Unlisted Records](https://docs.almabase.com/en/articles/2546966-understanding-listed-unlisted-records.md): Learn more about how we standardized the functionality around treatment of records on our online directory and in the communication center.
+- [Understanding the Registration Status](https://docs.almabase.com/en/articles/2269614-understanding-the-registration-status.md): Learn more about the terms you will come across on the Almabase platform regarding registration.
+- [Understanding Nameless Records and What Admins Can Do About It.](https://docs.almabase.com/en/articles/5349786-understanding-nameless-records-and-what-admins-can-do-about-it.md): Learn more about why certain records appear without names and what administrators can do to address it.
+- [Understanding How Duplicate Profiles are Detected](https://docs.almabase.com/en/articles/9230289-understanding-how-duplicate-profiles-are-detected.md)
+- [GDPR Data Deletion Request](https://docs.almabase.com/en/articles/4874260-gdpr-data-deletion-request.md): deleting all data from your Almabase website
+
+## Member Directory
+
+- [The Member Directory — How It Works](https://docs.almabase.com/en/articles/14713625-the-member-directory-how-it-works.md): Everything you need to know about the Member Directory — what it is, how members access it, how it's built, and how members join.
+- [Customizing Member Directory Search Page](https://docs.almabase.com/en/articles/15391718-customizing-member-directory-search-page.md): Configure your member directory directly from the admin panel — choose which fields appear on cards, enable education and employment details, set up filters, and give members a faster, more accessi...
+- [Adding Records to Your Member Directory](https://docs.almabase.com/en/articles/16543945-adding-records-to-your-member-directory.md): How to bring your constituent data into Almabase so your directory is populated and ready for launch — via CRM data pull or Excel upload.
+- [Setting Up the Invite Automation Workflow](https://docs.almabase.com/en/articles/8017290-setting-up-the-invite-automation-workflow.md): Send personalized invite emails to your constituents with a workflow that automatically skips anyone who's already signed up and connects every sign-up to the right record.
+- [After Approval — What Members Do and What Admins Should Monitor](https://docs.almabase.com/en/articles/16554746-after-approval-what-members-do-and-what-admins-should-monitor.md): What members do after they're approved — browsing, messaging, inviting, updating profiles — and what admins should focus on: approvals, re-engagement, and reviewing profile updates.
+- [Networking Recommendations — Helping Members Reconnect](https://docs.almabase.com/en/articles/8145880-networking-recommendations-helping-members-reconnect.md): Set up the Networking Recommendation workflow to automatically suggest 3 people a member might know — based on shared work, education, location, interests, and skills. Drives reconnections and keep...
+- [How Do I Enable Users to Opt-In or Opt-Out of the Alumni Directory?](https://docs.almabase.com/en/articles/10243737-how-do-i-enable-users-to-opt-in-or-opt-out-of-the-alumni-directory.md): Helps you ensure compliance with privacy laws and gives users control over their visibility.
+- [How to Invite Users to Sign Up via User Profile?](https://docs.almabase.com/en/articles/8029042-how-to-invite-users-to-sign-up-via-user-profile.md): Learn more about the "Invite User to Signup" feature on user profiles to encourage new records to join the platform.
+- [Setting Up Profile Fields: Open Text vs. Dropdown](https://docs.almabase.com/en/articles/15550213-setting-up-profile-fields-open-text-vs-dropdown.md): Choose how profile fields like Skills, Employer, and College work — keep them as open text for flexibility, or convert them to dropdowns for cleaner, more consistent data.
+
+## Events
+
+- [Grant Event Administrative Access to Specific Events](https://docs.almabase.com/en/articles/9205180-grant-event-administrative-access-to-specific-events.md): Share event management access to specific events
+- [Create the Event and Setup Basic Details](https://docs.almabase.com/en/articles/2723510-create-the-event-and-setup-basic-details.md): see how to get started with creating an event, and adding details like name, venue, dates, description, logo, and other images.
+- [Creating Event Tickets](https://docs.almabase.com/en/articles/7120384-creating-event-tickets.md): Learn more about how to set up various tickets for your events on the platform.
+- [Creating Sub-Events](https://docs.almabase.com/en/articles/2730949-creating-sub-events.md): Learn how to create sub-events, choose between single-day and multi-day formats, associate tickets, and manage your event schedule.
+- [Adding Discounts on Events](https://docs.almabase.com/en/articles/6175791-adding-discounts-on-events.md): Learn more about how admins can create discounts for an event and how guests can use them.
+- [Creating Events with Tickets and Discounts](https://docs.almabase.com/en/articles/2723786-creating-events-with-tickets-and-discounts.md): Learn more about creating a paid event, devising various ticket types, and introducing discount features.
+- [Understanding Sponsored/Team Tickets](https://docs.almabase.com/en/articles/4694993-understanding-sponsored-team-tickets.md): Learn about the functionality of the "sponsored or team ticket" and important points for admins.
+- [Events Advanced: Splitting Tickets for Tax Exemption](https://docs.almabase.com/en/articles/7151753-events-advanced-splitting-tickets-for-tax-exemption.md): Learn how the ticket splitting feature can help you offer tax-exempt gift portions to your registrants.
+- [Creating Events with Fundraising Options](https://docs.almabase.com/en/articles/3161548-creating-events-with-fundraising-options.md): Learn more about facilitating event attendees to contribute to their preferred fund during registration.
+- [Zoom Webinar Integration: Connecting Zoom to Almabase](https://docs.almabase.com/en/articles/4141477-zoom-webinar-integration-connecting-zoom-to-almabase.md): Learn how to effortlessly connect your Zoom account with Almabase to create and manage webinars with ease.
+- [Creating A Simple Event \(Open, Moderated, And Invite- Only Events\)](https://docs.almabase.com/en/articles/9609902-creating-a-simple-event-open-moderated-and-invite-only-events.md): Over-view on how to create an RSVP event, add guest and booking form, setup accompanying guests, and send event invitations.
+- [How to Organize/Customize your Event Booking Page](https://docs.almabase.com/en/articles/15490215-how-to-organize-customize-your-event-booking-page.md): Use the Customize page tab to drag-and-drop the order of sub-events, tickets, and gifts on your booking page, group items under a specific sub-event, and preview the page before sharing the event l...
+- [Understanding Managing Event Guest Data](https://docs.almabase.com/en/articles/2665221-understanding-managing-event-guest-data.md): Learn more about managing your event guests, from emailing different types of guests to viewing and editing their details.
+- [Customizing Registration Confirmation Emails](https://docs.almabase.com/en/articles/7067956-customizing-registration-confirmation-emails.md): Learn more about personalizing confirmation emails for event registrations.
+- [Understanding Guest Communication](https://docs.almabase.com/en/articles/4146298-understanding-guest-communication.md): Learn how to send updates/reminders to your guests running up to the event, post-event surveys, and more.
+- [Understanding the Guest Kit](https://docs.almabase.com/en/articles/4146292-understanding-the-guest-kit.md): Learn more about the unique page crafted for each guest, encompassing essential event details.
+- [Reporting on Event Data](https://docs.almabase.com/en/articles/2771031-reporting-on-event-data.md): Learn how to set and measure the success of your event based on the number of guests and ticket revenue generated etc.
+- [Reports Available for Events Advanced](https://docs.almabase.com/en/articles/7152656-reports-available-for-events-advanced.md): View reports for tickets, registrations, and check-ins at a sub-event level to plan and manage events better.
+- [Registering Guests Without Email Addresses](https://docs.almabase.com/en/articles/9205501-registering-guests-without-email-addresses.md): Name-Only Registration on Events, Register a guest who doesn't have an email address
+- [How To Delete a Event Registration](https://docs.almabase.com/en/articles/11461201-how-to-delete-a-event-registration.md): Learn how to delete individual registrations—like cancelled or test signups
+- [Adding and editing event registrations as an admin](https://docs.almabase.com/en/articles/16202519-adding-and-editing-event-registrations-as-an-admin.md): Learn how to add guests and edit registrations for any event from the admin panel — including overrides for sold-out tickets, walk-ins, and VIP requests.
+- [The Events Guest Dashboard- An Overview](https://docs.almabase.com/en/articles/9610590-the-events-guest-dashboard-an-overview.md): A documentation on all the features and their functions in the Events- Guest Dashboard
+- [Sponsorships on Almabase — Overview](https://docs.almabase.com/en/articles/14466641-sponsorships-on-almabase-overview.md)
+- [Setting Up Sponsorships — Admin Guide](https://docs.almabase.com/en/articles/14466676-setting-up-sponsorships-admin-guide.md): This guide walks you through the complete setup process for enabling sponsorships on an Almabase event — from turning on the toggle to creating tiers and publishing the sponsor registration page.
+- [Managing Sponsors — Admin Guide](https://docs.almabase.com/en/articles/14466731-managing-sponsors-admin-guide.md): This guide covers how to monitor sponsorship registrations, manage sponsor details, and handle payments from the admin dashboard.
+- [Sponsor Registration Experience — Sponsor Guide](https://docs.almabase.com/en/articles/14466764-sponsor-registration-experience-sponsor-guide.md): This guide explains what the sponsorship registration process looks like from a sponsor’s perspective — from landing on the page to completing registration with guest details.
+- [Sponsorships FAQs](https://docs.almabase.com/en/articles/14466789-sponsorships-faqs.md): Frequently asked questions about sponsorships on Almabase, covering setup, registration, payments, and management.
+- [Video walkthrough of Sponsorships on Almabase](https://docs.almabase.com/en/articles/14426484-video-walkthrough-of-sponsorships-on-almabase.md)
+- [Auctions on Almabase — Overview](https://docs.almabase.com/en/articles/14426202-auctions-on-almabase-overview.md): Almabase supports silent auctions \(online bidding\) and live auctions \(in-person with manual winner recording\). Run either or both within a single event.
+- [Setting Up Auctions — Admin Guide](https://docs.almabase.com/en/articles/14426343-setting-up-auctions-admin-guide.md): This guide walks you through the full setup process for enabling and configuring auctions within an Almabase event.
+- [Managing Bids & Auction Dashboard — Admin Guide](https://docs.almabase.com/en/articles/14463864-managing-bids-auction-dashboard-admin-guide.md): This guide covers how to monitor your auction in real time, manage bids, assign live auction winners, and track participants from the admin dashboard.
+- [Bidding & User Experience — Bidder Guide](https://docs.almabase.com/en/articles/14466479-bidding-user-experience-bidder-guide.md): This guide explains what the auction experience looks like for participants — from browsing items to placing bids, tracking status, and completing payment.
+- [Auctions FAQs](https://docs.almabase.com/en/articles/14426404-auctions-faqs.md): Frequently asked questions about auctions on Almabase, covering setup, bidding, payments, and more.
+- [Video Walkthrough of Auctions on Almabase](https://docs.almabase.com/en/articles/14426444-video-walkthrough-of-auctions-on-almabase.md)
+- [Using POS Devices for On-Site Event Registrations](https://docs.almabase.com/en/articles/10191136-using-pos-devices-for-on-site-event-registrations.md)
+- [Configuring Email Senders on Events](https://docs.almabase.com/en/articles/9200485-configuring-email-senders-on-events.md): Configuring Email Senders for Events
+- [Keep Your Events List Organized with Archiving](https://docs.almabase.com/en/articles/11631501-keep-your-events-list-organized-with-archiving.md): Understand how archiving helps you organize your Events list page without deleting events.
+- [How Can I Test Event Registration And Clear Data From My Test Event?](https://docs.almabase.com/en/articles/9219741-how-can-i-test-event-registration-and-clear-data-from-my-test-event.md): Introducing 'Clear all guests': A tool designed to enhance your event management experience by providing a testing environment.
+- [How Can I Edit a Guest's Name Or Email In An Event Registration?](https://docs.almabase.com/en/articles/9324285-how-can-i-edit-a-guest-s-name-or-email-in-an-event-registration.md): Correct typos or update information to guest details.
+- [How to Add a Sub-Event Without a Ticket](https://docs.almabase.com/en/articles/10489278-how-to-add-a-sub-event-without-a-ticket.md): Learn how to add an agenda to your event schedule that doesn’t need a ticket but still appears on the itinerary.
+- [Sub-Event Waitlist: Managing Overflow Registrations for Sub-Events](https://docs.almabase.com/en/articles/14431785-sub-event-waitlist-managing-overflow-registrations-for-sub-events.md): Allow attendees to join a waitlist when a sub-event reaches capacity, and manage spot availability through manual or automatic notifications.
+- [Understanding the Accept Registration and Allow Edits Toggles](https://docs.almabase.com/en/articles/16630423-understanding-the-accept-registration-and-allow-edits-toggles.md): Learn how the Accept Registration and Allow Edits toggles control who can register, edit, or cancel event registrations — and how they work together.
+- [How to Maintain Event Exclusivity \(Privacy Control\)?](https://docs.almabase.com/en/articles/4147972-how-to-maintain-event-exclusivity-privacy-control.md): Learn more about setting privacy controls to restrict access to specific details for your exclusive events.
+- [How to Connect Your Zoom Account to Almabase?](https://docs.almabase.com/en/articles/4096511-how-to-connect-your-zoom-account-to-almabase.md): Learn more about how administrators can integrate a Zoom account with Almabase for seamless webinar management.
+- [How to Limit the Number of Guests for a Sub-Event?](https://docs.almabase.com/en/articles/8279657-how-to-limit-the-number-of-guests-for-a-sub-event.md): Learn more about setting a guest limit for your sub-events to manage attendance.
+- [How to Allocate a Separate Fund for the Tax-Deductible Portion of a Ticket in the Event Module](https://docs.almabase.com/en/articles/10182640-how-to-allocate-a-separate-fund-for-the-tax-deductible-portion-of-a-ticket-in-the-event-module.md): Learn how to set up and assign funds for the gift portion of your ticket cost
+- [How Do I Remove the Affiliation Option from My Event?](https://docs.almabase.com/en/articles/10264403-how-do-i-remove-the-affiliation-option-from-my-event.md)
+- [How to Disable “RSVP No”](https://docs.almabase.com/en/articles/11645389-how-to-disable-rsvp-no.md): Keep your RSVP data clean by removing unnecessary “Not Attending” submissions.
+- [How to Edit the Logo for Specific Events and Campaigns?](https://docs.almabase.com/en/articles/8283597-how-to-edit-the-logo-for-specific-events-and-campaigns.md): Learn more about personalizing your event and campaign branding with unique logos.
+- [How to Customize the Static Texts on the Events Landing Page?](https://docs.almabase.com/en/articles/5283003-how-to-customize-the-static-texts-on-the-events-landing-page.md): Learn more about adjusting editable sections on the Events page to align with your branding or specific requirements.
+- [How to Cancel an Event Registration?](https://docs.almabase.com/en/articles/5449121-how-to-cancel-an-event-registration.md): Learn how to cancel an event registration as either the Event Admin or the Guest.
+- [How to Initiate a Refund for Canceled Event Registration?](https://docs.almabase.com/en/articles/8129011-how-to-initiate-a-refund-for-canceled-event-registration.md): Learn more about how to process refunds for canceled event registrations on Almabase.
+- [How Can Guests Choose to Opt In or Out of the Event Attendance List?](https://docs.almabase.com/en/articles/8495754-how-can-guests-choose-to-opt-in-or-out-of-the-event-attendance-list.md)
+- [How Can I Add Guests To An Event Who Will Not Be Attending](https://docs.almabase.com/en/articles/9330423-how-can-i-add-guests-to-an-event-who-will-not-be-attending.md)
+- [How to Record an Offline Payment for Event Registration?](https://docs.almabase.com/en/articles/8360071-how-to-record-an-offline-payment-for-event-registration.md): Learn more about how to record an offline payment made for an event registration.
+- [How to Collect Pending Payments for an Event?](https://docs.almabase.com/en/articles/5415641-how-to-collect-pending-payments-for-an-event.md): Learn more about prompting guests with outstanding payments to settle their dues for an event online.
+- [How to Send Tax Receipts to Event Guests?](https://docs.almabase.com/en/articles/9503490-how-to-send-tax-receipts-to-event-guests.md)
+- [How to Check-In Guests at Your Event?](https://docs.almabase.com/en/articles/6979322-how-to-check-in-guests-at-your-event.md): Learn more about utilizing the Check-In Kiosk feature for efficient guest management at your events.
+- [How to Send an Email to Event Registrants Based on Their Registration Status?](https://docs.almabase.com/en/articles/8160476-how-to-send-an-email-to-event-registrants-based-on-their-registration-status.md): Learn more about tailoring your email communication to event attendees based on their registration status.
+- [How to Add Guests for Event Registration with Deferred Payment?](https://docs.almabase.com/en/articles/8066815-how-to-add-guests-for-event-registration-with-deferred-payment.md): Learn more about facilitating event registrations for guests who prefer to pay at a later date.
+- [How to Customize the Attendee List?](https://docs.almabase.com/en/articles/6728995-how-to-customize-the-attendee-list.md): Learn how to customize the attendee list to encourage others to register.
+- [How to Edit the Information Shared by Guests in the Event Registration?](https://docs.almabase.com/en/articles/5444114-how-to-edit-the-information-shared-by-guests-in-the-event-registration.md): Learn more about modifying details shared by guests during event registration, such as food preferences or additional tickets.
+- [FAQs on Events](https://docs.almabase.com/en/articles/3277207-faqs-on-events.md): Find answers to common questions about features related to Events - sub-events, tickets, discounts, gift tickets, and payment options.
+- [How Can I Restrict Guests From Modifying Their Registration Details?](https://docs.almabase.com/en/articles/9324202-how-can-i-restrict-guests-from-modifying-their-registration-details.md): Talk about "Allow Edits" toggle
+- [Is there a way to print each guest's itinerary without accessing each individual guest's record](https://docs.almabase.com/en/articles/9357354-is-there-a-way-to-print-each-guest-s-itinerary-without-accessing-each-individual-guest-s-record.md)
+- [Syncing Event Data from Almabase to Your Database: Guest Details, Registrations, and Payments](https://docs.almabase.com/en/articles/16759039-syncing-event-data-from-almabase-to-your-database-guest-details-registrations-and-payments.md): A guide to moving your event data — guest's contact information, registrations, and payments — from Almabase to your CRM or into an export.
+- [Mapping event guests to the right constituents for accurate engagement tracking: a step-by-step guide](https://docs.almabase.com/en/articles/15617654-mapping-event-guests-to-the-right-constituents-for-accurate-engagement-tracking-a-step-by-step-guide.md): Follow this step-by-step process to clear your guest mapping queue — link every event registration to the right constituent so engagement is tracked accurately and your data stays clean.
+- [Pushing Contact Details from Events and Giving to Almabase Profiles](https://docs.almabase.com/en/articles/16761056-pushing-contact-details-from-events-and-giving-to-almabase-profiles.md): How to move the phone numbers, emails, addresses, and other details guests and donors share during registration or giving into their Almabase profiles.
+- [Setting up Sync Configurations for Events](https://docs.almabase.com/en/articles/8394577-setting-up-sync-configurations-for-events.md): Learn more about how to set up default sync configurations for all your events.
+- [Syncing Event Registrations to Raiser's Edge NXT](https://docs.almabase.com/en/articles/16771855-syncing-event-registrations-to-raiser-s-edge-nxt.md): A step-by-step guide to syncing your event registrations, guest details, and payments from Almabase to Raiser's Edge NXT — from your first sync through gift approval.
+- [Understanding Ticket Configuration for Events Sync](https://docs.almabase.com/en/articles/7860373-understanding-ticket-configuration-for-events-sync.md): Learn how events sync pushes data to Raiser's Edge based on each ticket configuration.
+- [Validating the Data Entry for Campaign, Fund, and Appeal for Gifts on Raiser's Edge](https://docs.almabase.com/en/articles/8439238-validating-the-data-entry-for-campaign-fund-and-appeal-for-gifts-on-raiser-s-edge.md): Learn how to check the validity of data entries across campaign, fund and appeal.
+- [FAQs on Events & Subevents Sync with Raiser's Edge](https://docs.almabase.com/en/articles/6354035-faqs-on-events-subevents-sync-with-raiser-s-edge.md): Find answers to common questions and workarounds regarding Events and Subevents sync to Raiser's Edge.
+- [Sync Event Invitees to Raiser's Edge](https://docs.almabase.com/en/articles/10797648-sync-event-invitees-to-raiser-s-edge.md): Learn how to sync invited guests from Almabase to Raiser's Edge, ensuring accurate event invitation records and seamless data sync.
+- [Exporting Event Data](https://docs.almabase.com/en/articles/2768162-exporting-event-data.md): Learn more about how to export various types of data related to your event, such as guest details, ticket information etc.
+- [Getting a Transaction Report for Events](https://docs.almabase.com/en/articles/8456253-getting-a-transaction-report-for-events.md): Learn how to export a transactions report for particular events or dates for payment reconciliation.
+- [Types of Tickets for Events](https://docs.almabase.com/en/articles/6121601-types-of-tickets-for-events.md): Details on the different types of tickets available for events and their functionality.
+- [Overview of the Events Advanced Plan Features](https://docs.almabase.com/en/articles/7983537-overview-of-the-events-advanced-plan-features.md): Find out more about the suite of sophisticated features to enhance your event management.
+- [Understanding how Zoom Webinars work with Almabase Events](https://docs.almabase.com/en/articles/4168379-understanding-how-zoom-webinars-work-with-almabase-events.md): Learn more about the seamless integration between Almabase and Zoom for enhancing your virtual events.
+- [Understanding Registration and Guest Forms](https://docs.almabase.com/en/articles/8029028-understanding-registration-and-guest-forms.md): Learn how to gather vital information your attendees and their companions.
+- [Understanding Personal Itineraries](https://docs.almabase.com/en/articles/2979895-understanding-personal-itineraries.md): Learn how personal itineraries can help improve your guest's experience by telling them where their next event is and more.
+- [Enhancing Your Event Guest Kit with Announcements](https://docs.almabase.com/en/articles/4147975-enhancing-your-event-guest-kit-with-announcements.md): Learn how to convey messages to your event guests with announcements.
+- [Introducing Live Streaming in Events](https://docs.almabase.com/en/articles/4305816-introducing-live-streaming-in-events.md): Learn more about enhancing alumni engagement with our new live streaming feature for events.
+- [Understanding the Different Permission Levels on Events?](https://docs.almabase.com/en/articles/9324332-understanding-the-different-permission-levels-on-events.md)
+- [Creating And Configuring An Open Event Page](https://docs.almabase.com/en/articles/9394292-creating-and-configuring-an-open-event-page.md)
+- [How can I send personalized email invites to potential event guests?](https://docs.almabase.com/en/articles/9394341-how-can-i-send-personalized-email-invites-to-potential-event-guests.md)
+- [Creating And Configuring An Invite-Only Event Page](https://docs.almabase.com/en/articles/9376815-creating-and-configuring-an-invite-only-event-page.md): How to create an Invite-Only events page
+- [Understanding Event Payments and Their RSVP Status](https://docs.almabase.com/en/articles/9502315-understanding-event-payments-and-their-rsvp-status.md)
+- [Understanding Guest Sync Status and Payment Sync Status](https://docs.almabase.com/en/articles/10370136-understanding-guest-sync-status-and-payment-sync-status.md)
+- [How to customize Zoom Webinar Settings in Almabase Events](https://docs.almabase.com/en/articles/4188044-how-to-customize-zoom-webinar-settings-in-almabase-events.md): Learn more about setting up your Zoom webinars with the right mix of default and customized settings via the Almabase platform.
+- [Introduction to Waitlist](https://docs.almabase.com/en/articles/16147746-introduction-to-waitlist.md): Manage overflow registrations and give every interested guest a fair shot at attending your event.
+- [Enabling Waitlist](https://docs.almabase.com/en/articles/16138773-enabling-waitlist.md): Set up the waitlist for your event by configuring capacity, processing mode, and notification expiry.
+- [Joining the Waitlist](https://docs.almabase.com/en/articles/16147612-joining-the-waitlist.md): Learn how guests add themselves to the waitlist from the event page, and how admins can add or reorder guests manually.
+- [Offering a Spot to Waitlist Guests](https://docs.almabase.com/en/articles/16150910-offering-a-spot-to-waitlist-guests.md): Understand what triggers an open spot, how automatic and manual processing modes work, and how the system decides who gets notified.
+- [Claiming a Spot to Register](https://docs.almabase.com/en/articles/16159223-claiming-a-spot-to-register.md): Learn how a waitlisted guest completes their registration after receiving an invitation to claim their spot.
+- [Waitlist FAQs](https://docs.almabase.com/en/articles/16138374-waitlist-faqs.md): Answers to common questions about waitlist behavior, edge cases, notifications, and troubleshooting.
+
+## Giving
+
+- [Fundraising on Almabase](https://docs.almabase.com/en/articles/8347682-fundraising-on-almabase.md): Discover the various Almabase campaign and page types you can create.
+- [Creating and Configuring a Competitive Fundraising Page](https://docs.almabase.com/en/articles/8264009-creating-and-configuring-a-competitive-fundraising-page.md): Learn more about how to set up a Competitive Fundraising page.
+- [Creating Sub-pages on a Competitive Fundraising Page](https://docs.almabase.com/en/articles/17116417-creating-sub-pages-on-a-competitive-fundraising-page.md): Running a large campaign with several schools, causes, or impact areas? Sub-pages give each its own story, goal, and impact showcase while every gift flows to your main campaign.
+- [Letting Departments Manage Their Own Sub-pages](https://docs.almabase.com/en/articles/17348530-letting-departments-manage-their-own-sub-pages.md): Invite department coordinators to edit their own sub-page without an admin account. Learn how to add managers, how they sign in, what they can change, and how to resend invitations or remove access.
+- [Adding Content to the Campaign Page](https://docs.almabase.com/en/articles/8264631-adding-content-to-the-campaign-page.md): Learn how to incorporate descriptions, images, videos, and other content to the campaign landing page and the countdown page.
+- [Setting Campaign Goals and Campaign Dates](https://docs.almabase.com/en/articles/8264032-setting-campaign-goals-and-campaign-dates.md): Learn more about configuring goals, time zone, dates, the gift button, and more.
+- [Linking Payment Account and Associating Funds to the Campaign Page](https://docs.almabase.com/en/articles/8264065-linking-payment-account-and-associating-funds-to-the-campaign-page.md): Learn how to connect a payment account to your campaign and set up funds for donor contributions.
+- [Setting Up Forms on Your Competitive Fundraising Page](https://docs.almabase.com/en/articles/8264090-setting-up-forms-on-your-competitive-fundraising-page.md): Understand how the pre-payment and post-payment forms work and how to set it up for the competitive fundraising page.
+- [Creating and Managing Challenges](https://docs.almabase.com/en/articles/8264652-creating-and-managing-challenges.md): Learn how to incorporate challenges into your campaign, fostering peer-to-peer engagement.
+- [Adding Leaderboards](https://docs.almabase.com/en/articles/3977558-adding-leaderboards.md): Learn to set up custom and location-based leaderboards for your fundraising campaign.
+- [Creating Campaign Hubs](https://docs.almabase.com/en/articles/8286568-creating-campaign-hubs.md): Learn how to craft campaigns within a campaign based on designated funds, affinity, or specific challenges.
+- [Configuring Additional Settings and Publishing the Page](https://docs.almabase.com/en/articles/8264659-configuring-additional-settings-and-publishing-the-page.md): Learn the process for enabling anonymous gifts, gift tributes, redirecting users post-donation, and more.
+- [Customizing Competitive Fundraising Page](https://docs.almabase.com/en/articles/13513896-customizing-competitive-fundraising-page.md): see how to to customize your competitive fundraising page to match your messaging and clearly show impact to donors
+- [Creating and Configuring a Crowdfunding Page](https://docs.almabase.com/en/articles/8266336-creating-and-configuring-a-crowdfunding-page.md): Learn more about how to set up a Crowdfunding page.
+- [Adding Forms and Images to the Campaign](https://docs.almabase.com/en/articles/8266354-adding-forms-and-images-to-the-campaign.md): Learn how to integrate various forms and set up background images and logos for your campaign to look polished.
+- [Linking Payment Accounts and Adding Funds to the Campaign Page](https://docs.almabase.com/en/articles/8266351-linking-payment-accounts-and-adding-funds-to-the-campaign-page.md): Learn more about the process of linking a payment account for your campaign and specifying the funds donors can contribute towards.
+- [Configuring Additional Settings and Publishing the Page](https://docs.almabase.com/en/articles/8266379-configuring-additional-settings-and-publishing-the-page.md): Learn the process for enabling anonymous gifts, gift tributes, redirecting users post-donation, and more.
+- [Donor View of a Crowdfunding Campaign Page on Almabase](https://docs.almabase.com/en/articles/3551735-donor-view-of-a-crowdfunding-campaign-page-on-almabase.md): Crowdfunding Campaign page donor view
+- [Creating and Configuring a Checkout Page](https://docs.almabase.com/en/articles/8284317-creating-and-configuring-a-checkout-page.md): Learn more about how to set up a Checkout page.
+- [Adding Forms and Images to the Campaign](https://docs.almabase.com/en/articles/8284476-adding-forms-and-images-to-the-campaign.md): Learn how you enrich your campaign page with forms and images.
+- [Linking Payment Account and Associating Funds to the Campaign Page](https://docs.almabase.com/en/articles/8284492-linking-payment-account-and-associating-funds-to-the-campaign-page.md): Learn how to connect a payment account to your campaign and set up funds for donor contributions.
+- [Configuring Additional Settings and Publishing the Page](https://docs.almabase.com/en/articles/8284507-configuring-additional-settings-and-publishing-the-page.md): Learn the process for enabling anonymous gifts, gift tributes, redirecting users post-donation, and more.
+- [Donor View of a Checkout Campaign Page on Almabase](https://docs.almabase.com/en/articles/3551721-donor-view-of-a-checkout-campaign-page-on-almabase.md): Checkout Campaign page donor view
+- [Fund Catalog: Organizing Funds into Groups on Campaign Pages](https://docs.almabase.com/en/articles/10622611-fund-catalog-organizing-funds-into-groups-on-campaign-pages.md): Group funds into categories on Campaign Pages, making it easier for donors to find and select their preferred fund.
+- [Creating a Fund on Almabase](https://docs.almabase.com/en/articles/3081879-creating-a-fund-on-almabase.md): Learn how to create funds and understand what default and undesignated funds are.
+- [Importing Funds to Almabase from Raiser's Edge](https://docs.almabase.com/en/articles/8286476-importing-funds-to-almabase-from-raiser-s-edge.md): Learn how to import funds directly to Almabase if you are using Raiser's Edge as your external database.
+- [Managing and Creating Gifts](https://docs.almabase.com/en/articles/8306992-managing-and-creating-gifts.md): Learn how to oversee donation details, modify them, and include offline gifts.
+- [Gift Reports and Exports](https://docs.almabase.com/en/articles/8307073-gift-reports-and-exports.md): This article covers reports and exports for giving pages, including the responses donors submit on your donation form.
+- [Mapping Gifts to Records](https://docs.almabase.com/en/articles/8307064-mapping-gifts-to-records.md): Link/map gifts to records/profiles in order to track gift engagement
+- [How to Remove a Fund That Is No Longer in Use](https://docs.almabase.com/en/articles/10221405-how-to-remove-a-fund-that-is-no-longer-in-use.md): Hiding a Fund from Donors and Preventing Its Use in Giving Campaigns and Events
+- [Creating Challenges on Competitive Fundraising Page](https://docs.almabase.com/en/articles/10689918-creating-challenges-on-competitive-fundraising-page.md): Set up and manage fundraising challenges effortlessly with real-time tracking and automated matching on Almabase
+- [Payment Links: Create and Share Direct Giving Links](https://docs.almabase.com/en/articles/12731286-payment-links-create-and-share-direct-giving-links.md): Create giving links\(payment links\) with built-in attribution and QR codes, then send personalized versions to specific donors via text, email, or export.
+- [Counting Gift Splits as Individual Gifts on Competitive & Crowdfunding Pages](https://docs.almabase.com/en/articles/13925087-counting-gift-splits-as-individual-gifts-on-competitive-crowdfunding-pages.md): Customize how gift counts are displayed on competitive and crowdfunding pages by choosing whether to count gifts by transaction or by each fund split within a transaction.
+- [Abandoned Cart: Help Donors Finish Their Gift](https://docs.almabase.com/en/articles/14692442-abandoned-cart-help-donors-finish-their-gift.md): Recover lost donations by following up with donors who started a gift but didn’t complete payment.
+- [How to Record and Acknowledge Matching Gift Donors on your Giving Page](https://docs.almabase.com/en/articles/14761230-how-to-record-and-acknowledge-matching-gift-donors-on-your-giving-page.md): Learn how matching amounts update the thermometer automatically when challenges unlock, how to record a matching gifts of these challenges and show them on leaderboard
+- [Excluding Payment Gateway Charges from Your Fundraising Goal](https://docs.almabase.com/en/articles/14997867-excluding-payment-gateway-charges-from-your-fundraising-goal.md): Learn how to display the net amount your institution actually receives on your fundraising thermometer and donor lists, after payment gateway fees are deducted.
+- [Giving Report Explained](https://docs.almabase.com/en/articles/15518394-giving-report-explained.md): Understand what every number on your giving page report means — direct gifts, matching gifts, payment gateway charges, and your net total.
+- [Joint Gifts: Crediting Multiple Donors on a Single Gift](https://docs.almabase.com/en/articles/15192765-joint-gifts-crediting-multiple-donors-on-a-single-gift.md): Joint Gifts let you credit a single donation to more than one donor — for example, a couple or a family giving together. The money counts once toward your campaign total, while each donor counts in...
+- [How Can I Receive Payments through DAF Pay on Almabase?](https://docs.almabase.com/en/articles/12638604-how-can-i-receive-payments-through-daf-pay-on-almabase.md): Learn how to enable DAF Pay \(powered by Chariot\) on Almabase to start accepting Donor-Advised Fund gifts on your Giving Pages.
+- [About DAF Pay on Almabase](https://docs.almabase.com/en/articles/12638531-about-daf-pay-on-almabase.md): Understand how DAF Pay, powered by Chariot, makes Donor-Advised Fund giving seamless for your donors.
+- [Customizing Donation Amount Slabs to Suit Your Campaign](https://docs.almabase.com/en/articles/12732082-customizing-donation-amount-slabs-to-suit-your-campaign.md)
+- [Integrating DoubleTheDonation with Almabase](https://docs.almabase.com/en/articles/5420021-integrating-doublethedonation-with-almabase.md): Learn how you can connect DoubleTheDonation with Almabase in a few simple steps.
+- [How to test a Giving Page](https://docs.almabase.com/en/articles/10202002-how-to-test-a-giving-page.md): Once you are done setting up a Giving page, this should help test the page to ensure that it is working smoothly.
+- [How to Remove Gifts from the Leaderboards](https://docs.almabase.com/en/articles/8291359-how-to-remove-gifts-from-the-leaderboards.md): See how to remove gifts from leaderboard without removing it from the campaign and gift reporting
+- [How to Edit the Honor Wall](https://docs.almabase.com/en/articles/4670170-how-to-edit-the-honor-wall.md): Edit the text on tribute/gift cards on the honor wall
+- [How to Set Up a Grouped Leaderboard](https://docs.almabase.com/en/articles/3978135-how-to-set-up-a-grouped-leaderboard.md): Grouping the values of a leaderboard into categories
+- [How Can Donors Find and Share Tribute Messages on Their Social Media](https://docs.almabase.com/en/articles/5714073-how-can-donors-find-and-share-tribute-messages-on-their-social-media.md): Step the users can take to find and share their tribute messages
+- [Where Can I Find My Secret Influencer URL?](https://docs.almabase.com/en/articles/5697800-where-can-i-find-my-secret-influencer-url.md): This guide will explain where and how donors/users can find their secret influencer URL.
+- [Share a Campaign Without Affecting Influencer Metrics](https://docs.almabase.com/en/articles/8305150-share-a-campaign-without-affecting-influencer-metrics.md): Share your competitive fundraising campaign, Share the campaign without affecting influencer metrics, and Share a campaign on social media,
+- [How to Add Offline Gifts to the Giving Campaign](https://docs.almabase.com/en/articles/6734312-how-to-add-offline-gifts-to-the-giving-campaign.md): Steps to add a few offline gift details or upload bulk gift data into a giving campaign.
+- [How to Edit a Gift](https://docs.almabase.com/en/articles/5227544-how-to-edit-a-gift.md): Learn how to edit a offline or online gift on Almabase!
+- [How to Link a Campaign to a Page on the Site](https://docs.almabase.com/en/articles/8145904-how-to-link-a-campaign-to-a-page-on-the-site.md): see how to add a button that links a campaign to a page on the site
+- [How to Enable Donors to Create Funds](https://docs.almabase.com/en/articles/3607759-how-to-enable-donors-to-create-funds.md): A donor might want to donate to a specific cause other than the one on the campaign. Let's understand how to make that work.
+- [Letting Donors Cover Transaction Charges on Your Giving Page](https://docs.almabase.com/en/articles/4456350-letting-donors-cover-transaction-charges-on-your-giving-page.md): Learn how to let donors voluntarily cover payment gateway fees on your giving page, so your institution receives the full intended donation amount. Includes how to configure default opt-in behavior.
+- [Which Fields Can Be Edited for Online and Offline Gifts?](https://docs.almabase.com/en/articles/8295247-which-fields-can-be-edited-for-online-and-offline-gifts.md): This article covers the different fields that can be edited for Online and Offline gifts.
+- [Which Sections Can Be Customized on the Giving Page?](https://docs.almabase.com/en/articles/5282917-which-sections-can-be-customized-on-the-giving-page.md): Over-view of all editable/customizable section in a Giving Campaign Page
+- [How to Configure Pre-payment and Post-payment Forms?](https://docs.almabase.com/en/articles/8262967-how-to-configure-pre-payment-and-post-payment-forms.md): Learn how to configure the pre-payment and post-payment form fields on your giving pages, including the anonymous gift option and movable Employer and Tribute fields.
+- [How to Enable Donors to Select from Multiple Funds During the Donation Process](https://docs.almabase.com/en/articles/7843880-how-to-enable-donors-to-select-from-multiple-funds-during-the-donation-process.md): In this article, lets understand how donors can select from any of the hundreds \(or even thousands\) of funds that are available.
+- [How to Configure the Gift Array/Quick Select Gift Options](https://docs.almabase.com/en/articles/8371046-how-to-configure-the-gift-array-quick-select-gift-options.md)
+- [How to Reorder Giving Campaigns](https://docs.almabase.com/en/articles/8294696-how-to-reorder-giving-campaigns.md): See how to arrange the campaigns on the admin side
+- [FAQs on Recurring Gifts](https://docs.almabase.com/en/articles/8020496-faqs-on-recurring-gifts.md): Find answers to common questions about features related to recurring gifts, including their processing, enabling and cancellation options.
+- [FAQs on Giving](https://docs.almabase.com/en/articles/5317239-faqs-on-giving.md): Look up answers for most frequently asked questions on crowdfunding, checkout and competitive fundraising pages
+- [How can I clear gifts on my giving page?](https://docs.almabase.com/en/articles/9219539-how-can-i-clear-gifts-on-my-giving-page.md): Introducing the "Clear all gifts" feature: Easily delete gifts from your giving page for streamlined testing before going live.
+- [How to copy/duplicate a Giving page?](https://docs.almabase.com/en/articles/10166363-how-to-copy-duplicate-a-giving-page.md): This article should help create a duplicate or a copy of a Giving page when you want to create a new Giving page matching the settings of an older Giving page.
+- [How to add fields to collect information from donors on Giving pages](https://docs.almabase.com/en/articles/10201942-how-to-add-fields-to-collect-information-from-donors-on-giving-pages.md): When you want to collect more information from donors, you have to edit the forms added as pre-payment or post-payment form on Giving page.
+- [Configuring Email Senders for Giving Pages](https://docs.almabase.com/en/articles/9200298-configuring-email-senders-for-giving-pages.md): Configuring Email Senders for Giving Pages
+- [How to Resend 'Thank You' Email in a Giving Campaign](https://docs.almabase.com/en/articles/10221940-how-to-resend-thank-you-email-in-a-giving-campaign.md): Instructions on how to resend a thank you/gift confirmation email to a donor
+- [Hiding Countdown Clock and Amount in a Competitive Giving Page](https://docs.almabase.com/en/articles/10223862-hiding-countdown-clock-and-amount-in-a-competitive-giving-page.md)
+- [How Can I Delete a Gift on My Giving Page?](https://docs.almabase.com/en/articles/12839706-how-can-i-delete-a-gift-on-my-giving-page.md): Simple step-by-step instructions to delete a specific gift from your campaign
+- [What is a Donor Heatmap?](https://docs.almabase.com/en/articles/12886345-what-is-a-donor-heatmap.md): See how donor locations are visualized on your campaign.
+- [How Can I Enable the Donor Heatmap for my Campaign?](https://docs.almabase.com/en/articles/12886405-how-can-i-enable-the-donor-heatmap-for-my-campaign.md): Step-by-step guide on enabling heat maps.
+- [Mapping Gifts to the Right Constituents](https://docs.almabase.com/en/articles/15645468-mapping-gifts-to-the-right-constituents.md): Follow this step-by-step process to clear your gift mapping queue — link every donation to the right constituent so giving history is tracked accurately and your data stays clean.
+- [Syncing One-Time Gifts to Raiser's Edge NXT](https://docs.almabase.com/en/articles/6281822-syncing-one-time-gifts-to-raiser-s-edge-nxt.md): Learn how to push one-time gifts received on Almabase to Raiser's Edge as a batch.
+- [Import Gifts from Raiser's Edge to Almabase](https://docs.almabase.com/en/articles/7222323-import-gifts-from-raiser-s-edge-to-almabase.md): Learn how to pull past gifts, pull gifts at regular intervals, pull gifts for an ongoing campaign, etc. from Raiser's Edge to Almabase
+- [Syncing Gift Data from Almabase to Your Database](https://docs.almabase.com/en/articles/16997005-syncing-gift-data-from-almabase-to-your-database.md): A guide to moving your gift data — donor details, one-time gifts, and recurring gifts — from Almabase to Raiser's Edge NXT.
+- [Creating and Managing Gift Lists and Segments](https://docs.almabase.com/en/articles/17167089-creating-and-managing-gift-lists-and-segments.md): Learn when to use a gift list vs. a gift segment, how to create each one, and how they work with the sync process.
+- [What Gift Data Syncs from Almabase to Raiser's Edge NXT](https://docs.almabase.com/en/articles/17169343-what-gift-data-syncs-from-almabase-to-raiser-s-edge-nxt.md): A complete reference of every gift field that syncs to RE NXT, where each one is configured, and what stays in Almabase only.
+- [Handling Gift Sync Errors](https://docs.almabase.com/en/articles/17001586-handling-gift-sync-errors.md): Learn how to find, diagnose, and fix common errors when syncing gifts from Almabase to Raiser's Edge NXT.
+- [Setting Up Campaign, Appeal, and Package Codes on Your Gifts Before Syncing to RE NXT](https://docs.almabase.com/en/articles/17060777-setting-up-campaign-appeal-and-package-codes-on-your-gifts-before-syncing-to-re-nxt.md): Learn where to configure campaign, appeal, and package codes on gifts syncing from Almabase to RE NXT, how the override hierarchy works, and what other gift attributes you can set.
+- [Syncing Recurring Gifts to Raiser's Edge NXT](https://docs.almabase.com/en/articles/17093958-syncing-recurring-gifts-to-raiser-s-edge-nxt.md): How to sync recurring gifts from Almabase to RE NXT for both Stripe and BBMS payment gateways, including the two-stage sync process for BBMS.
+- [Reviewing and Committing Gift Batches in RE NXT](https://docs.almabase.com/en/articles/17094793-reviewing-and-committing-gift-batches-in-re-nxt.md): How to find, review, and commit gift batches in Raiser's Edge NXT after syncing gifts from Almabase.
+- [Checking Gift Import Status](https://docs.almabase.com/en/articles/8313490-checking-gift-import-status.md): Learn how to monitor the status of gift imports, resolve errors, and modify sync criteria in Almabase.
+- [How Transaction Charges Are Calculated When Donors Choose to Cover Them?](https://docs.almabase.com/en/articles/8646913-how-transaction-charges-are-calculated-when-donors-choose-to-cover-them.md): Learn how transaction charges are calculated when donors choose to cover payment gateway fees, why the total may be a few cents higher than expected, and why this is the correct result.
+- [How to Prevent Gifts Added in Almabase from Syncing Back to Raiser’s Edge](https://docs.almabase.com/en/articles/10185376-how-to-prevent-gifts-added-in-almabase-from-syncing-back-to-raiser-s-edge.md): Steps to ensure offline gifts or manually added gifts are not synced back to Raiser's Edge
+- [Using Leaderboards for Giving Campaigns](https://docs.almabase.com/en/articles/3954280-using-leaderboards-for-giving-campaigns.md): What are leaderboards? How to strategically use it in your competitive giving campaigns?
+- [About Campaign Hubs](https://docs.almabase.com/en/articles/8288379-about-campaign-hubs.md): understand what campaign hubs was built for, and the use-cases it addresses
+- [Influencers Data Management](https://docs.almabase.com/en/articles/3954285-influencers-data-management.md): All you need to know about managing the influencers data - Emailing them, mapping them back or checking their impact on the campaign
+- [How to Drive More Participation and Support for Your Institution's Campaign](https://docs.almabase.com/en/articles/4128059-how-to-drive-more-participation-and-support-for-your-institution-s-campaign.md): Help us widen our reach and hit our goals by driving folks in your network to participate
+- [Three Methods to Drive Engagement for Your Fundraising Campaign](https://docs.almabase.com/en/articles/8342212-three-methods-to-drive-engagement-for-your-fundraising-campaign.md): leveraging your fundraising campaign to get your community together in more ways than just raising money
+- [Gift Aid](https://docs.almabase.com/en/articles/8413242-gift-aid.md): Make a greater impact with your charitable giving.
+
+## Email Communication
+
+- [Introduction to Almabase's Email Communication](https://docs.almabase.com/en/articles/9685765-introduction-to-almabase-s-email-communication.md): understand the capabilities of the Email Communication tool - composing emails, setting up email lists, automated workflows, and more
+- [Create Communication groups/lists on Almabase](https://docs.almabase.com/en/articles/9691116-create-communication-groups-lists-on-almabase.md): see different ways to create communication groups/lists and recommended ways to create them
+- [Create a Communication list/group on Almabase from Raiser's Edge constituent list or query](https://docs.almabase.com/en/articles/6898879-create-a-communication-list-group-on-almabase-from-raiser-s-edge-constituent-list-or-query.md): See how to pull email lists from Raiser's Edge and create communication lists/groups on Almabase
+- [Create a Communication list/group by importing an Excel file](https://docs.almabase.com/en/articles/1478246-create-a-communication-list-group-by-importing-an-excel-file.md): Learn how to create a communication group from a csv or excel file
+- [Create the Communication group/list from Data Studio](https://docs.almabase.com/en/articles/6560862-create-the-communication-group-list-from-data-studio.md): Learn how to create an communication group on Data Studio by using filter options
+- [Creating a Communication Group by Defining a Segment in the User Directory](https://docs.almabase.com/en/articles/8355176-creating-a-communication-group-by-defining-a-segment-in-the-user-directory.md): Learn more about generating a communication group using the User Directory feature on Almabase.
+- [Why are some records in an email group marked not to receive emails?](https://docs.almabase.com/en/articles/9717115-why-are-some-records-in-an-email-group-marked-not-to-receive-emails.md): Understand why some members in a communication group won't receive your email and how to identify and address them.
+- [Composing an Email](https://docs.almabase.com/en/articles/2597946-composing-an-email.md): Learn how to build emails with rich content on Almabase
+- [Drafting Emails with Emily AI](https://docs.almabase.com/en/articles/11679151-drafting-emails-with-emily-ai.md): Learn how to use Emily, your AI assistant, to quickly generate and customize professional, context-aware email drafts in just a few steps.
+- [Video Gallery: Adding and Managing Video Content for Your Email](https://docs.almabase.com/en/articles/11783253-video-gallery-adding-and-managing-video-content-for-your-email.md): Understand how to embed video contents to your emails using Video Gallery and boost email engagement
+- [Email Categories](https://docs.almabase.com/en/articles/9148581-email-categories.md)
+- [Automation Workflows — Invite and Networking Recommendations](https://docs.almabase.com/en/articles/16555033-automation-workflows-invite-and-networking-recommendations.md): Two automation workflows to grow and engage your community — Invite \(bring new members in\) and Networking Recommendations \(keep them coming back\). Overview with links to detailed setup guides.
+- [How are Email Subscriptions and Unsubscriptions managed on Almabase?](https://docs.almabase.com/en/articles/1235276-how-are-email-subscriptions-and-unsubscriptions-managed-on-almabase.md): See how users and admins can subscribe and unsubscribe to email communications and how the system handles them
+- [Understanding the Email Status](https://docs.almabase.com/en/articles/5148092-understanding-the-email-status.md): Learn about the different email statuses and their meanings
+- [How to Send a Test Email?](https://docs.almabase.com/en/articles/1235278-how-to-send-a-test-email.md): Learn more about sending a test email to ensure your message is flawless before reaching your actual audience.
+- [How to Create an Email Template?](https://docs.almabase.com/en/articles/8712745-how-to-create-an-email-template.md)
+- [How to schedule emails?](https://docs.almabase.com/en/articles/9699546-how-to-schedule-emails.md): see how to setup email candence/schedule on Almabase email communication
+- [What is the internal email name? How is it used?](https://docs.almabase.com/en/articles/9167359-what-is-the-internal-email-name-how-is-it-used.md): See how adding an internal name to the bulk emails can improve internal searchability
+- [How to Invite Alumni to Register on the Almabase Platform?](https://docs.almabase.com/en/articles/7872691-how-to-invite-alumni-to-register-on-the-almabase-platform.md): Learn how to use Personalized Invite Links and the Invite Link Merge Tag to encourage registration and enhanced alumni engagement.
+- [How to Add an Alumni or User to an Existing Communication Group?](https://docs.almabase.com/en/articles/4929047-how-to-add-an-alumni-or-user-to-an-existing-communication-group.md): Learn how to add a record to an existing communication group from the data studio.
+- [How to Remove a Record from a Communication Group](https://docs.almabase.com/en/articles/5276550-how-to-remove-a-record-from-a-communication-group.md): Learn how to unsubscribe a record from a specific communication group so they stop receiving emails sent to it.
+- [How to Update or Add a Customized Logo on an Email?](https://docs.almabase.com/en/articles/9268490-how-to-update-or-add-a-customized-logo-on-an-email.md)
+- [How to Use Recently Added Custom Fields in Raiser's Edge as Merge Tags in Email Communications](https://docs.almabase.com/en/articles/9091116-how-to-use-recently-added-custom-fields-in-raiser-s-edge-as-merge-tags-in-email-communications.md): Custom field merge tags
+- [FAQs on Email Communication](https://docs.almabase.com/en/articles/1957472-faqs-on-email-communication.md): Find answers to common questions about features related to the Email Communication, helping users manage automated emails, and more.
+- [How to Replicate a Sent Email and Resend it to Non-Openers](https://docs.almabase.com/en/articles/9503651-how-to-replicate-a-sent-email-and-resend-it-to-non-openers.md)
+- [Why are Emails pulled from RE not marked as preferred/primary, even though they are preferred on RE?](https://docs.almabase.com/en/articles/9707370-why-are-emails-pulled-from-re-not-marked-as-preferred-primary-even-though-they-are-preferred-on-re.md): Understand how the Almabase sync system pulls email addresses and which one is marked as primary
+- [Sending Emails from Your Own Domain \(Unmasked Email Domain\)](https://docs.almabase.com/en/articles/16861218-sending-emails-from-your-own-domain-unmasked-email-domain.md): Set up an unmasked email domain so your bulk and system emails send from your institution's own domain instead of a masked Almabase domain.
+- [Manage, Search and Organize your Emails Better](https://docs.almabase.com/en/articles/9215120-manage-search-and-organize-your-emails-better.md): Learn how to configure reply-to email address\(es\) and set an internal name.
+- [Understanding Email Masking and Reply Mechanism](https://docs.almabase.com/en/articles/1235222-understanding-email-masking-and-reply-mechanism.md): Learn more about how we use email masking to protect your personal email addresses while facilitating communication through the platform.
+- [Understanding Sender Email Address changes in Email Communication Dispatches](https://docs.almabase.com/en/articles/1771597-understanding-sender-email-address-changes-in-email-communication-dispatches.md): Learn more about why we adjust sender email addresses for Communication emails.
+- [Understanding the Email Reply Mechanism from Email Communication](https://docs.almabase.com/en/articles/1781969-understanding-the-email-reply-mechanism-from-email-communication.md): Learn what happens when an email is sent from email communication.
+- [Understanding the Changes to 'Communication Preferences' in Registrations](https://docs.almabase.com/en/articles/2285314-understanding-the-changes-to-communication-preferences-in-registrations.md): Learn more about tailoring communication consent options during registration to align with GDPR requirements.
+- [Understanding 'Unsubscribed' Status in Communication Groups](https://docs.almabase.com/en/articles/5165371-understanding-unsubscribed-status-in-communication-groups.md): Learn more about the meaning of "Unsubscribed" in communication groups and how to resubscribe a user.
+- [Understanding 'Email Available Temporarily' in Communication Groups](https://docs.almabase.com/en/articles/5119081-understanding-email-available-temporarily-in-communication-groups.md): Learn more about temporary email status and converting it to a permanent one.
+- [Understanding 'Allowed for Transaction Only' Email Preferences](https://docs.almabase.com/en/articles/5172044-understanding-allowed-for-transaction-only-email-preferences.md): Learn more about the specific email communication status "Allowed for Transaction Only".
+- [Understanding Email Delivery Failure Notifications](https://docs.almabase.com/en/articles/5269308-understanding-email-delivery-failure-notifications.md): Learn more about common reasons for email delivery failures and how to address them.
+- [Addressing Low and Inflated Email Open and Click Rates](https://docs.almabase.com/en/articles/8048039-addressing-low-and-inflated-email-open-and-click-rates.md): Learn how to interpret email open rates and click rates to accurately measure alumni engagement.
+- [Troubleshooting Missing Almabase Emails or Notifications](https://docs.almabase.com/en/articles/5490880-troubleshooting-missing-almabase-emails-or-notifications.md): Learn more about how to address issues with not receiving emails from Almabase.
+
+## Text Communications
+
+- [How Can I Send Text Messages to my Alumni](https://docs.almabase.com/en/articles/11137119-how-can-i-send-text-messages-to-my-alumni.md): Step-by-step instructions to send text messages to specific groups through Text Communication tool.
+- [Managing Replies in the Text Communication Center](https://docs.almabase.com/en/articles/11373973-managing-replies-in-the-text-communication-center.md): This article guides you on managing replies and responding to replies from your alumni or donors using the text communication center.
+- [How To Bulk Upload Consent For Text Messaging](https://docs.almabase.com/en/articles/11197974-how-to-bulk-upload-consent-for-text-messaging.md): This article guides you through the process of bulk uploading consent for sending text messages.
+- [Reports on Text Messages](https://docs.almabase.com/en/articles/11373933-reports-on-text-messages.md): This article guides you through the process of accessing and understanding the reports on text communication.
+- [FAQs on Text Communications](https://docs.almabase.com/en/articles/11373975-faqs-on-text-communications.md): Find answers to common questions about sending texts, managing consent, message credits, URL shortening, and more—all in one place.
+- [SMS Opt-Out Rate Best Practices Guide](https://docs.almabase.com/en/articles/11798309-sms-opt-out-rate-best-practices-guide.md)
+- [How to Send Text Messages to Event Guests from Almabase](https://docs.almabase.com/en/articles/10434958-how-to-send-text-messages-to-event-guests-from-almabase.md): Send bulk text messages to guests of an event.
+
+## Directories
+
+- [Setting Up a Directory](https://docs.almabase.com/en/articles/4888045-setting-up-a-directory.md): Learn more about creating and organizing various content types like stories, job lists, and alumni resources using Directories.
+- [Editing Directories Created Using Templates](https://docs.almabase.com/en/articles/5520864-editing-directories-created-using-templates.md): Learn how to modify directories made with preset templates to better meet your needs.
+- [Submitting Content to the Directory](https://docs.almabase.com/en/articles/5515336-submitting-content-to-the-directory.md): Learn how admins can add content and enable alumni members to do so as well.
+- [Understanding Directories Publishing](https://docs.almabase.com/en/articles/5442303-understanding-directories-publishing.md): Learn about the two primary methods to publish your directory to the web.
+- [How to Set up Filters and Sort Options on Directories?](https://docs.almabase.com/en/articles/8379612-how-to-set-up-filters-and-sort-options-on-directories.md): Learn how to enable filter and sort and enhance your members' experience.
+- [How to Add a Publish Filter to the Directory?](https://docs.almabase.com/en/articles/5472317-how-to-add-a-publish-filter-to-the-directory.md): Learn how to control the submissions published in your directory by setting up publish criteria.
+- [How to Setup a Custom Directory on Almabase?](https://docs.almabase.com/en/articles/4884349-how-to-setup-a-custom-directory-on-almabase.md): Learn how to create a custom directory, including collecting information through forms and displaying it effectively.
+- [How to Create a Yearbook Directory?](https://docs.almabase.com/en/articles/1235266-how-to-create-a-yearbook-directory.md): Learn more about setting up a Yearbook Directory and adding it to the homepage on Almabase.
+- [How to Create an Events Directory?](https://docs.almabase.com/en/articles/6149654-how-to-create-an-events-directory.md): Learn how to create a directory for various events like private, philanthropic, and reunion events on Almabase.
+- [How to Create and Add Alumni Stories using Directories?](https://docs.almabase.com/en/articles/1235267-how-to-create-and-add-alumni-stories-using-directories.md): Learn how to set up directories for alumni to share their experiences and for you to publish various content, including alumni spotlights.
+- [How to Set Up a Job and Internship Board?](https://docs.almabase.com/en/articles/7339143-how-to-set-up-a-job-and-internship-board.md): Learn how to create and manage a Job or Internship board using Directories to makes the lives of the admins, alumni and job-seekers easier.
+- [How to Add a New Job or Internship Post and Edit an Existing Post?](https://docs.almabase.com/en/articles/7548877-how-to-add-a-new-job-or-internship-post-and-edit-an-existing-post.md): Learn how to add new job or internship listings and edit existing ones on the Job or Internship Board.
+- [How to Apply for Jobs and Internships on the Job Board?](https://docs.almabase.com/en/articles/7548916-how-to-apply-for-jobs-and-internships-on-the-job-board.md): Learn how to navigate and apply for opportunities on the job board effectively.
+- [How to Remove a Job Listing from the Job Board Directory?](https://docs.almabase.com/en/articles/7924548-how-to-remove-a-job-listing-from-the-job-board-directory.md): Learn more about how to easily remove a job listing from your job board.
+- [How to Automatically Post a New Submission to a Space?](https://docs.almabase.com/en/articles/8894133-how-to-automatically-post-a-new-submission-to-a-space.md): Receive all updates within a directory along with the space digest or as an announcement on a space.
+- [FAQs on Directories](https://docs.almabase.com/en/articles/7980571-faqs-on-directories.md): Find answers to common questions about features related to directories on Almabase.
+- [Can Someone Lookup Users By Directory Search or Map Without Logging In?](https://docs.almabase.com/en/articles/9271613-can-someone-lookup-users-by-directory-search-or-map-without-logging-in.md)
+- [Understanding Directories](https://docs.almabase.com/en/articles/5499734-understanding-directories.md): Learn how to publish content and resources that are valuable to your alumni.
+- [Upgrading Resources and Newsletter/Magazines to Directories](https://docs.almabase.com/en/articles/6155126-upgrading-resources-and-newsletter-magazines-to-directories.md): Discover the benefits and process of upgrading the Resources and Newsletter/Magazines feature to Directories on Almabase.
+- [Understanding the Career Center Migration \(Jobs\) to Directories](https://docs.almabase.com/en/articles/5541527-understanding-the-career-center-migration-jobs-to-directories.md): Learn the benefits of moving job listings from the Career Center to Directories.
+- [Understanding Best Practices for Directories](https://docs.almabase.com/en/articles/5442326-understanding-best-practices-for-directories.md): Learn more about simple guidelines to boost user engagement with published directories.
+
+## Forms
+
+- [Creating a Form](https://docs.almabase.com/en/articles/5016529-creating-a-form.md): Learn how to create a form to gather valuable information from your Alumni, enhancing your ability to connect and engage with them.
+- [Understanding the Types of Forms](https://docs.almabase.com/en/articles/5041096-understanding-the-types-of-forms.md): Learn more about various form types and their specific uses on the Almabase platform.
+- [What are the Different Form Field Types Available?](https://docs.almabase.com/en/articles/4763333-what-are-the-different-form-field-types-available.md): Learn more about the various question and field types available on forms and their applications.
+- [Publishing Your Form](https://docs.almabase.com/en/articles/5116813-publishing-your-form.md): Learn more about the different ways to share your form and engage with alumni.
+- [How to Enable Multiple File Upload?](https://docs.almabase.com/en/articles/4356591-how-to-enable-multiple-file-upload.md): Learn more about setting up the multiple file upload option on forms to enhance data collection.
+- [How to Add Conditional Questions on Forms?](https://docs.almabase.com/en/articles/4110904-how-to-add-conditional-questions-on-forms.md): Learn to add conditional questions to your forms, allowing certain sections or questions to appear based on the user's responses.
+- [How to Export Form Submissions?](https://docs.almabase.com/en/articles/5119991-how-to-export-form-submissions.md): Learn how to easily export form submissions from Almabase to Excel for streamlined data collection.
+- [Where Can I Find and Export the Responses of a Custom Form?](https://docs.almabase.com/en/articles/1235302-where-can-i-find-and-export-the-responses-of-a-custom-form.md): Learn how you can access the responses on your custom forms.
+- [How to Add a Form to Pages?](https://docs.almabase.com/en/articles/1235291-how-to-add-a-form-to-pages.md): Learn how to add a form for applications, surveys, and more to the pages you create on the Almabase platform.
+- [How to Update the URL of a Form, Event Page, Giving Campaign, and Directory?](https://docs.almabase.com/en/articles/5113869-how-to-update-the-url-of-a-form-event-page-giving-campaign-and-directory.md): Learn how to easily modify the URLs for various features like forms, event pages, giving campaigns, and directories on Almabase.
+- [FAQs on Forms](https://docs.almabase.com/en/articles/5421040-faqs-on-forms.md): Find answers to common questions about features related to Forms.
+- [Pushing Data from Forms to User Profiles Using Form Connectors in Almabase](https://docs.almabase.com/en/articles/7046435-pushing-data-from-forms-to-user-profiles-using-form-connectors-in-almabase.md): Learn how to use Form Connectors to update user profiles with data collected through forms on Almabase.
+- [Reviewing the data before updating Profiles](https://docs.almabase.com/en/articles/8095250-reviewing-the-data-before-updating-profiles.md): Learn how to review new form information prior to it being pushed to Almabase profiles and the constituent record on Raiser's Edge NXT.
+
+## Spaces
+
+- [Setting Up a Space](https://docs.almabase.com/en/articles/5784579-setting-up-a-space.md): Learn about configuring and managing a space effectively.
+- [Creating a New Post](https://docs.almabase.com/en/articles/5799220-creating-a-new-post.md): Learn more about how to successfully create and publish a post.
+- [Understanding Digests](https://docs.almabase.com/en/articles/5799161-understanding-digests.md): Learn what a digest is and how to manage it.
+- [Setting Up The Space Explore Page](https://docs.almabase.com/en/articles/9268532-setting-up-the-space-explore-page.md): Learn how to set up the Space Explore page.
+- [How can Space Moderators Send Important Announcements as an Email?](https://docs.almabase.com/en/articles/6312201-how-can-space-moderators-send-important-announcements-as-an-email.md): Learn how moderators can send emails to subscribers.
+- [FAQs on Spaces' Subscribers](https://docs.almabase.com/en/articles/5784580-faqs-on-spaces-subscribers.md): Find answers to common questions about subscribers on spaces in Almabase.
+- [FAQs on Spaces](https://docs.almabase.com/en/articles/7932786-faqs-on-spaces.md): Find answers to common questions about features related to Spaces, a tool on the Almabase platform.
+- [Our Space digest now has image previews!](https://docs.almabase.com/en/articles/9167280-our-space-digest-now-has-image-previews.md): Enhancing your Spaces experience with image previews.
+- [Introducing the ability to tag users in a space](https://docs.almabase.com/en/articles/9167323-introducing-the-ability-to-tag-users-in-a-space.md): We have now introduced a new feature that allows both admins and users to tag other members in posts and comments.
+- [How To Exclude Posts From Certain Spaces In the Digest?](https://docs.almabase.com/en/articles/9271573-how-to-exclude-posts-from-certain-spaces-in-the-digest.md): The 'Exclude Space' feature allows you to customize your weekly/monthly digests further by selectively removing spaces you wish to exclude.
+- [Understanding Spaces](https://docs.almabase.com/en/articles/5784430-understanding-spaces.md): Find out how Spaces offer an engaging way to address individual needs within your larger community.
+
+## Mentorship
+
+- [Setting Up Mentorship Guidelines](https://docs.almabase.com/en/articles/8421028-setting-up-mentorship-guidelines.md): Learn how to establish effective guidelines for mentors and mentees in your program.
+- [Setting Up the Registration Form for the Mentorship Program](https://docs.almabase.com/en/articles/8410069-setting-up-the-registration-form-for-the-mentorship-program.md): Learn how to create a registration form for your mentorship program, gathering key information from mentors and mentees.
+- [Adding Description, Images, and Mentorship Services to the Mentorship Program](https://docs.almabase.com/en/articles/8409595-adding-description-images-and-mentorship-services-to-the-mentorship-program.md): Learn how to enrich your Mentorship Program with rich media content and more.
+- [Creating and Setting Up a Mentorship Program](https://docs.almabase.com/en/articles/8404239-creating-and-setting-up-a-mentorship-program.md): Learn more about establishing a new mentorship program, configuring its basic settings, and managing connections.
+- [Exporting Mentorship Data](https://docs.almabase.com/en/articles/10126165-exporting-mentorship-data.md): See how to export Mentorship data — members of the mentorship program, connections, mentors, and mentees along with the details they shared
+- [What are the Steps to Join the Mentorship Program as a Mentor or Mentee?](https://docs.almabase.com/en/articles/8403243-what-are-the-steps-to-join-the-mentorship-program-as-a-mentor-or-mentee.md): Learn the detailed steps to enroll as a mentor, mentee, or both.
+- [How to pair Mentors and Mentees?](https://docs.almabase.com/en/articles/8407753-how-to-pair-mentors-and-mentees.md): Learn how to pair mentors and mentees effectively.
+- [How to Check and Manage the Progress of a Mentorship pair?](https://docs.almabase.com/en/articles/8420635-how-to-check-and-manage-the-progress-of-a-mentorship-pair.md): Learn how you can monitor the progress and review feedback for a mentorship pair.
+- [How can I Edit the Mentorship Preferences for a Mentor and Mentee as an Admin?](https://docs.almabase.com/en/articles/8420546-how-can-i-edit-the-mentorship-preferences-for-a-mentor-and-mentee-as-an-admin.md): Learn how to edit a mentor or mentee's mentorship preferences any time you need to ensure a great mentor and mentee experience.
+- [How to Edit Mentorship Preferences as a Mentor and Mentee?](https://docs.almabase.com/en/articles/8407755-how-to-edit-mentorship-preferences-as-a-mentor-and-mentee.md): Learn how to update your mentorship settings to reflect your evolving needs throughout the mentorship journey.
+- [FAQs on Mentorship](https://docs.almabase.com/en/articles/8420562-faqs-on-mentorship.md): Find answers to features related to Mentorship, including how to engage with mentors and manage participation in the program.
+
+## Pages
+
+- [Creating Engaging Pages](https://docs.almabase.com/en/articles/2604889-creating-engaging-pages.md): Learn more about utilizing the Almabase page editor to craft rich, dynamic content.
+- [Understanding Page Editor \(Templates\)](https://docs.almabase.com/en/articles/1513209-understanding-page-editor-templates.md): Learn how to use templates to create rich layouts in the Pages Editor.
+- [Understanding Page Editor \(Widgets\)](https://docs.almabase.com/en/articles/1513214-understanding-page-editor-widgets.md): Learn more about embedding dynamic content onto your pages using widgets.
+- [Understanding the Additional Options on Pages](https://docs.almabase.com/en/articles/1235251-understanding-the-additional-options-on-pages.md): Learn more about restricting page access, attaching forms, and other unique features.
+- [How to Add a Page to the Navigation or Header and Footer Menu?](https://docs.almabase.com/en/articles/1235205-how-to-add-a-page-to-the-navigation-or-header-and-footer-menu.md): Learn how to add a page to your site's navigation menu using the admin panel in Almabase.
+- [How to Add Images to Your Content?](https://docs.almabase.com/en/articles/1235238-how-to-add-images-to-your-content.md): Learn how to insert, edit, or replace pictures in your custom pages, news articles, descriptions, and other content to furnish your text.
+- [How to Add Videos to Your Content?](https://docs.almabase.com/en/articles/1235241-how-to-add-videos-to-your-content.md): Learn how to insert videos into your custom pages, news articles, descriptions, and other content on Almabase.
+- [FAQs on Pages](https://docs.almabase.com/en/articles/7897385-faqs-on-pages.md): Find answers to common questions about using and managing Pages on the platform, including issues with widgets and image display.
+- [How to Add or Embed Blackbaud Membership Form into Almabase Pages?](https://docs.almabase.com/en/articles/9317611-how-to-add-or-embed-blackbaud-membership-form-into-almabase-pages.md)
+
+## Content and Customization
+
+- [How to Create a Photo Gallery?](https://docs.almabase.com/en/articles/1235239-how-to-create-a-photo-gallery.md): Learn how to upload photos and create a photo gallery.
+- [What is the Ideal Dimension for Banner and Cover Images?](https://docs.almabase.com/en/articles/1235280-what-is-the-ideal-dimension-for-banner-and-cover-images.md): Learn more about ideal dimensions to use for cover images and banner pictures etc.
+- [FAQs on Images and Logos](https://docs.almabase.com/en/articles/1957494-faqs-on-images-and-logos.md): Find answers to common questions about images and logos.
+
+## Verifications
+
+- [Processing New Verification Requests](https://docs.almabase.com/en/articles/5788769-processing-new-verification-requests.md): Learn more on how to approve or reject verification badge requests from community members in different scenarios
+- [Creating a Verification Form](https://docs.almabase.com/en/articles/5778677-creating-a-verification-form.md): Learn more about how to set up a form to gather information for verifying requests.
+- [Managing Verification Badges](https://docs.almabase.com/en/articles/5778439-managing-verification-badges.md): Learn how to set up and administer verification badges for different community members like alumni, students, or class captains.
+- [FAQs on Verification](https://docs.almabase.com/en/articles/8466772-faqs-on-verification.md): Find answers to common questions about verifications.
+- [Understanding Verifications](https://docs.almabase.com/en/articles/5782328-understanding-verifications.md): Learn how verifications can help manage security and access for the programs you build on Almabase.
+
+## Engagement Report
+
+- [Exploring Engagement Reporting](https://docs.almabase.com/en/articles/5194792-exploring-engagement-reporting.md): Learn more about how to leverage the engagement report for your community's benefit.
+- [Understanding Engagement Touchpoints](https://docs.almabase.com/en/articles/5195065-understanding-engagement-touchpoints.md): Learn more about touchpoints and their tracking on the Almabase platform.
+- [Categorizing Engagement Touchpoints](https://docs.almabase.com/en/articles/5203616-categorizing-engagement-touchpoints.md): Learn how to categorize the touchpoints, and how to create your own categories.
+- [Reporting on Categorized Engagement Touchpoints](https://docs.almabase.com/en/articles/5253754-reporting-on-categorized-engagement-touchpoints.md): Learn more about utilizing engagement reports to refine your programs.
+- [Adding a New Program to Your Engagement Report](https://docs.almabase.com/en/articles/5200858-adding-a-new-program-to-your-engagement-report.md): Learn how to add custom programs to be tracked on Almabase's engagement report.
+- [FAQs on Engagement Report](https://docs.almabase.com/en/articles/5220784-faqs-on-engagement-report.md): Find answers to questions about the Engagement Report feature, including how to categorize touchpoints, and understand report listings.
+- [Enhancing Engagement Reporting with Default Categories and Weightages in Touchpoints](https://docs.almabase.com/en/articles/5471179-enhancing-engagement-reporting-with-default-categories-and-weightages-in-touchpoints.md): Learn how to automate and refine your engagement reporting process with predefined categories and weightages in touchpoints.
+
+## Engagement Studio
+
+- [Creating a User Engagement Report in Engagement Studio](https://docs.almabase.com/en/articles/5409422-creating-a-user-engagement-report-in-engagement-studio.md): Learn how to compile a user engagement report tailored to your specific interests using Engagement Studio.
+- [Sending Targeted Personalized Messages to Segmented Users from Engagement Reports](https://docs.almabase.com/en/articles/5411183-sending-targeted-personalized-messages-to-segmented-users-from-engagement-reports.md): Learn how to segment users from your engagement reports in Engagement Studio and send them customized messages.
+- [FAQs on Engagement Studio](https://docs.almabase.com/en/articles/5415069-faqs-on-engagement-studio.md): Find answers to common questions about editing reports, using date ranges, and executing actions within reports in Engagement Studio.
+- [Measuring and Analyzing Program Impact](https://docs.almabase.com/en/articles/5409339-measuring-and-analyzing-program-impact.md): Learn how Engagement Studio helps monitor engagement across all your programs in real-time to find where your attention is needed the most.
+
+## Programs
+
+- [Creating Custom Program Reports](https://docs.almabase.com/en/articles/8937166-creating-custom-program-reports.md): Streamlining digital engagement measurement with a seamless, 3-Step process to connect and visualize campaign performance across all tools
+- [New email templates to help with your Digital Programs](https://docs.almabase.com/en/articles/9167345-new-email-templates-to-help-with-your-digital-programs.md): Easy access to these templates can help you get started with invitations and improve participation in just a few clicks.
+- [Exploring Program Reports Capabilities](https://docs.almabase.com/en/articles/9506234-exploring-program-reports-capabilities.md)
+
+## FAQs and Troubleshooting
+
+- [Setting Up the Alumni Platform on the Phone's Home Screen](https://docs.almabase.com/en/articles/2714262-setting-up-the-alumni-platform-on-the-phone-s-home-screen.md): Learn how you can make the alumni platform easily accessible on your phone like a mobile app.
+- [FAQs on Constituent Sync](https://docs.almabase.com/en/articles/7921331-faqs-on-constituent-sync.md): Find answers to common questions about features related to Constituent Sync, including methods for pulling records, permissions, and more.
+- [FAQs on Analytics](https://docs.almabase.com/en/articles/1957567-faqs-on-analytics.md): Find answers to common questions about tracking user activity and viewing engagement information in the context of alumni relations.
+- [Reordering Sliding Banner Pictures on the Homepage](https://docs.almabase.com/en/articles/1235287-reordering-sliding-banner-pictures-on-the-homepage.md): Learn how to change the sequence of your homepage banner images by setting their priority.
+- [Sample Content that can be created with Pages](https://docs.almabase.com/en/articles/1235262-sample-content-that-can-be-created-with-pages.md): Take a look at some samples created by some of our partner schools. They were all created using templates and widgets via the page editor.
+- [Previewing Content with 'View on Site'](https://docs.almabase.com/en/articles/1235271-previewing-content-with-view-on-site.md): Learn how to check how your content looks on your site before making it live.
+- [Editing Almabase pages in HTML](https://docs.almabase.com/en/articles/1235242-editing-almabase-pages-in-html.md): Learn how to edit your content in HTML.
+- [Understanding the Difference Between 'Magazine' and 'Magazine Issues'](https://docs.almabase.com/en/articles/1235211-understanding-the-difference-between-magazine-and-magazine-issues.md): Learn what makes a Magazine and how Magazine Issues can be used.
+- [Changing Your Email After Sign-Up](https://docs.almabase.com/en/articles/1235256-changing-your-email-after-sign-up.md): Learn more about updating your login email address and managing email preferences.
+- [Editing Profile Details on the Platform](https://docs.almabase.com/en/articles/1235258-editing-profile-details-on-the-platform.md): Learn how to update your profile information and edit details on alumni profiles.
+- [Updating Record Information from Data Studio](https://docs.almabase.com/en/articles/1235202-updating-record-information-from-data-studio.md): Learn how to update affiliations, city, or membership name for one or more records using the Update Info menu in Data Studio.
+- [Increasing the Range of Values in Year of Graduation on the Registration Page](https://docs.almabase.com/en/articles/1265663-increasing-the-range-of-values-in-year-of-graduation-on-the-registration-page.md): Find out more about the range of values possible in the 'Year of Graduation' field.
+- [Resolving Issues with Granting Site Admin Access on Almabase](https://docs.almabase.com/en/articles/8067412-resolving-issues-with-granting-site-admin-access-on-almabase.md): Understand what to do when a record exists on Almabase but you're unable to find and grant site admin access to users.
+- [Exporting/Downloading Alumni Data from the Platform](https://docs.almabase.com/en/articles/1235206-exporting-downloading-alumni-data-from-the-platform.md): Learn how to download the details from your database into a spreadsheet file.
+- [Editing the Course Structure in the Admin Panel](https://docs.almabase.com/en/articles/1235201-editing-the-course-structure-in-the-admin-panel.md): Learn how to modify degree and major field options for registration and add additional study options.
+- [Accessing the Admin Side of the Platform](https://docs.almabase.com/en/articles/1235282-accessing-the-admin-side-of-the-platform.md): Learn how to access the tools on the Admin end of the platform for managing your site.
+- [Contacting the Support Team](https://docs.almabase.com/en/articles/1235236-contacting-the-support-team.md): Learn how to easily get in touch with the Almabase support team for assistance.
+
+## WordPress Integration
+
+- [Customizing the Header Menu](https://docs.almabase.com/en/articles/12147606-customizing-the-header-menu.md): Find out how you can tweak the navigation menus on your WordPress homepage.
+
+## WordPress
+
+- [Understanding Available Merge Tags for WordPress](https://docs.almabase.com/en/articles/8442594-understanding-available-merge-tags-for-wordpress.md): Learn about the various merge tags available in WordPress for dynamic content customization.

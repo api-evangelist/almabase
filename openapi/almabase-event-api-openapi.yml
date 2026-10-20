@@ -1,0 +1,723 @@
+openapi: 3.2.0
+info:
+  title: Almabase Developer Portal Event API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the data behind https://developers.almabase.com/developer-portal/). Request and response field tables are copied from it; types other than boolean are not stated by the source. The API is authenticated (an anonymous call returns 403 "Authentication credentials were not provided."); the authentication scheme is not documented publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with a DRF 403 JSON (probed 2026-10-20)
+tags:
+- name: Event
+paths:
+  /api/v1/eventsx/{pk}:
+    get:
+      operationId: getEvent
+      summary: Get Event
+      description: Retrieve core event information representing the primary event entity serving as the foundation for all event-related activities. Provides comprehensive event data including descriptive details, scheduling, venue coordination, registration configuration, and integration capabilities.
+      tags:
+      - Event
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  updated_at:
+                    nullable: true
+                  author:
+                    description: User who created the event.
+                    readOnly: true
+                  is_archived:
+                    type: boolean
+                    description: Indicates if the event has been archived.
+                  receiver_emails:
+                    description: Comma separated emails
+                    nullable: true
+                  checked_in_campaign_url:
+                    description: URL for the checked-in guests campaign in the communication platform.
+                    readOnly: true
+                  text_auction_payable_bidders_campaign_url:
+                    description: URL for the auction payable bidders text campaign in the communication platform.
+                    readOnly: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases system.
+                    nullable: true
+                  webinar_details:
+                    description: Detailed Zoom webinar information including API response data.
+                    readOnly: true
+                  waitlist_created_campaign_url:
+                    description: URL for the waitlist-created guests campaign in the communication platform.
+                    readOnly: true
+                  count_guests:
+                    description: Total number of registered guests for the event.
+                    readOnly: true
+                  images:
+                    description: Event images including captions, types, and orientation settings.
+                    nullable: true
+                    readOnly: true
+                  waitlist_expired_campaign_url:
+                    description: URL for the waitlist offer expired campaign in the communication platform.
+                    readOnly: true
+                  type: {}
+                  payment_account:
+                    description: Payment processing account configuration for the event.
+                    nullable: true
+                  count_total_allowed_guests:
+                    nullable: true
+                  is_pro:
+                    type: boolean
+                    description: Indicates if this is a premium/professional event.
+                    readOnly: true
+                  labels:
+                    description: Custom labels and branding settings for the event.
+                  secondary_payment_account:
+                    description: Secondary payment processing account configuration for the event.
+                    nullable: true
+                  currency: {}
+                  revenue_goal:
+                    nullable: true
+                  reply_to_name:
+                    nullable: true
+                  timezone:
+                    description: Timezone for the event. Used for proper date/time display and calculations.
+                    nullable: true
+                  notification_expiry_hours:
+                    description: Number of hours after which the notification link will expire
+                  connected_datapush_user_id:
+                    nullable: true
+                  is_guest_count_shown_to_users:
+                    type: boolean
+                  is_edit_registration_open:
+                    type: boolean
+                  url:
+                    description: Public URL for the event page.
+                    readOnly: true
+                  ticket_to_exclude:
+                    description: JSON configuration for tickets to exclude from certain operations.
+                  reply_to_emails:
+                    description: Comma separated emails
+                    nullable: true
+                  text_registered_campaign_url:
+                    description: URL for the registered guests text campaign in the communication platform.
+                    readOnly: true
+                  email_sender:
+                    description: User profile that will be used as the sender for event emails.
+                    nullable: true
+                  description:
+                    description: Rich text description of the event with HTML support.
+                    nullable: true
+                  sender_name:
+                    nullable: true
+                  created_at:
+                    nullable: true
+                  slug: {}
+                  is_guest_limit_exceeded:
+                    description: Indicates if the event has reached its maximum guest capacity.
+                    readOnly: true
+                  livestream_url:
+                    description: Live stream url
+                    nullable: true
+                  sender_email:
+                    description: From address used when no sender profile is set
+                    nullable: true
+                  is_rsvp_confirmation_email_enabled:
+                    type: boolean
+                  discounts:
+                    description: Discount codes and promotional offers available for the event.
+                    readOnly: true
+                  tickets:
+                    description: Available tickets for the event with pricing and availability information.
+                    readOnly: true
+                  text_pending_payment_campaign_url:
+                    description: URL for the pending payment guests text campaign in the communication platform.
+                    readOnly: true
+                  sync_metadata:
+                    description: Additional metadata for synchronization with external systems.
+                  is_refund_enabled:
+                    type: boolean
+                  is_detach_from_engagement_platform:
+                    type: boolean
+                  agendas:
+                    description: List of sub-events or agenda items associated with this event.
+                    readOnly: true
+                  user_feedback_average:
+                    description: Average rating from user feedback for the event.
+                    readOnly: true
+                  workflow_id:
+                    description: ID of the workflow associated with this event.
+                    readOnly: true
+                  last_sent_invite_volunteer_datetime:
+                    description: Timestamp when the last volunteer invitation email was sent.
+                    nullable: true
+                  is_payment_split_enabled:
+                    type: boolean
+                    description: Enable payment split for this event
+                  waitlist_mode:
+                    description: 'Manual: Organizers must manually approve waitlisted registrations. Automatic: Registrations are automatically approved as space becomes available.'
+                  guest_display_option:
+                    description: Configuration for how guest information is displayed to other guests.
+                  last_sent_receipt_datetime:
+                    description: Timestamp when the last receipt email was sent to guests.
+                    readOnly: true
+                  payment_initiated_campaign_url:
+                    description: URL for the payment initiated guests campaign in the communication platform.
+                    readOnly: true
+                  is_discussions_enabled:
+                    type: boolean
+                  external_registration_url:
+                    description: If this is set register button should redirect the given url
+                    nullable: true
+                  registration_form:
+                    description: Custom registration form used for event registration.
+                    nullable: true
+                  text_approved_registrations_campaign_url:
+                    description: URL for the approved registrations text campaign in the communication platform.
+                    readOnly: true
+                  is_past:
+                    type: boolean
+                    description: Indicates if the event has already occurred.
+                    readOnly: true
+                  start_datetime:
+                    description: Event start date and time in the event's timezone.
+                    nullable: true
+                  auction_payment_window_start_datetime:
+                    description: Auction payment window start date and time in the event's timezone.
+                    nullable: true
+                  waitlist_notified_campaign_url:
+                    description: URL for the waitlist spot offered campaign in the communication platform.
+                    readOnly: true
+                  is_checkin_kiosk_enabled:
+                    type: boolean
+                    description: Enables check-in kiosk functionality for the event.
+                  text_checked_in_campaign_url:
+                    description: URL for the checked-in guests text campaign in the communication platform.
+                    readOnly: true
+                  is_registration_open:
+                    type: boolean
+                  venue_privacy: {}
+                  pending_payment_campaign_url:
+                    description: URL for the pending payment guests campaign in the communication platform.
+                    readOnly: true
+                  registered_campaign_url:
+                    description: URL for the registered guests campaign in the communication platform.
+                    readOnly: true
+                  payment_failed_campaign_url:
+                    description: URL for the payment failed guests campaign in the communication platform.
+                    readOnly: true
+                  sync_error:
+                    description: Error message from the last synchronization attempt with external systems.
+                    nullable: true
+                  connected_user_id:
+                    description: ID of the user connected to external systems for this event.
+                    readOnly: true
+                  is_eventsx:
+                    type: boolean
+                    description: Indicates if this is an EventsX event (vs legacy events).
+                    readOnly: true
+                  waitlist_registered_campaign_url:
+                    description: URL for the waitlist responded campaign in the communication platform.
+                    readOnly: true
+                  is_pos_enabled:
+                    type: boolean
+                  auction_start_datetime:
+                    description: Auction start date and time in the event's timezone.
+                    nullable: true
+                  pos_devices:
+                    description: Point of sale devices configured for the event.
+                    nullable: true
+                  payment_configuration_type: {}
+                  guest_form:
+                    description: Custom form used for guest information collection.
+                    nullable: true
+                  pre_registration_form:
+                    description: Custom form used for pre-registration before the main event registration opens.
+                    nullable: true
+                    readOnly: true
+                  text_payment_initiated_campaign_url:
+                    description: URL for the payment initiated guests text campaign in the communication platform.
+                    readOnly: true
+                  fund:
+                    description: Primary fundraising fund associated with the event.
+                    nullable: true
+                  count_unmapped_guests:
+                    description: Number of guests not yet mapped to external database profiles.
+                    readOnly: true
+                  auction_auto_charge_enabled:
+                    type: boolean
+                    description: If true, auto-charge is enabled for auction payments (runs at auction_auto_charge_datetime).
+                  webinar_id:
+                    description: Zoom webinar ID if the event is connected to a Zoom webinar.
+                    readOnly: true
+                  conditional_sub_event_visibility_criteria: {}
+                  contact_persons:
+                    description: List of contact persons for the event with name, email, and phone information.
+                    readOnly: true
+                  end_datetime:
+                    description: Event end date and time in the event's timezone.
+                    nullable: true
+                  should_sync_non_constituent_accompanying_guests:
+                    type: boolean
+                  highlighted_fields:
+                    description: Custom form fields that should be highlighted or emphasized on the event page.
+                    nullable: true
+                  external_database_lookup_id:
+                    description: A unique identifier assigned by the institution based on a custom convention.
+                    nullable: true
+                  should_collect_affiliation:
+                    type: boolean
+                  auction_default_tax_percentage:
+                    description: Default sales tax percentage for auction items.
+                    nullable: true
+                  receipt_email_template_id:
+                    description: ID of the email template used for sending receipts.
+                    readOnly: true
+                  auction_end_datetime:
+                    description: Auction end date and time in the event's timezone.
+                    nullable: true
+                  text_payment_failed_campaign_url:
+                    description: URL for the payment failed guests text campaign in the communication platform.
+                    readOnly: true
+                  auction_auto_charge_datetime:
+                    description: Auction auto-charge date and time in the event's timezone.
+                    nullable: true
+                  is_active:
+                    type: boolean
+                  venue:
+                    description: Venue information including name, address, coordinates, and display settings.
+                    nullable: true
+                  approved_registrations_campaign_url:
+                    description: URL for the approved registrations campaign in the communication platform.
+                    readOnly: true
+                  tags:
+                    description: Tags for categorizing and filtering events.
+                    nullable: true
+                  is_accompanying_guest_allowed:
+                    type: boolean
+                  funds:
+                    description: Fundraising options and donation funds associated with the event.
+                    readOnly: true
+                  last_sync_time:
+                    description: Timestamp of the last successful synchronization with external systems.
+                    nullable: true
+                  auction_payment_window_end_datetime:
+                    description: Auction payment window end date and time in the event's timezone.
+                    nullable: true
+                  connected_zoom_user_id:
+                    nullable: true
+                  max_guests_allowed:
+                    nullable: true
+                  is_guest_login_allowed:
+                    description: Indicates if guests can log in to access event features.
+                    readOnly: true
+                  volunteer_invite_email_template_id:
+                    description: ID of the email template used for inviting volunteers.
+                    readOnly: true
+                  is_pre_sync_setup_validated:
+                    type: boolean
+                    description: Indicates if the pre-synchronization setup has been validated.
+                  status:
+                    description: Current status of the event (draft, published, archived, etc.).
+                    readOnly: true
+                  enable_waitlist:
+                    type: boolean
+                    description: Enable waitlist for this event
+                  is_sponsorship_enabled:
+                    type: boolean
+                    description: Enable sponsorship registration for this event
+                  should_sync_invitees:
+                    type: boolean
+                  auction_require_saved_card:
+                    type: boolean
+                    description: If true, guests must save a card before accessing auctions.
+                  receipt_notification_rule:
+                    nullable: true
+                  name:
+                    description: The name of the event. This will be displayed to users and used for event identification.
+                  should_auto_approve_mapped_guests:
+                    type: boolean
+                    description: Automatically approve guests who are mapped to external database profiles.
+                  is_share_enabled:
+                    type: boolean
+                    description: Enables social sharing features for the event.
+                  is_registration_enabled_without_login:
+                    type: boolean
+                  venue_link:
+                    description: This field is used when an event is hosted online and there is no physical venue
+                    nullable: true
+                  rsvp_collection:
+                    description: Configuration for RSVP collection and processing.
+                  auction_save_card_enabled:
+                    type: boolean
+                    description: If true, guests can save a card for auction payments and pay with saved card.
+                  guest_goal:
+                    nullable: true
+                  should_collect_text_consent:
+                    type: boolean
+                    description: Enables collection of text message consent from guests.
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/:
+    get:
+      operationId: listEvent
+      summary: List Event
+      description: Retrieve core event information representing the primary event entity serving as the foundation for all event-related activities. Provides comprehensive event data including descriptive details, scheduling, venue coordination, registration configuration, and integration capabilities.
+      tags:
+      - Event
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    updated_at:
+                      nullable: true
+                    author:
+                      description: User who created the event.
+                      readOnly: true
+                    is_archived:
+                      type: boolean
+                      description: Indicates if the event has been archived.
+                    receiver_emails:
+                      description: Comma separated emails
+                      nullable: true
+                    checked_in_campaign_url:
+                      description: URL for the checked-in guests campaign in the communication platform.
+                      readOnly: true
+                    text_auction_payable_bidders_campaign_url:
+                      description: URL for the auction payable bidders text campaign in the communication platform.
+                      readOnly: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases system.
+                      nullable: true
+                    webinar_details:
+                      description: Detailed Zoom webinar information including API response data.
+                      readOnly: true
+                    waitlist_created_campaign_url:
+                      description: URL for the waitlist-created guests campaign in the communication platform.
+                      readOnly: true
+                    count_guests:
+                      description: Total number of registered guests for the event.
+                      readOnly: true
+                    images:
+                      description: Event images including captions, types, and orientation settings.
+                      nullable: true
+                      readOnly: true
+                    waitlist_expired_campaign_url:
+                      description: URL for the waitlist offer expired campaign in the communication platform.
+                      readOnly: true
+                    type: {}
+                    payment_account:
+                      description: Payment processing account configuration for the event.
+                      nullable: true
+                    count_total_allowed_guests:
+                      nullable: true
+                    is_pro:
+                      type: boolean
+                      description: Indicates if this is a premium/professional event.
+                      readOnly: true
+                    labels:
+                      description: Custom labels and branding settings for the event.
+                    secondary_payment_account:
+                      description: Secondary payment processing account configuration for the event.
+                      nullable: true
+                    currency: {}
+                    revenue_goal:
+                      nullable: true
+                    reply_to_name:
+                      nullable: true
+                    timezone:
+                      description: Timezone for the event. Used for proper date/time display and calculations.
+                      nullable: true
+                    notification_expiry_hours:
+                      description: Number of hours after which the notification link will expire
+                    connected_datapush_user_id:
+                      nullable: true
+                    is_guest_count_shown_to_users:
+                      type: boolean
+                    is_edit_registration_open:
+                      type: boolean
+                    url:
+                      description: Public URL for the event page.
+                      readOnly: true
+                    ticket_to_exclude:
+                      description: JSON configuration for tickets to exclude from certain operations.
+                    reply_to_emails:
+                      description: Comma separated emails
+                      nullable: true
+                    text_registered_campaign_url:
+                      description: URL for the registered guests text campaign in the communication platform.
+                      readOnly: true
+                    email_sender:
+                      description: User profile that will be used as the sender for event emails.
+                      nullable: true
+                    description:
+                      description: Rich text description of the event with HTML support.
+                      nullable: true
+                    sender_name:
+                      nullable: true
+                    created_at:
+                      nullable: true
+                    slug: {}
+                    is_guest_limit_exceeded:
+                      description: Indicates if the event has reached its maximum guest capacity.
+                      readOnly: true
+                    livestream_url:
+                      description: Live stream url
+                      nullable: true
+                    sender_email:
+                      description: From address used when no sender profile is set
+                      nullable: true
+                    is_rsvp_confirmation_email_enabled:
+                      type: boolean
+                    discounts:
+                      description: Discount codes and promotional offers available for the event.
+                      readOnly: true
+                    tickets:
+                      description: Available tickets for the event with pricing and availability information.
+                      readOnly: true
+                    text_pending_payment_campaign_url:
+                      description: URL for the pending payment guests text campaign in the communication platform.
+                      readOnly: true
+                    sync_metadata:
+                      description: Additional metadata for synchronization with external systems.
+                    is_refund_enabled:
+                      type: boolean
+                    is_detach_from_engagement_platform:
+                      type: boolean
+                    agendas:
+                      description: List of sub-events or agenda items associated with this event.
+                      readOnly: true
+                    user_feedback_average:
+                      description: Average rating from user feedback for the event.
+                      readOnly: true
+                    workflow_id:
+                      description: ID of the workflow associated with this event.
+                      readOnly: true
+                    last_sent_invite_volunteer_datetime:
+                      description: Timestamp when the last volunteer invitation email was sent.
+                      nullable: true
+                    is_payment_split_enabled:
+                      type: boolean
+                      description: Enable payment split for this event
+                    waitlist_mode:
+                      description: 'Manual: Organizers must manually approve waitlisted registrations. Automatic: Registrations are automatically approved as space becomes available.'
+                    guest_display_option:
+                      description: Configuration for how guest information is displayed to other guests.
+                    last_sent_receipt_datetime:
+                      description: Timestamp when the last receipt email was sent to guests.
+                      readOnly: true
+                    payment_initiated_campaign_url:
+                      description: URL for the payment initiated guests campaign in the communication platform.
+                      readOnly: true
+                    is_discussions_enabled:
+                      type: boolean
+                    external_registration_url:
+                      description: If this is set register button should redirect the given url
+                      nullable: true
+                    registration_form:
+                      description: Custom registration form used for event registration.
+                      nullable: true
+                    text_approved_registrations_campaign_url:
+                      description: URL for the approved registrations text campaign in the communication platform.
+                      readOnly: true
+                    is_past:
+                      type: boolean
+                      description: Indicates if the event has already occurred.
+                      readOnly: true
+                    start_datetime:
+                      description: Event start date and time in the event's timezone.
+                      nullable: true
+                    auction_payment_window_start_datetime:
+                      description: Auction payment window start date and time in the event's timezone.
+                      nullable: true
+                    waitlist_notified_campaign_url:
+                      description: URL for the waitlist spot offered campaign in the communication platform.
+                      readOnly: true
+                    is_checkin_kiosk_enabled:
+                      type: boolean
+                      description: Enables check-in kiosk functionality for the event.
+                    text_checked_in_campaign_url:
+                      description: URL for the checked-in guests text campaign in the communication platform.
+                      readOnly: true
+                    is_registration_open:
+                      type: boolean
+                    venue_privacy: {}
+                    pending_payment_campaign_url:
+                      description: URL for the pending payment guests campaign in the communication platform.
+                      readOnly: true
+                    registered_campaign_url:
+                      description: URL for the registered guests campaign in the communication platform.
+                      readOnly: true
+                    payment_failed_campaign_url:
+                      description: URL for the payment failed guests campaign in the communication platform.
+                      readOnly: true
+                    sync_error:
+                      description: Error message from the last synchronization attempt with external systems.
+                      nullable: true
+                    connected_user_id:
+                      description: ID of the user connected to external systems for this event.
+                      readOnly: true
+                    is_eventsx:
+                      type: boolean
+                      description: Indicates if this is an EventsX event (vs legacy events).
+                      readOnly: true
+                    waitlist_registered_campaign_url:
+                      description: URL for the waitlist responded campaign in the communication platform.
+                      readOnly: true
+                    is_pos_enabled:
+                      type: boolean
+                    auction_start_datetime:
+                      description: Auction start date and time in the event's timezone.
+                      nullable: true
+                    pos_devices:
+                      description: Point of sale devices configured for the event.
+                      nullable: true
+                    payment_configuration_type: {}
+                    guest_form:
+                      description: Custom form used for guest information collection.
+                      nullable: true
+                    pre_registration_form:
+                      description: Custom form used for pre-registration before the main event registration opens.
+                      nullable: true
+                      readOnly: true
+                    text_payment_initiated_campaign_url:
+                      description: URL for the payment initiated guests text campaign in the communication platform.
+                      readOnly: true
+                    fund:
+                      description: Primary fundraising fund associated with the event.
+                      nullable: true
+                    count_unmapped_guests:
+                      description: Number of guests not yet mapped to external database profiles.
+                      readOnly: true
+                    auction_auto_charge_enabled:
+                      type: boolean
+                      description: If true, auto-charge is enabled for auction payments (runs at auction_auto_charge_datetime).
+                    webinar_id:
+                      description: Zoom webinar ID if the event is connected to a Zoom webinar.
+                      readOnly: true
+                    conditional_sub_event_visibility_criteria: {}
+                    contact_persons:
+                      description: List of contact persons for the event with name, email, and phone information.
+                      readOnly: true
+                    end_datetime:
+                      description: Event end date and time in the event's timezone.
+                      nullable: true
+                    should_sync_non_constituent_accompanying_guests:
+                      type: boolean
+                    highlighted_fields:
+                      description: Custom form fields that should be highlighted or emphasized on the event page.
+                      nullable: true
+                    external_database_lookup_id:
+                      description: A unique identifier assigned by the institution based on a custom convention.
+                      nullable: true
+                    should_collect_affiliation:
+                      type: boolean
+                    auction_default_tax_percentage:
+                      description: Default sales tax percentage for auction items.
+                      nullable: true
+                    receipt_email_template_id:
+                      description: ID of the email template used for sending receipts.
+                      readOnly: true
+                    auction_end_datetime:
+                      description: Auction end date and time in the event's timezone.
+                      nullable: true
+                    text_payment_failed_campaign_url:
+                      description: URL for the payment failed guests text campaign in the communication platform.
+                      readOnly: true
+                    auction_auto_charge_datetime:
+                      description: Auction auto-charge date and time in the event's timezone.
+                      nullable: true
+                    is_active:
+                      type: boolean
+                    venue:
+                      description: Venue information including name, address, coordinates, and display settings.
+                      nullable: true
+                    approved_registrations_campaign_url:
+                      description: URL for the approved registrations campaign in the communication platform.
+                      readOnly: true
+                    tags:
+                      description: Tags for categorizing and filtering events.
+                      nullable: true
+                    is_accompanying_guest_allowed:
+                      type: boolean
+                    funds:
+                      description: Fundraising options and donation funds associated with the event.
+                      readOnly: true
+                    last_sync_time:
+                      description: Timestamp of the last successful synchronization with external systems.
+                      nullable: true
+                    auction_payment_window_end_datetime:
+                      description: Auction payment window end date and time in the event's timezone.
+                      nullable: true
+                    connected_zoom_user_id:
+                      nullable: true
+                    max_guests_allowed:
+                      nullable: true
+                    is_guest_login_allowed:
+                      description: Indicates if guests can log in to access event features.
+                      readOnly: true
+                    volunteer_invite_email_template_id:
+                      description: ID of the email template used for inviting volunteers.
+                      readOnly: true
+                    is_pre_sync_setup_validated:
+                      type: boolean
+                      description: Indicates if the pre-synchronization setup has been validated.
+                    status:
+                      description: Current status of the event (draft, published, archived, etc.).
+                      readOnly: true
+                    enable_waitlist:
+                      type: boolean
+                      description: Enable waitlist for this event
+                    is_sponsorship_enabled:
+                      type: boolean
+                      description: Enable sponsorship registration for this event
+                    should_sync_invitees:
+                      type: boolean
+                    auction_require_saved_card:
+                      type: boolean
+                      description: If true, guests must save a card before accessing auctions.
+                    receipt_notification_rule:
+                      nullable: true
+                    name:
+                      description: The name of the event. This will be displayed to users and used for event identification.
+                    should_auto_approve_mapped_guests:
+                      type: boolean
+                      description: Automatically approve guests who are mapped to external database profiles.
+                    is_share_enabled:
+                      type: boolean
+                      description: Enables social sharing features for the event.
+                    is_registration_enabled_without_login:
+                      type: boolean
+                    venue_link:
+                      description: This field is used when an event is hosted online and there is no physical venue
+                      nullable: true
+                    rsvp_collection:
+                      description: Configuration for RSVP collection and processing.
+                    auction_save_card_enabled:
+                      type: boolean
+                      description: If true, guests can save a card for auction payments and pay with saved card.
+                    guest_goal:
+                      nullable: true
+                    should_collect_text_consent:
+                      type: boolean
+                      description: Enables collection of text message consent from guests.
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'

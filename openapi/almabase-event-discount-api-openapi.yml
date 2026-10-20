@@ -1,0 +1,122 @@
+openapi: 3.2.0
+info:
+  title: Almabase Developer Portal Event Discount API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the data behind https://developers.almabase.com/developer-portal/). Request and response field tables are copied from it; types other than boolean are not stated by the source. The API is authenticated (an anonymous call returns 403 "Authentication credentials were not provided."); the authentication scheme is not documented publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with a DRF 403 JSON (probed 2026-10-20)
+tags:
+- name: Event Discount
+paths:
+  /api/v1/eventsx/{parent_id}/discounts/{pk}:
+    get:
+      operationId: getEventDiscount
+      summary: Get Event Discount
+      description: Retrieve discount codes and promotional pricing strategies for events supporting flexible pricing and targeted attendee incentives. Provides access to discount configurations, eligibility requirements, usage tracking, and promotional campaign effectiveness data.
+      tags:
+      - Event Discount
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  max_discount:
+                    description: Max amount that can be discounted
+                    nullable: true
+                  end_datetime:
+                    nullable: true
+                  tickets:
+                    description: Tickets that this discount code applies to.
+                    nullable: true
+                  mapped_affiliations:
+                    description: Affiliations that this discount code is restricted to.
+                    nullable: true
+                  mapped_memberships:
+                    description: Membership types that this discount code is restricted to.
+                    nullable: true
+                  discount_type: {}
+                  code: {}
+                  value:
+                    description: Discount value (percentage or fixed amount depending on discount_type).
+                  is_active:
+                    type: boolean
+                  min_cart_value:
+                    nullable: true
+                  start_datetime:
+                    nullable: true
+                  is_public:
+                    type: boolean
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/discounts/:
+    get:
+      operationId: listEventDiscount
+      summary: List Event Discount
+      description: Retrieve discount codes and promotional pricing strategies for events supporting flexible pricing and targeted attendee incentives. Provides access to discount configurations, eligibility requirements, usage tracking, and promotional campaign effectiveness data.
+      tags:
+      - Event Discount
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    max_discount:
+                      description: Max amount that can be discounted
+                      nullable: true
+                    end_datetime:
+                      nullable: true
+                    tickets:
+                      description: Tickets that this discount code applies to.
+                      nullable: true
+                    mapped_affiliations:
+                      description: Affiliations that this discount code is restricted to.
+                      nullable: true
+                    mapped_memberships:
+                      description: Membership types that this discount code is restricted to.
+                      nullable: true
+                    discount_type: {}
+                    code: {}
+                    value:
+                      description: Discount value (percentage or fixed amount depending on discount_type).
+                    is_active:
+                      type: boolean
+                    min_cart_value:
+                      nullable: true
+                    start_datetime:
+                      nullable: true
+                    is_public:
+                      type: boolean
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'

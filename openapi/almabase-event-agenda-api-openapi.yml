@@ -1,0 +1,212 @@
+openapi: 3.2.0
+info:
+  title: Almabase Developer Portal Event Agenda API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the data behind https://developers.almabase.com/developer-portal/). Request and response field tables are copied from it; types other than boolean are not stated by the source. The API is authenticated (an anonymous call returns 403 "Authentication credentials were not provided."); the authentication scheme is not documented publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with a DRF 403 JSON (probed 2026-10-20)
+tags:
+- name: Event Agenda
+paths:
+  /api/v1/eventsx/{parent_id}/agendas/{pk}:
+    get:
+      operationId: getEventAgenda
+      summary: Get Event Agenda
+      description: Retrieve structured event agendas consisting of sub-events, sessions, and activities for complex multi-session programming. Provides comprehensive scheduling and coordination data including session details, timing information, venue assignments, and technical requirements.
+      tags:
+      - Event Agenda
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  registered_campaign_url:
+                    description: URL for the registered guests campaign for this sub-event.
+                    readOnly: true
+                  validations:
+                    description: Validation rules and requirements for this sub-event.
+                    readOnly: true
+                  checked_in_campaign_url:
+                    description: URL for the checked-in guests campaign for this sub-event.
+                    readOnly: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases system.
+                    nullable: true
+                  start_datetime:
+                    description: Start date and time for this sub-event in the event's timezone.
+                    nullable: true
+                  tickets:
+                    description: Tickets available for this sub-event with pricing and availability information.
+                    nullable: true
+                  waitlist_registered_campaign_url:
+                    description: URL for the waitlist responded campaign for this sub-event.
+                    readOnly: true
+                  enable_waitlist:
+                    type: boolean
+                    description: Enable waitlist for this sub-event
+                  waitlist_created_campaign_url:
+                    description: URL for the waitlist-created campaign for this sub-event.
+                    readOnly: true
+                  is_ticket_mandatory:
+                    type: boolean
+                  sync_metadata:
+                    description: Additional metadata for synchronization with external systems.
+                  waitlist_expired_campaign_url:
+                    description: URL for the waitlist offer expired campaign for this sub-event.
+                    readOnly: true
+                  is_hide_on_itinerary:
+                    type: boolean
+                  guest_count:
+                    description: Number of guests registered for this sub-event.
+                    readOnly: true
+                  end_datetime:
+                    description: End date and time for this sub-event in the event's timezone.
+                    nullable: true
+                  notification_expiry_hours:
+                    description: Number of hours after which the waitlist notification link will expire
+                  name: {}
+                  waitlist_mode:
+                    description: 'Manual: Organizers must manually approve waitlisted registrations. Automatic: Registrations are automatically approved as space becomes available.'
+                  description:
+                    description: Description of the sub-event with HTML support.
+                    nullable: true
+                  open_slots_count:
+                    description: Available slots remaining for this sub-event.
+                    readOnly: true
+                  waitlist_notified_campaign_url:
+                    description: URL for the waitlist spot offered campaign for this sub-event.
+                    readOnly: true
+                  guests_limit:
+                    nullable: true
+                  is_active:
+                    type: boolean
+                  venue:
+                    nullable: true
+                  text_registered_campaign_url:
+                    description: URL for the registered guests text campaign for this sub-event.
+                    readOnly: true
+                  depends_on:
+                    description: JSON configuration defining dependencies and conditions for this sub-event.
+                    nullable: true
+                  text_checked_in_campaign_url:
+                    description: URL for the checked-in guests text campaign for this sub-event.
+                    readOnly: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/agendas/:
+    get:
+      operationId: listEventAgenda
+      summary: List Event Agenda
+      description: Retrieve structured event agendas consisting of sub-events, sessions, and activities for complex multi-session programming. Provides comprehensive scheduling and coordination data including session details, timing information, venue assignments, and technical requirements.
+      tags:
+      - Event Agenda
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    registered_campaign_url:
+                      description: URL for the registered guests campaign for this sub-event.
+                      readOnly: true
+                    validations:
+                      description: Validation rules and requirements for this sub-event.
+                      readOnly: true
+                    checked_in_campaign_url:
+                      description: URL for the checked-in guests campaign for this sub-event.
+                      readOnly: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases system.
+                      nullable: true
+                    start_datetime:
+                      description: Start date and time for this sub-event in the event's timezone.
+                      nullable: true
+                    tickets:
+                      description: Tickets available for this sub-event with pricing and availability information.
+                      nullable: true
+                    waitlist_registered_campaign_url:
+                      description: URL for the waitlist responded campaign for this sub-event.
+                      readOnly: true
+                    enable_waitlist:
+                      type: boolean
+                      description: Enable waitlist for this sub-event
+                    waitlist_created_campaign_url:
+                      description: URL for the waitlist-created campaign for this sub-event.
+                      readOnly: true
+                    is_ticket_mandatory:
+                      type: boolean
+                    sync_metadata:
+                      description: Additional metadata for synchronization with external systems.
+                    waitlist_expired_campaign_url:
+                      description: URL for the waitlist offer expired campaign for this sub-event.
+                      readOnly: true
+                    is_hide_on_itinerary:
+                      type: boolean
+                    guest_count:
+                      description: Number of guests registered for this sub-event.
+                      readOnly: true
+                    end_datetime:
+                      description: End date and time for this sub-event in the event's timezone.
+                      nullable: true
+                    notification_expiry_hours:
+                      description: Number of hours after which the waitlist notification link will expire
+                    name: {}
+                    waitlist_mode:
+                      description: 'Manual: Organizers must manually approve waitlisted registrations. Automatic: Registrations are automatically approved as space becomes available.'
+                    description:
+                      description: Description of the sub-event with HTML support.
+                      nullable: true
+                    open_slots_count:
+                      description: Available slots remaining for this sub-event.
+                      readOnly: true
+                    waitlist_notified_campaign_url:
+                      description: URL for the waitlist spot offered campaign for this sub-event.
+                      readOnly: true
+                    guests_limit:
+                      nullable: true
+                    is_active:
+                      type: boolean
+                    venue:
+                      nullable: true
+                    text_registered_campaign_url:
+                      description: URL for the registered guests text campaign for this sub-event.
+                      readOnly: true
+                    depends_on:
+                      description: JSON configuration defining dependencies and conditions for this sub-event.
+                      nullable: true
+                    text_checked_in_campaign_url:
+                      description: URL for the checked-in guests text campaign for this sub-event.
+                      readOnly: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'

@@ -1,0 +1,170 @@
+openapi: 3.2.0
+info:
+  title: Almabase Developer Portal Event Registration API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the data behind https://developers.almabase.com/developer-portal/). Request and response field tables are copied from it; types other than boolean are not stated by the source. The API is authenticated (an anonymous call returns 403 "Authentication credentials were not provided."); the authentication scheme is not documented publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with a DRF 403 JSON (probed 2026-10-20)
+tags:
+- name: Event Registration
+paths:
+  /api/v1/eventsx/{parent_id}/registrations/{pk}:
+    get:
+      operationId: getEventRegistration
+      summary: Get Event Registration
+      description: Retrieve registration-focused data emphasizing registration process analytics and form submission monitoring. Provides comprehensive oversight capabilities for administrative staff monitoring event registration performance, operational effectiveness, and process optimization.
+      tags:
+      - Event Registration
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  is_receipt_sent:
+                    type: boolean
+                  created_at:
+                    nullable: true
+                  address_line1:
+                    nullable: true
+                  referrer_link:
+                    nullable: true
+                  sync_error:
+                    nullable: true
+                  external_database_id:
+                    description: A unique identified assigned by the external databases system.
+                    nullable: true
+                  zip_code:
+                    nullable: true
+                  profile_text_consent:
+                    nullable: true
+                  utm_medium:
+                    description: This is to track utm medium
+                    nullable: true
+                  rsvp_status: {}
+                  email: {}
+                  is_registration_sponsored:
+                    type: boolean
+                    description: True if this is a sponsored registration
+                    readOnly: true
+                  is_registration_approved:
+                    type: boolean
+                  phone_number:
+                    nullable: true
+                  address_line2:
+                    nullable: true
+                  last_sent_receipt_datetime:
+                    nullable: true
+                  amount_after_discount: {}
+                  text_consent:
+                    nullable: true
+                  last_name:
+                    nullable: true
+                  first_name: {}
+                  registration_status: {}
+                  utm_source:
+                    description: This is to track utm source
+                    nullable: true
+                  utm_campaign:
+                    description: This is to track utm campaign
+                    nullable: true
+                  total_amount: {}
+                  updated_at:
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/registrations/:
+    get:
+      operationId: listEventRegistration
+      summary: List Event Registration
+      description: Retrieve registration-focused data emphasizing registration process analytics and form submission monitoring. Provides comprehensive oversight capabilities for administrative staff monitoring event registration performance, operational effectiveness, and process optimization.
+      tags:
+      - Event Registration
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    is_receipt_sent:
+                      type: boolean
+                    created_at:
+                      nullable: true
+                    address_line1:
+                      nullable: true
+                    referrer_link:
+                      nullable: true
+                    sync_error:
+                      nullable: true
+                    external_database_id:
+                      description: A unique identified assigned by the external databases system.
+                      nullable: true
+                    zip_code:
+                      nullable: true
+                    profile_text_consent:
+                      nullable: true
+                    utm_medium:
+                      description: This is to track utm medium
+                      nullable: true
+                    rsvp_status: {}
+                    email: {}
+                    is_registration_sponsored:
+                      type: boolean
+                      description: True if this is a sponsored registration
+                      readOnly: true
+                    is_registration_approved:
+                      type: boolean
+                    phone_number:
+                      nullable: true
+                    address_line2:
+                      nullable: true
+                    last_sent_receipt_datetime:
+                      nullable: true
+                    amount_after_discount: {}
+                    text_consent:
+                      nullable: true
+                    last_name:
+                      nullable: true
+                    first_name: {}
+                    registration_status: {}
+                    utm_source:
+                      description: This is to track utm source
+                      nullable: true
+                    utm_campaign:
+                      description: This is to track utm campaign
+                      nullable: true
+                    total_amount: {}
+                    updated_at:
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'

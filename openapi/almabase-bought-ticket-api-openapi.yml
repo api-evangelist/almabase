@@ -1,0 +1,80 @@
+openapi: 3.2.0
+info:
+  title: Almabase Developer Portal Bought Ticket API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the data behind https://developers.almabase.com/developer-portal/). Request and response field tables are copied from it; types other than boolean are not stated by the source. The API is authenticated (an anonymous call returns 403 "Authentication credentials were not provided."); the authentication scheme is not documented publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with a DRF 403 JSON (probed 2026-10-20)
+tags:
+- name: Bought Ticket
+paths:
+  /api/v1/eventsx/{parent_id}/bought_tickets/{pk}:
+    get:
+      operationId: getBoughtTicket
+      summary: Get Bought Ticket
+      description: Retrieve purchased tickets throughout their complete lifecycle including validation, transfer capabilities, usage analytics, and guest assignments. Provides comprehensive transaction details and operational management capabilities for effective event delivery and customer service.
+      tags:
+      - Bought Ticket
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  external_database_id:
+                    description: A unique identified assigned by the external databases system.
+                    nullable: true
+                  quantity:
+                    nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/bought_tickets/:
+    get:
+      operationId: listBoughtTicket
+      summary: List Bought Ticket
+      description: Retrieve purchased tickets throughout their complete lifecycle including validation, transfer capabilities, usage analytics, and guest assignments. Provides comprehensive transaction details and operational management capabilities for effective event delivery and customer service.
+      tags:
+      - Bought Ticket
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    external_database_id:
+                      description: A unique identified assigned by the external databases system.
+                      nullable: true
+                    quantity:
+                      nullable: true
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'

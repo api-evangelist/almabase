@@ -1,0 +1,51 @@
+{
+  "provider": "almabase",
+  "sources": [
+    "almabase-openapi.yml"
+  ],
+  "outputs": [
+    "almabase-bought-ticket-api-openapi.yml",
+    "almabase-event-api-openapi.yml",
+    "almabase-event-agenda-api-openapi.yml",
+    "almabase-event-announcement-api-openapi.yml",
+    "almabase-event-auction-bidder-api-openapi.yml",
+    "almabase-event-auction-statistic-api-openapi.yml",
+    "almabase-event-contact-person-api-openapi.yml",
+    "almabase-event-discount-api-openapi.yml",
+    "almabase-event-guest-api-openapi.yml",
+    "almabase-event-image-api-openapi.yml",
+    "almabase-event-invitee-api-openapi.yml",
+    "almabase-event-itinerary-api-openapi.yml",
+    "almabase-event-registration-api-openapi.yml",
+    "almabase-event-ticket-api-openapi.yml",
+    "almabase-gift-api-openapi.yml",
+    "almabase-guest-re-gift-api-openapi.yml"
+  ],
+  "archived": [
+    "archived openapi/almabase-openapi.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "almabase-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "almabase-openapi.yml: declared missing tag: Bought Ticket",
+    "almabase-openapi.yml: declared missing tag: Event",
+    "almabase-openapi.yml: declared missing tag: Event Agenda",
+    "almabase-openapi.yml: declared missing tag: Event Announcement",
+    "almabase-openapi.yml: declared missing tag: Event Auction Bidder",
+    "almabase-openapi.yml: declared missing tag: Event Auction Statistic",
+    "almabase-openapi.yml: declared missing tag: Event Contact Person",
+    "almabase-openapi.yml: declared missing tag: Event Discount",
+    "almabase-openapi.yml: declared missing tag: Event Guest",
+    "almabase-openapi.yml: declared missing tag: Event Image",
+    "almabase-openapi.yml: declared missing tag: Event Invitee",
+    "almabase-openapi.yml: declared missing tag: Event Itinerary",
+    "almabase-openapi.yml: declared missing tag: Event Registration",
+    "almabase-openapi.yml: declared missing tag: Event Ticket",
+    "almabase-openapi.yml: declared missing tag: Gift",
+    "almabase-openapi.yml: declared missing tag: Guest Re Gift",
+    "apis.yml register: written (+16 apis, 16 total)"
+  ],
+  "skipped": []
+}

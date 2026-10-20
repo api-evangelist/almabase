@@ -1,0 +1,12 @@
+name: Almabase pricing
+generated: '2026-10-20'
+method: none
+source: https://www.almabase.com
+audience: business-product
+pricing_basis: negotiated
+published: false
+plan_count: 0
+plans: []
+delivery:
+  delivery: managed
+note: No public pricing page; www.almabase.com/pricing returns 404 and the homepage links no pricing page (sales-led).

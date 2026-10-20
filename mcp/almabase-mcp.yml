@@ -1,0 +1,175 @@
+generated: '2026-10-20'
+method: derived
+generator: derive-mcp-candidate.py
+source:
+- openapi/almabase-openapi.yml
+status: candidate
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+note: 'No MCP server was found. The pre-flight posted tools/list to /mcp on api.almabase.com, developers.almabase.com, docs.almabase.com, almabase.com;
+  verdict opaque (https://docs.almabase.com/mcp answered 403: the edge authenticates before it routes, which proves nothing either way). Candidate
+  tools below are derived from the 32 operation(s) in the provider''s own OpenAPI (32 listed); they describe what a server WOULD expose, not one
+  that exists.'
+tools:
+- name: get_event
+  operationId: getEvent
+  method: GET
+  path: /api/v1/eventsx/{pk}
+  description: Get Event
+- name: list_event
+  operationId: listEvent
+  method: GET
+  path: /api/v1/eventsx/
+  description: List Event
+- name: get_event_guest
+  operationId: getEventGuest
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/guests/{pk}
+  description: Get Event Guest
+- name: list_event_guest
+  operationId: listEventGuest
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/guests/
+  description: List Event Guest
+- name: get_event_registration
+  operationId: getEventRegistration
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/registrations/{pk}
+  description: Get Event Registration
+- name: list_event_registration
+  operationId: listEventRegistration
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/registrations/
+  description: List Event Registration
+- name: get_event_ticket
+  operationId: getEventTicket
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/tickets/{pk}
+  description: Get Event Ticket
+- name: list_event_ticket
+  operationId: listEventTicket
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/tickets/
+  description: List Event Ticket
+- name: get_bought_ticket
+  operationId: getBoughtTicket
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/bought_tickets/{pk}
+  description: Get Bought Ticket
+- name: list_bought_ticket
+  operationId: listBoughtTicket
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/bought_tickets/
+  description: List Bought Ticket
+- name: get_guest_re_gift
+  operationId: getGuestReGift
+  method: GET
+  path: /api/v1/eventsx/guests/{parent_id}/re_gifts/{pk}
+  description: Get Guest RE Gift
+- name: list_guest_re_gift
+  operationId: listGuestReGift
+  method: GET
+  path: /api/v1/eventsx/guests/{parent_id}/re_gifts/
+  description: List Guest RE Gift
+- name: get_event_auction_statistic
+  operationId: getEventAuctionStatistic
+  method: GET
+  path: /api/v1/eventsx/manage/{parent_id}/auction_statistics/{pk}
+  description: Get Event Auction Statistic
+- name: list_event_auction_statistic
+  operationId: listEventAuctionStatistic
+  method: GET
+  path: /api/v1/eventsx/manage/{parent_id}/auction_statistics/
+  description: List Event Auction Statistic
+- name: get_event_auction_bidder
+  operationId: getEventAuctionBidder
+  method: GET
+  path: /api/v1/eventsx/manage/{parent_id}/auction_bidders/{pk}
+  description: Get Event Auction Bidder
+- name: list_event_auction_bidder
+  operationId: listEventAuctionBidder
+  method: GET
+  path: /api/v1/eventsx/manage/{parent_id}/auction_bidders/
+  description: List Event Auction Bidder
+- name: get_gift
+  operationId: getGift
+  method: GET
+  path: /api/v1/eventsx/gifts/{pk}
+  description: Get Gift
+- name: list_gift
+  operationId: listGift
+  method: GET
+  path: /api/v1/eventsx/gifts/
+  description: List Gift
+- name: get_event_agenda
+  operationId: getEventAgenda
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/agendas/{pk}
+  description: Get Event Agenda
+- name: list_event_agenda
+  operationId: listEventAgenda
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/agendas/
+  description: List Event Agenda
+- name: get_event_itinerary
+  operationId: getEventItinerary
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/itineraries/{pk}
+  description: Get Event Itinerary
+- name: list_event_itinerary
+  operationId: listEventItinerary
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/itineraries/
+  description: List Event Itinerary
+- name: get_event_discount
+  operationId: getEventDiscount
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/discounts/{pk}
+  description: Get Event Discount
+- name: list_event_discount
+  operationId: listEventDiscount
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/discounts/
+  description: List Event Discount
+- name: get_event_image
+  operationId: getEventImage
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/images/{pk}
+  description: Get Event Image
+- name: list_event_image
+  operationId: listEventImage
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/images/
+  description: List Event Image
+- name: get_event_contact_person
+  operationId: getEventContactPerson
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/contact_persons/{pk}
+  description: Get Event Contact Person
+- name: list_event_contact_person
+  operationId: listEventContactPerson
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/contact_persons/
+  description: List Event Contact Person
+- name: get_event_announcement
+  operationId: getEventAnnouncement
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/announcements/{pk}
+  description: Get Event Announcement
+- name: list_event_announcement
+  operationId: listEventAnnouncement
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/announcements/
+  description: List Event Announcement
+- name: get_event_invitee
+  operationId: getEventInvitee
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/invitees/{pk}
+  description: Get Event Invitee
+- name: list_event_invitee
+  operationId: listEventInvitee
+  method: GET
+  path: /api/v1/eventsx/{parent_id}/invitees/
+  description: List Event Invitee

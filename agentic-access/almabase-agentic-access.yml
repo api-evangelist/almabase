@@ -1,0 +1,334 @@
+generated: '2026-10-20'
+method: generated
+source: openapi/almabase-openapi.yml
+description: Recommended x-agentic-access execution contracts, classified heuristically from
+  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind
+  audience per deployment. See research/curity/agentic-governance/.
+summary:
+  operations: 32
+  by_action_class:
+    connected: 32
+  by_consequence:
+    read: 32
+  human_in_the_loop_required: 0
+operations:
+- path: /api/v1/eventsx/{pk}
+  method: get
+  operationId: getEvent
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/
+  method: get
+  operationId: listEvent
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/guests/{pk}
+  method: get
+  operationId: getEventGuest
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/guests/
+  method: get
+  operationId: listEventGuest
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/registrations/{pk}
+  method: get
+  operationId: getEventRegistration
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/registrations/
+  method: get
+  operationId: listEventRegistration
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/tickets/{pk}
+  method: get
+  operationId: getEventTicket
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/tickets/
+  method: get
+  operationId: listEventTicket
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/bought_tickets/{pk}
+  method: get
+  operationId: getBoughtTicket
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/bought_tickets/
+  method: get
+  operationId: listBoughtTicket
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/guests/{parent_id}/re_gifts/{pk}
+  method: get
+  operationId: getGuestReGift
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/guests/{parent_id}/re_gifts/
+  method: get
+  operationId: listGuestReGift
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/manage/{parent_id}/auction_statistics/{pk}
+  method: get
+  operationId: getEventAuctionStatistic
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/manage/{parent_id}/auction_statistics/
+  method: get
+  operationId: listEventAuctionStatistic
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/manage/{parent_id}/auction_bidders/{pk}
+  method: get
+  operationId: getEventAuctionBidder
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/manage/{parent_id}/auction_bidders/
+  method: get
+  operationId: listEventAuctionBidder
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/gifts/{pk}
+  method: get
+  operationId: getGift
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/gifts/
+  method: get
+  operationId: listGift
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/agendas/{pk}
+  method: get
+  operationId: getEventAgenda
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/agendas/
+  method: get
+  operationId: listEventAgenda
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/itineraries/{pk}
+  method: get
+  operationId: getEventItinerary
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/itineraries/
+  method: get
+  operationId: listEventItinerary
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/discounts/{pk}
+  method: get
+  operationId: getEventDiscount
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/discounts/
+  method: get
+  operationId: listEventDiscount
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/images/{pk}
+  method: get
+  operationId: getEventImage
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/images/
+  method: get
+  operationId: listEventImage
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/contact_persons/{pk}
+  method: get
+  operationId: getEventContactPerson
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/contact_persons/
+  method: get
+  operationId: listEventContactPerson
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/announcements/{pk}
+  method: get
+  operationId: getEventAnnouncement
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/announcements/
+  method: get
+  operationId: listEventAnnouncement
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/invitees/{pk}
+  method: get
+  operationId: getEventInvitee
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none
+- path: /api/v1/eventsx/{parent_id}/invitees/
+  method: get
+  operationId: listEventInvitee
+  x-agentic-access:
+    action-class: connected
+    consequence: read
+    subject: optional
+    token:
+      max-ttl: 3600
+    audit: none

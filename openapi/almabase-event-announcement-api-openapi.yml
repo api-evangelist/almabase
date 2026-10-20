@@ -1,0 +1,70 @@
+openapi: 3.2.0
+info:
+  title: Almabase Developer Portal Event Announcement API
+  version: v1
+  description: Converted by script from the API list Almabase publishes unauthenticated at https://developers.almabase.com/api/v1/manage/developer-portal/api-list (the data behind https://developers.almabase.com/developer-portal/). Request and response field tables are copied from it; types other than boolean are not stated by the source. The API is authenticated (an anonymous call returns 403 "Authentication credentials were not provided."); the authentication scheme is not documented publicly.
+  contact:
+    url: https://developers.almabase.com/developer-portal/
+servers:
+- url: https://developers.almabase.com
+  description: Host serving the developer portal and answering /api/v1/eventsx/ with a DRF 403 JSON (probed 2026-10-20)
+tags:
+- name: Event Announcement
+paths:
+  /api/v1/eventsx/{parent_id}/announcements/{pk}:
+    get:
+      operationId: getEventAnnouncement
+      summary: Get Event Announcement
+      description: Retrieve announcements and communications for event attendees providing comprehensive messaging capabilities for effective information distribution. Offers access to announcement content, privacy settings, publication status, and audience targeting information.
+      tags:
+      - Event Announcement
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pk
+        in: path
+        required: true
+        schema:
+          type: string
+  /api/v1/eventsx/{parent_id}/announcements/:
+    get:
+      operationId: listEventAnnouncement
+      summary: List Event Announcement
+      description: Retrieve announcements and communications for event attendees providing comprehensive messaging capabilities for effective information distribution. Offers access to announcement content, privacy settings, publication status, and audience targeting information.
+      tags:
+      - Event Announcement
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties: {}
+        '403':
+          description: Authentication credentials were not provided.
+      x-source: https://developers.almabase.com/api/v1/manage/developer-portal/api-list
+      parameters:
+      - name: parent_id
+        in: path
+        required: true
+        schema:
+          type: string
+x-generated-from: provider-api-list
+x-generated: '2026-10-20'

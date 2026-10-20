@@ -1,10 +1,19 @@
-generated: '2026-10-14'
+generated: '2026-10-20'
 method: searched
+source:
+- https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+- https://zapier.com/apps/almabase/integrations
+- https://n8n.io/integrations/almabase/
+- https://composio.dev/toolkits/almabase
+- https://monid.ai/tools/almabase
 checked:
 - blackbaud/integrations/blackbaud-integration-edges.yml
 - https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
-source:
-- https://mpl-pusa01.app.blackbaud.net/mktpl/v1/public/marketplace/applications
+- https://composio.dev/toolkits/almabase
+- https://monid.ai/tools/almabase
+- https://n8n.io/integrations/almabase/
+- https://zapier.com/apps/almabase/integrations
+summary: null
 marketplace_apps: []
 edges:
 - partner_name: Blackbaud (blackbaud-marketplace)
@@ -25,3 +34,4 @@ edges:
   detected_by: mirror-platform-listings.py
   badges:
   - Reviewed by Blackbaud
+templates: []
