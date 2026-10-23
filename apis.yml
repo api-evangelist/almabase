@@ -69,6 +69,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: CapabilityMap
+  url: capabilities/almabase-capability-edges.yml
+  name: Almabase Business Capability Map
 - type: AgentSkill
   url: skills/_index.yml
 - type: AgenticAccess
