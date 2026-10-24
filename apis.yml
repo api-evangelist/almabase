@@ -310,6 +310,8 @@ apis:
   humanURL: https://developers.almabase.com/developer-portal/
   baseURL: https://developers.almabase.com/api/v1
   tags:
+  - Gifts
+  tags_raw:
   - Gift
   properties:
   - type: OpenAPI
